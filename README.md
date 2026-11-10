@@ -2,7 +2,7 @@
 
 > Tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design.
 
-52 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
+57 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
 
 ## Contents
 
@@ -53,6 +53,8 @@ Design editors where a person and an agent work on the same file.
 - [Penpot](https://github.com/penpot/penpot) - Open-source design and prototyping platform that also ships an official MCP server. `Free · open source (MPL-2.0) · cloud or self-hosted · 62.2k stars · checked 2026-11-10`.
 - [Onlook](https://github.com/onlook-dev/onlook) - Visual editor for React and Tailwind apps where you design in the browser and an AI agent writes the code. `Free · open source (Apache-2.0) · cloud or local · 27.2k stars · checked 2026-11-10`.
 - [Framer](https://www.framer.com) - Website builder with AI page generation, AI translation and on-canvas AI tools. `Freemium · proprietary · cloud · checked 2026-11-10`.
+- [Wonder](https://wonder.design) - Desktop and browser canvas where you and Claude Code or Codex design on your live app, then apply the changes back to the code. `Freemium · proprietary · local or browser · checked 2026-11-10`.
+- [Dessn](https://www.dessn.ai) - Design canvas that runs your production app from its codebase, so you and coding agents can prototype, audit design drift and ship changes over MCP. `Freemium · proprietary · cloud · MCP · checked 2026-11-10`.
 
 ## Connect agents to design files
 
@@ -77,6 +79,7 @@ Skills, specs and guidelines that change what an agent designs, not only how fas
 - [Awesome DESIGN.md](https://github.com/VoltAgent/awesome-design-md) - Collection of DESIGN.md files that capture popular brand design systems for agents. `Free · open source (MIT) · n/a · 126.4k stars · checked 2026-11-10`.
 - [Web Interface Guidelines](https://github.com/vercel-labs/web-interface-guidelines) - Vercel's interface quality rules, packaged so agents can review UI against them. `Free · open source (MIT) · n/a · 1.1k stars · checked 2026-11-10`.
 - [design:os CLI](https://github.com/jangtrinh/design-os) - Design CLI and skills for Claude Code, Codex and Antigravity: describe a UI in plain words and get web, SwiftUI or design-file output checked by deterministic taste gates. Disclosure: made by the maintainer of this list. `FREE · source-available (PolyForm Shield) · local · 37 stars · checked 2026-11-10`.
+- [evondevKit](https://github.com/evondev/evondevKit) - Agent skill that walks coding agents through a brief, wireframes and a shared design system before they build UI, then measures layout issues in a real browser. `Free · open source (MIT) · local · 533 stars · checked 2026-11-10`.
 
 ## Keep output on your design system
 
@@ -87,6 +90,7 @@ Components, tokens and docs that keep generated UI on-brand.
 - [Tokens Studio](https://github.com/tokens-studio/figma-plugin) - Manage design tokens in a design file and sync them with Git for code and agent use. `Freemium · open source (MIT) · in design app · 1.6k stars · checked 2026-11-10`.
 - [Design Tokens Community Group format](https://github.com/design-tokens/community-group) - The W3C community group spec for interoperable design token files. `Free · proprietary · n/a · 2.2k stars · checked 2026-11-10`.
 - [Storybook MCP](https://storybook.js.org/docs/ai/mcp/overview) - Exposes your Storybook components and docs to agents so generated UI reuses real components. `Free · open source (proprietary (SaaS)) · local · MCP · checked 2026-11-10`.
+- [Knowns UI](https://ui.knowns.dev) - React and Tailwind component kit for AI-product interfaces, installed with the shadcn CLI. An MCP server lets coding agents search the docs. `Freemium · open source (MIT (third-party logos in the icon set are not MIT)) · local · 6 stars · checked 2026-11-10`.
 
 ## Turn designs into code
 
@@ -119,6 +123,7 @@ Vector generation, vectorising and agent-driven animation.
 - [Recraft](https://www.recraft.ai) - Image generator that outputs editable vector graphics, icons and brand-consistent styles. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Rive](https://rive.app) - Interactive animation editor and runtimes for state-machine driven motion. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Jitter](https://jitter.video) - Motion design tool for UI and product animations, exports to video and Lottie. `Freemium · proprietary · cloud · checked 2026-11-10`.
+- [Clayzo](https://www.clayzo.com) - Animation engine for coding agents that write a typed motion document, check the frames, and export video or an interactive web or Swift player. `Free · proprietary · local · checked 2026-11-10`.
 
 ## Check what agents built
 

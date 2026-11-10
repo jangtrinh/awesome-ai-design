@@ -1,6 +1,6 @@
 # Awesome AI Design: full text
 
-Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 52 entries. Each line stands alone and can be quoted.
+Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 57 entries. Each line stands alone and can be quoted.
 
 ## Generate UI from a prompt
 
@@ -33,6 +33,10 @@ Penpot (https://github.com/penpot/penpot): Open-source design and prototyping pl
 Onlook (https://github.com/onlook-dev/onlook): Visual editor for React and Tailwind apps where you design in the browser and an AI agent writes the code. It is free and open source under Apache-2.0. Runs: cloud or local. Link checked 2026-11-10.
 
 Framer (https://www.framer.com): Website builder with AI page generation, AI translation and on-canvas AI tools. It is freemium and proprietary. Runs: cloud. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
+
+Wonder (https://wonder.design): Desktop and browser canvas where you and Claude Code or Codex design on your live app, then apply the changes back to the code. It is freemium and proprietary. Runs: local or browser. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
+
+Dessn (https://www.dessn.ai): Design canvas that runs your production app from its codebase, so you and coding agents can prototype, audit design drift and ship changes over MCP. It is freemium and proprietary. Runs: cloud. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
 
 ## Connect agents to design files
 
@@ -70,6 +74,8 @@ Web Interface Guidelines (https://github.com/vercel-labs/web-interface-guideline
 
 design:os CLI (https://github.com/jangtrinh/design-os): Design CLI and skills for Claude Code, Codex and Antigravity: describe a UI in plain words and get web, SwiftUI or design-file output checked by deterministic taste gates. It is free and source-available under PolyForm Shield. Runs: local. Its docs name Claude Code, Codex, Cursor. Made by the maintainer of Awesome AI Design. Link checked 2026-11-10.
 
+evondevKit (https://github.com/evondev/evondevKit): Agent skill that walks coding agents through a brief, wireframes and a shared design system before they build UI, then measures layout issues in a real browser. It is free and open source under MIT. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
+
 ## Keep output on your design system
 
 Components, tokens and docs that keep generated UI on-brand.
@@ -83,6 +89,8 @@ Tokens Studio (https://github.com/tokens-studio/figma-plugin): Manage design tok
 Design Tokens Community Group format (https://github.com/design-tokens/community-group): The W3C community group spec for interoperable design token files. It is free and proprietary. Runs: n/a. Link checked 2026-11-10.
 
 Storybook MCP (https://storybook.js.org/docs/ai/mcp/overview): Exposes your Storybook components and docs to agents so generated UI reuses real components. It is free and open source under proprietary (SaaS). Runs: local. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
+
+Knowns UI (https://ui.knowns.dev): React and Tailwind component kit for AI-product interfaces, installed with the shadcn CLI. An MCP server lets coding agents search the docs. It is freemium and open source under MIT (third-party logos in the icon set are not MIT). Runs: local. Its docs name Claude Code, Cursor. Link checked 2026-11-10.
 
 ## Turn designs into code
 
@@ -129,6 +137,8 @@ Recraft (https://www.recraft.ai): Image generator that outputs editable vector g
 Rive (https://rive.app): Interactive animation editor and runtimes for state-machine driven motion. It is freemium and proprietary. Runs: cloud. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
 
 Jitter (https://jitter.video): Motion design tool for UI and product animations, exports to video and Lottie. It is freemium and proprietary. Runs: cloud. Link checked 2026-11-10.
+
+Clayzo (https://www.clayzo.com): Animation engine for coding agents that write a typed motion document, check the frames, and export video or an interactive web or Swift player. It is free and proprietary. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
 
 ## Check what agents built
 
