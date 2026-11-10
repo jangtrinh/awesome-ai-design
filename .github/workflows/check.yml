@@ -1,22 +1,93 @@
 name: weekly-check
 # Weekly freshness check. Pull requests are checked by ci.yml.
+# After opening the weekly-refresh PR, a stars-only diff can start CI and
+# enable auto-merge. The kill switch is the repo variable AUTO_MERGE_STARS_REFRESH.
+# Triggered only on a schedule or by hand. No PAT. Untrusted values are read through env or jq.
 on:
   schedule: [{cron: "0 1 * * 1"}]   # Monday 08:00 ICT
   workflow_dispatch:
-permissions: {contents: write, pull-requests: write}
+
+permissions: {}
+
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write        # push weekly-refresh and let create-pull-request open the PR
+      pull-requests: write   # open the PR and enable auto-merge
+      actions: write         # gh workflow run ci.yml --ref weekly-refresh
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: {python-version: "3.12"}
-      - run: pip install pyyaml jsonschema
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "22"
+      - name: Install Python dependencies
+        run: pip install pyyaml==6.0.3 jsonschema==4.26.0
+
       - if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: python scripts/check_links.py
-        env: {GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - run: python scripts/build.py
-      - run: npx awesome-lint
-      - if: github.event_name != 'pull_request'
-        uses: peter-evans/create-pull-request@v7
-        with: {title: "Weekly link and stars refresh", branch: weekly-refresh, commit-message: "Weekly refresh"}
+      - run: npx --yes awesome-lint@2.3.0
+
+      - name: Open or update the weekly-refresh pull request
+        id: cpr
+        if: github.event_name != 'pull_request'
+        uses: peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676 # v7.0.11
+        with:
+          title: "Weekly link and stars refresh"
+          branch: weekly-refresh
+          commit-message: "Weekly refresh"
+
+      - name: Check the refresh is stars-only
+        id: refresh
+        if: steps.cpr.outputs.pull-request-operation == 'created' || steps.cpr.outputs.pull-request-operation == 'updated'
+        run: |
+          set -euo pipefail
+          git fetch --no-tags origin main weekly-refresh
+          if python scripts/check_refresh_diff.py --base origin/main --head origin/weekly-refresh; then
+            echo "stars_only=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "stars_only=false" >> "$GITHUB_OUTPUT"
+            echo "::notice title=Not a stars-only refresh::Leaving the pull request open for review."
+          fi
+
+      - name: Start CI on the weekly-refresh head
+        if: steps.refresh.outputs.stars_only == 'true'
+        run: gh workflow run ci.yml --repo "$REPO" --ref weekly-refresh
+
+      - name: Enable auto-merge for a stars-only weekly-refresh PR
+        if: steps.refresh.outputs.stars_only == 'true' && vars.AUTO_MERGE_STARS_REFRESH == 'true'
+        env:
+          EXPECTED_HEAD: weekly-refresh
+          EXPECTED_BASE: main
+          REPO_OWNER: ${{ github.repository_owner }}
+        run: |
+          set -euo pipefail
+          meta=$(gh pr view "$EXPECTED_HEAD" --repo "$REPO" --json author,headRefName,baseRefName,isCrossRepository,headRepositoryOwner)
+          author=$(printf '%s' "$meta" | jq -r '.author.login')
+          head=$(printf '%s' "$meta" | jq -r '.headRefName')
+          base=$(printf '%s' "$meta" | jq -r '.baseRefName')
+          cross=$(printf '%s' "$meta" | jq -r '.isCrossRepository')
+          owner=$(printf '%s' "$meta" | jq -r '.headRepositoryOwner.login')
+          if [ "$head" != "$EXPECTED_HEAD" ] || [ "$base" != "$EXPECTED_BASE" ] || [ "$cross" != "false" ] || [ "$owner" != "$REPO_OWNER" ]; then
+            echo "::notice title=Auto-merge skipped::PR is not the in-repo weekly-refresh branch onto main."
+            exit 0
+          fi
+          case "$author" in
+            github-actions\[bot\]|app/github-actions) ;;
+            *)
+              echo "::notice title=Auto-merge skipped::Author is not github-actions[bot] ($author)."
+              exit 0
+              ;;
+          esac
+          gh pr merge "$EXPECTED_HEAD" --repo "$REPO" --squash --auto
