@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contribution guidelines
+    url: https://github.com/jangtrinh/awesome-ai-design/blob/main/contributing.md
+    about: What gets in, what stays out, and how to disclose affiliation.

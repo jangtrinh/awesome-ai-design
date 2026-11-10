@@ -1,0 +1,122 @@
+name: add-tool
+# Turns an "Add a tool" issue into a draft pull request.
+# Security: the issue body is untrusted. It reaches the script only through the
+# ISSUE_BODY environment variable and is never interpolated into a shell command.
+# The workflow file and scripts always come from the default branch (issues events),
+# and no code from a pull request is ever run with this token.
+on:
+  issues:
+    types: [opened, edited, reopened, labeled]
+
+permissions: {}
+
+concurrency:
+  group: add-tool-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  draft-pr:
+    if: >-
+      github.event.issue.state == 'open' &&
+      github.event.issue.pull_request == null &&
+      (startsWith(github.event.issue.title, 'Add:') || contains(github.event.issue.labels.*.name, 'candidate')) &&
+      (github.event.action != 'labeled' || github.event.label.name == 'not-duplicate')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write        # push the add-tool/* branch
+      pull-requests: write   # open or update the draft pull request
+      issues: write          # labels and one status comment on the issue
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      ISSUE: ${{ github.event.issue.number }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+      - name: Install Python dependencies
+        run: pip install pyyaml==6.0.3 jsonschema==4.26.0 pytest==9.2.0
+
+      - name: Self-test the parser
+        run: python -m pytest -q tests
+
+      - name: Ensure labels exist
+        run: |
+          create() { gh label create "$1" --repo "$REPO" --color "$2" --description "$3" 2>/dev/null || true; }
+          create candidate      c5def5 "Suggested tool, waiting for the bot or a maintainer"
+          create new-tool       0e8a16 "Pull request that adds a tool"
+          create needs-info     fbca04 "The add-tool form needs a fix from the author"
+          create not-duplicate  bfd4f2 "Maintainer: same site as an existing entry, but a different product"
+          create duplicate      cfd3d7 "This issue or pull request already exists"
+          for job in $(python -c "import json;print(' '.join(json.load(open('data/schema/tool.schema.json'))['properties']['job']['enum']))"); do
+            create "job:$job" 1d76db "Tool for the $job section"
+          done
+
+      - name: Parse the form and update data/tools.yaml
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ALLOW_SAME_DOMAIN: ${{ contains(github.event.issue.labels.*.name, 'not-duplicate') }}
+        run: |
+          EXISTING_BRANCH="$(git ls-remote --heads origin "refs/heads/add-tool/${ISSUE}-*" | head -n1 | sed 's#.*refs/heads/##')"
+          export EXISTING_BRANCH
+          extra=""
+          if [ "$ALLOW_SAME_DOMAIN" = "true" ]; then extra="--allow-same-domain"; fi
+          python scripts/add_tool.py --issue "$ISSUE" --out "$RUNNER_TEMP/result.json" $extra
+          python -c "import json,sys;r=json.load(open(sys.argv[1]));print('status:',r['status'])" "$RUNNER_TEMP/result.json"
+
+      - name: Report a duplicate or a form problem on the issue
+        run: |
+          status=$(jq -r .status "$RUNNER_TEMP/result.json")
+          [ "$status" = "ok" ] && exit 0
+          jq -r .comment "$RUNNER_TEMP/result.json" > "$RUNNER_TEMP/comment.md"
+          if [ "$status" = "duplicate" ]; then
+            gh issue edit "$ISSUE" --repo "$REPO" --add-label duplicate
+          else
+            gh issue edit "$ISSUE" --repo "$REPO" --add-label needs-info
+          fi
+          # One bot comment per issue: create it once, then edit it in place.
+          comment_id=$(gh api "repos/$REPO/issues/$ISSUE/comments" --paginate \
+            --jq '[.[] | select(.user.login == "github-actions[bot]" and (.body | startswith("<!-- add-tool-bot -->")))][0].id // empty' | head -n1)
+          if [ -n "$comment_id" ]; then
+            gh api -X PATCH "repos/$REPO/issues/comments/$comment_id" -F body=@"$RUNNER_TEMP/comment.md" >/dev/null
+          else
+            gh issue comment "$ISSUE" --repo "$REPO" --body-file "$RUNNER_TEMP/comment.md"
+          fi
+
+      - name: Build, validate and open or update the draft pull request
+        run: |
+          r="$RUNNER_TEMP/result.json"
+          [ "$(jq -r .status "$r")" = "ok" ] || exit 0
+          branch=$(jq -r .branch "$r")
+          job=$(jq -r .job "$r")
+          title=$(jq -r .pr_title "$r")
+          jq -r .pr_body "$r" > "$RUNNER_TEMP/pr.md"
+          case "$branch" in add-tool/"$ISSUE"-*) ;; *) echo "::error::unexpected branch name"; exit 1;; esac
+
+          python scripts/build.py
+          python scripts/validate.py
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C "$branch"
+          git add data/tools.yaml README.md data/tools.json llms.txt llms-full.txt
+          printf '%s\n\nFrom the Add a tool form. Closes #%s\n' "$title" "$ISSUE" | git commit -q -F -
+          # Idempotent: only push when the content differs from the bot branch.
+          if git fetch -q origin "refs/heads/$branch" 2>/dev/null && git diff --quiet FETCH_HEAD HEAD; then
+            echo "Branch $branch already has this content."
+          else
+            git push --force origin "HEAD:refs/heads/$branch"
+          fi
+
+          pr=$(gh pr list --repo "$REPO" --head "$branch" --state open --json number --jq '.[0].number // empty')
+          if [ -n "$pr" ]; then
+            gh pr edit "$pr" --repo "$REPO" --title "$title" --body-file "$RUNNER_TEMP/pr.md" --add-label new-tool --add-label "job:$job"
+          else
+            gh pr create --repo "$REPO" --draft --base "${{ github.event.repository.default_branch }}" --head "$branch" \
+              --title "$title" --body-file "$RUNNER_TEMP/pr.md" --label new-tool --label "job:$job"
+          fi
+          gh issue edit "$ISSUE" --repo "$REPO" --remove-label needs-info --remove-label duplicate 2>/dev/null || true
