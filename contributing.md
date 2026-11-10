@@ -4,8 +4,8 @@ This list stays useful only if every entry earns its place.
 
 ## Add a tool
 
-1. Open an issue with the **Add a tool** form, or
-2. Edit `data/tools.yaml`, add one entry at the end of its `job`, run `python scripts/build.py`, and open a pull request titled `Add Name`.
+1. Open an issue with the **Add a tool** form. A bot checks the form, looks for duplicates (same URL, same name, or same site) and opens a draft pull request that closes your issue. If it finds a problem it labels the issue and leaves one comment; edit the issue to fix it and the bot runs again. A maintainer reviews the draft, marks it ready for review (which starts CI) and merges it. Or:
+2. Edit `data/tools.yaml`, add one entry at the end of its `job`, run `python scripts/build.py`, and open a pull request titled `Add Name`. CI fails if the generated files do not match `data/tools.yaml`.
 
 Do not edit `README.md`, `data/tools.json` or the `llms*.txt` files by hand. They are generated.
 
