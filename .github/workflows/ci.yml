@@ -1,0 +1,53 @@
+name: ci
+# Runs on every pull request and every push to main.
+# Read-only token: this workflow never writes to the repo.
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "22"
+      - name: Install Python dependencies
+        run: pip install pyyaml==6.0.3 jsonschema==4.26.0
+
+      - name: Validate data/tools.yaml against the schema
+        run: python scripts/validate.py
+
+      - name: Build README, tools.json and llms files
+        run: python scripts/build.py
+
+      - name: Check generated files match data/tools.yaml
+        run: |
+          generated="README.md data/tools.json llms.txt llms-full.txt"
+          if ! git diff --quiet --exit-code -- $generated || [ -n "$(git status --porcelain --untracked-files=all -- $generated)" ]; then
+            git --no-pager diff --stat -- $generated
+            git --no-pager diff -- $generated | head -n 80
+            echo "::error title=Generated files are out of date::README.md, data/tools.json, llms.txt and llms-full.txt are generated from data/tools.yaml. Do not edit them by hand. Edit data/tools.yaml, run 'python scripts/build.py', and commit the regenerated files."
+            exit 1
+          fi
+          echo "ok: generated files match data/tools.yaml"
+
+      - name: awesome-lint
+        run: npx --yes awesome-lint@2.3.0
