@@ -1,0 +1,19 @@
+# Awesome AI Design
+
+> Curated list of 52 tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design, grouped by job, with price, licence, runtime and last-checked date for every entry.
+
+- [Full list as JSON](https://github.com/jangtrinh/awesome-ai-design/blob/main/data/tools.json): every entry with all fields
+- [Full text for models](https://github.com/jangtrinh/awesome-ai-design/blob/main/llms-full.txt): one self-contained sentence per tool
+- [Agent instructions](https://github.com/jangtrinh/awesome-ai-design/blob/main/AGENTS.md): how a coding agent should pick a tool from this list
+
+## Jobs
+
+- [Generate UI from a prompt](https://github.com/jangtrinh/awesome-ai-design#generate-ui-from-a-prompt): Prompt, sketch or screenshot in; screens, prototypes or running apps out.
+- [Design with an agent on the canvas](https://github.com/jangtrinh/awesome-ai-design#design-with-an-agent-on-the-canvas): Design editors where a person and an agent work on the same file.
+- [Connect agents to design files](https://github.com/jangtrinh/awesome-ai-design#connect-agents-to-design-files): MCP servers and bridges that let Claude Code, Codex, Cursor and other agents read and write design files.
+- [Teach agents taste](https://github.com/jangtrinh/awesome-ai-design#teach-agents-taste): Skills, specs and guidelines that change what an agent designs, not only how fast.
+- [Keep output on your design system](https://github.com/jangtrinh/awesome-ai-design#keep-output-on-your-design-system): Components, tokens and docs that keep generated UI on-brand.
+- [Turn designs into code](https://github.com/jangtrinh/awesome-ai-design#turn-designs-into-code): Convert a finished design into production front-end code.
+- [Make 3D with agents](https://github.com/jangtrinh/awesome-ai-design#make-3d-with-agents): Generate, edit and check 3D assets with models and agents.
+- [Make vectors and motion](https://github.com/jangtrinh/awesome-ai-design#make-vectors-and-motion): Vector generation, vectorising and agent-driven animation.
+- [Check what agents built](https://github.com/jangtrinh/awesome-ai-design#check-what-agents-built): Screenshots, accessibility checks and user flows, so an agent can verify its own output.

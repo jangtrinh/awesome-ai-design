@@ -1,0 +1,1263 @@
+schema_version: 1
+generated_from: curation 2026-11-10
+tools:
+- slug: v0
+  name: v0
+  url: https://v0.app
+  job: generate-ui
+  kind: app
+  mcp_server: no-evidence
+  runs: cloud
+  price_model: freemium
+  price_note: Free plan ($0, 7 messages/day); paid from $30/user/month
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Vercel's chat-to-app builder that generates React, Tailwind and shadcn/ui interfaces.
+  price_source: https://v0.app/pricing
+- slug: google-stitch
+  name: Google Stitch
+  url: https://stitch.withgoogle.com
+  job: generate-ui
+  kind: app
+  mcp_server: no-evidence
+  runs: cloud
+  price_model: unverified
+  price_note: Pricing page not readable (JavaScript app); no price shown
+  price_checked: false
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Google Labs experiment that turns prompts or sketches into UI designs and front-end code.
+- slug: uizard
+  name: Uizard
+  url: https://uizard.io
+  job: generate-ui
+  kind: app
+  mcp_server: no-evidence
+  runs: cloud
+  price_model: freemium
+  price_note: Free plan ($0); Pro $12/month billed annually
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Generates multi-screen app and web mockups from text, screenshots or hand-drawn sketches.
+  price_source: https://uizard.io/pricing/
+- slug: magic-patterns
+  name: Magic Patterns
+  url: https://www.magicpatterns.com
+  job: generate-ui
+  kind: app
+  mcp_server: no-evidence
+  runs: cloud
+  price_model: freemium
+  price_note: Free tier with limited credits; Starter $20/seat/month
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Prompt-to-prototype tool that can build on your own design system components.
+  price_source: https://www.magicpatterns.com/pricing
+- slug: ux-pilot
+  name: UX Pilot
+  url: https://uxpilot.ai
+  job: generate-ui
+  kind: app
+  mcp_server: no-evidence
+  runs: cloud
+  price_model: unverified
+  price_note: /pricing shows only 'Start generating – it's free', no plan table
+  price_checked: false
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Generates wireframes and hi-fi screens and exports them to design files and code.
+- slug: relume
+  name: Relume
+  url: https://www.relume.io
+  job: generate-ui
+  kind: app
+  mcp_server: mentioned-on-page
+  runs: cloud
+  price_model: freemium
+  price_note: Free forever plan; paid plans for more AI usage
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Generates sitemaps and wireframes for marketing sites, then exports to Webflow or design files.
+  price_source: https://www.relume.io/pricing
+- slug: subframe
+  name: Subframe
+  url: https://www.subframe.com
+  job: generate-ui
+  kind: app
+  mcp_server: mentioned-on-page
+  runs: cloud
+  price_model: freemium
+  price_note: Free ($0, one project); Pro $20/editor/month
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Visual editor with AI generation that outputs React and Tailwind code.
+  price_source: https://www.subframe.com/pricing
+- slug: bolt-new
+  name: Bolt.new
+  url: https://bolt.new
+  job: generate-ui
+  kind: app
+  mcp_server: no-evidence
+  runs: cloud
+  price_model: freemium
+  price_note: Free ($0, daily token limit); Pro $25/month
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: StackBlitz's in-browser AI app builder that generates, runs and deploys full-stack web apps from a prompt.
+  price_source: https://bolt.new/pricing
+- slug: design-os-studio
+  name: DESIGN:OS Studio
+  url: https://github.com/jangtrinh/design-os-studio
+  job: design-with-agents
+  kind: desktop-app
+  mcp_server: 'yes'
+  runs: local
+  price_model: free
+  price_note: FREE · source-available (PolyForm Shield)
+  price_checked: true
+  licence: PolyForm-Shield-1.0.0 (read from LICENSE)
+  licence_class: source-available
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: jangtrinh/design-os-studio
+  stars: 87
+  last_push: '2026-11-10'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: true
+  tested_by_maintainer: unconfirmed
+  description: GPU-accelerated desktop interface design tool built in Rust, with a built-in MCP server so coding agents can read and edit the canvas.
+  price_source: public repo and its licence file
+- slug: penpot
+  name: Penpot
+  url: https://github.com/penpot/penpot
+  job: design-with-agents
+  kind: app
+  mcp_server: mentioned-on-page
+  runs: cloud or self-hosted
+  price_model: free
+  price_note: Open source (MPL-2.0)
+  price_checked: true
+  licence: MPL-2.0
+  licence_class: open-source
+  agents_named_in_docs: []
+  repo: penpot/penpot
+  stars: 62229
+  last_push: '2026-11-09'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Open-source design and prototyping platform that also ships an official MCP server.
+  price_source: public repo and its licence file
+- slug: onlook
+  name: Onlook
+  url: https://github.com/onlook-dev/onlook
+  job: design-with-agents
+  kind: app
+  mcp_server: no-evidence
+  runs: cloud or local
+  price_model: free
+  price_note: Open source (Apache-2.0)
+  price_checked: true
+  licence: Apache-2.0
+  licence_class: open-source
+  agents_named_in_docs: []
+  repo: onlook-dev/onlook
+  stars: 27156
+  last_push: '2026-10-21'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Visual editor for React and Tailwind apps where you design in the browser and an AI agent writes the code.
+  price_source: public repo and its licence file
+- slug: framer
+  name: Framer
+  url: https://www.framer.com
+  job: design-with-agents
+  kind: app
+  mcp_server: mentioned-on-page
+  runs: cloud
+  price_model: freemium
+  price_note: Free ($0, 500 AI credits to try); Basic $10/month
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Website builder with AI page generation, AI translation and on-canvas AI tools.
+  price_source: https://www.framer.com/pricing
+- slug: figma-mcp-server-official
+  name: Figma MCP server (official)
+  url: https://github.com/figma/mcp-server-guide
+  job: connect-agents-to-design-files
+  kind: mcp-server
+  mcp_server: 'yes'
+  runs: remote or desktop
+  price_model: freemium
+  price_note: Remote server; writing outside drafts needs a Full seat (free in beta, later usage-based); desktop server needs a paid Dev or Full seat
+  price_checked: true
+  licence: proprietary service (guide repo has no licence file)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Claude Code
+  - Cursor
+  repo: figma/mcp-server-guide
+  stars: 2170
+  last_push: '2026-11-09'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: 'Figma''s official MCP server guide: gives coding agents design context, variables and code connect data.'
+  price_source: https://developers.figma.com/docs/figma-mcp-server/
+- slug: framelink-mcp-for-figma
+  name: Framelink MCP for Figma
+  url: https://github.com/GLips/Figma-Context-MCP
+  job: connect-agents-to-design-files
+  kind: mcp-server
+  mcp_server: 'yes'
+  runs: local
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs:
+  - Cursor
+  repo: GLips/Figma-Context-MCP
+  stars: 16183
+  last_push: '2026-10-27'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Community MCP server that gives coding agents simplified layout and style data from Figma files.
+  price_source: public repo and its licence file
+- slug: cursor-talk-to-figma-mcp
+  name: Cursor Talk to Figma MCP
+  url: https://github.com/grab/cursor-talk-to-figma-mcp
+  job: connect-agents-to-design-files
+  kind: mcp-server
+  mcp_server: 'yes'
+  runs: local
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Cursor
+  repo: grab/cursor-talk-to-figma-mcp
+  stars: 7096
+  last_push: '2026-07-26'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Plugin plus MCP server that lets Cursor and other agents read and modify Figma designs.
+  price_source: public repo and its licence file
+- slug: design-os-bridge
+  name: DESIGN:OS Bridge
+  url: https://github.com/jangtrinh/design-os-figma-plugin
+  job: connect-agents-to-design-files
+  kind: plugin-and-cli
+  mcp_server: mentioned-on-page
+  runs: local
+  price_model: free
+  price_note: FREE · source-available (PolyForm Shield)
+  price_checked: true
+  licence: PolyForm-Shield-1.0.0 (read from LICENSE)
+  licence_class: source-available
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: jangtrinh/design-os-figma-plugin
+  stars: 25
+  last_push: '2026-11-06'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: true
+  tested_by_maintainer: unconfirmed
+  description: 'Plugin plus CLI that works with Figma: Claude Code, Codex or any shell agent can read and edit the open file over a local WebSocket, one undo step per change.'
+  price_source: public repo and its licence file
+- slug: penpot-mcp-server
+  name: Penpot MCP server
+  url: https://help.penpot.app/mcp/
+  job: connect-agents-to-design-files
+  kind: mcp-server
+  mcp_server: 'yes'
+  runs: remote or local
+  price_model: free
+  price_note: Open source (Penpot is MPL-2.0)
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Official MCP server for Penpot so agents can inspect and change Penpot designs.
+  price_source: licence of penpot/penpot
+- slug: magic-mcp-21st-dev
+  name: Magic MCP (21st.dev)
+  url: https://github.com/21st-dev/magic-mcp
+  job: connect-agents-to-design-files
+  kind: mcp-server
+  mcp_server: 'yes'
+  runs: local (API key)
+  price_model: freemium
+  price_note: Free Hobby plan ($0); Builder from $6/month
+  price_checked: true
+  licence: ISC
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: 21st-dev/magic-mcp
+  stars: 6440
+  last_push: '2026-09-09'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: MCP server that generates UI components from natural-language prompts inside your IDE.
+  price_source: https://21st.dev/pricing
+- slug: shadcn-ui-mcp-server
+  name: shadcn/ui MCP server
+  url: https://ui.shadcn.com/docs/mcp
+  job: connect-agents-to-design-files
+  kind: mcp-server
+  mcp_server: 'yes'
+  runs: local
+  price_model: free
+  price_note: Open source (shadcn/ui is MIT)
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Lets agents browse, search and install components from shadcn/ui-compatible registries.
+  price_source: licence of shadcn-ui/ui
+- slug: canva-mcp-server
+  name: Canva MCP server
+  url: https://www.canva.dev/docs/connect/canva-mcp-server-setup/
+  job: connect-agents-to-design-files
+  kind: mcp-server
+  mcp_server: 'yes'
+  runs: see docs
+  price_model: freemium
+  price_note: Connector available on all Canva accounts including Free; some actions need a paid plan
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Official Canva MCP server for creating and editing Canva designs from AI assistants.
+  price_source: Canva help page served at the canva.dev URL
+- slug: anthropic-skills-frontend-design
+  name: Anthropic Skills (frontend-design)
+  url: https://github.com/anthropics/skills
+  job: teach-agents-taste
+  kind: agent-skill
+  mcp_server: mentioned-on-page
+  runs: local
+  price_model: free
+  price_note: Free (licence per skill)
+  price_checked: true
+  licence: per skill (no top-level licence file)
+  licence_class: mixed
+  agents_named_in_docs:
+  - Claude Code
+  repo: anthropics/skills
+  stars: 191249
+  last_push: '2026-11-06'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Official Agent Skills repo; the frontend-design skill steers agents away from generic-looking UI.
+  price_source: public repo and its licence file
+- slug: ui-ux-pro-max
+  name: UI UX Pro Max
+  url: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+  job: teach-agents-taste
+  kind: agent-skill
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: nextlevelbuilder/ui-ux-pro-max-skill
+  stars: 147448
+  last_push: '2026-11-07'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Agent skill with searchable styles, palettes, font pairings and UX rules for building UI.
+  price_source: public repo and its licence file
+- slug: design-md
+  name: DESIGN.md
+  url: https://github.com/google-labs-code/design.md
+  job: teach-agents-taste
+  kind: spec
+  mcp_server: no-evidence
+  runs: n/a
+  price_model: free
+  price_note: Open source (Apache-2.0)
+  price_checked: true
+  licence: Apache-2.0
+  licence_class: open-source
+  agents_named_in_docs: []
+  repo: google-labs-code/design.md
+  stars: 28801
+  last_push: '2026-11-06'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Format for describing a visual identity to coding agents in a single markdown file.
+  price_source: public repo and its licence file
+- slug: awesome-design-md
+  name: Awesome DESIGN.md
+  url: https://github.com/VoltAgent/awesome-design-md
+  job: teach-agents-taste
+  kind: spec-collection
+  mcp_server: mentioned-on-page
+  runs: n/a
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs:
+  - Cursor
+  repo: VoltAgent/awesome-design-md
+  stars: 126362
+  last_push: '2026-10-28'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Collection of DESIGN.md files that capture popular brand design systems for agents.
+  price_source: public repo and its licence file
+- slug: web-interface-guidelines
+  name: Web Interface Guidelines
+  url: https://github.com/vercel-labs/web-interface-guidelines
+  job: teach-agents-taste
+  kind: guidelines
+  mcp_server: no-evidence
+  runs: n/a
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs: []
+  repo: vercel-labs/web-interface-guidelines
+  stars: 1143
+  last_push: '2026-10-05'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Vercel's interface quality rules, packaged so agents can review UI against them.
+  price_source: public repo and its licence file
+- slug: design-os-cli
+  name: design:os CLI
+  url: https://github.com/jangtrinh/design-os
+  job: teach-agents-taste
+  kind: cli-and-skills
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: FREE · source-available (PolyForm Shield)
+  price_checked: true
+  licence: PolyForm-Shield-1.0.0 (read from LICENSE)
+  licence_class: source-available
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: jangtrinh/design-os
+  stars: 37
+  last_push: '2026-11-05'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: true
+  tested_by_maintainer: unconfirmed
+  description: 'Design CLI and skills for Claude Code, Codex and Antigravity: describe a UI in plain words and get web, SwiftUI or design-file output checked by deterministic taste gates.'
+  price_source: public repo and its licence file
+- slug: shadcn-ui
+  name: shadcn/ui
+  url: https://github.com/shadcn-ui/ui
+  job: stay-on-system
+  kind: component-library
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs: []
+  repo: shadcn-ui/ui
+  stars: 127758
+  last_push: '2026-11-09'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Copy-in component system and registry that most AI UI generators target.
+  price_source: public repo and its licence file
+- slug: style-dictionary
+  name: Style Dictionary
+  url: https://github.com/style-dictionary/style-dictionary
+  job: stay-on-system
+  kind: library
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Open source (Apache-2.0)
+  price_checked: true
+  licence: Apache-2.0
+  licence_class: open-source
+  agents_named_in_docs: []
+  repo: style-dictionary/style-dictionary
+  stars: 4879
+  last_push: '2026-11-03'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Build system that turns design tokens into platform code, a common target for agent token pipelines.
+  price_source: public repo and its licence file
+- slug: tokens-studio
+  name: Tokens Studio
+  url: https://github.com/tokens-studio/figma-plugin
+  job: stay-on-system
+  kind: plugin
+  mcp_server: no-evidence
+  runs: in design app
+  price_model: freemium
+  price_note: Free (€0, one project); Team €39/month
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs: []
+  repo: tokens-studio/figma-plugin
+  stars: 1630
+  last_push: '2026-11-09'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Manage design tokens in a design file and sync them with Git for code and agent use.
+  price_source: https://tokens.studio/pricing
+- slug: design-tokens-community-group-format
+  name: Design Tokens Community Group format
+  url: https://github.com/design-tokens/community-group
+  job: stay-on-system
+  kind: spec
+  mcp_server: no-evidence
+  runs: n/a
+  price_model: free
+  price_note: Free (W3C CG)
+  price_checked: true
+  licence: NOASSERTION
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: design-tokens/community-group
+  stars: 2171
+  last_push: '2026-11-01'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: The W3C community group spec for interoperable design token files.
+  price_source: public repo and its licence file
+- slug: storybook-mcp
+  name: Storybook MCP
+  url: https://storybook.js.org/docs/ai/mcp/overview
+  job: stay-on-system
+  kind: mcp-server
+  mcp_server: 'yes'
+  runs: local
+  price_model: free
+  price_note: Open source (Storybook is MIT)
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Exposes your Storybook components and docs to agents so generated UI reuses real components.
+  price_source: licence of storybookjs/storybook
+- slug: screenshot-to-code
+  name: screenshot-to-code
+  url: https://github.com/abi/screenshot-to-code
+  job: design-to-code
+  kind: app
+  mcp_server: no-evidence
+  runs: local or hosted
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  repo: abi/screenshot-to-code
+  stars: 81122
+  last_push: '2026-11-05'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Turns screenshots, mockups and design files into HTML, Tailwind, React or Vue code.
+  price_source: public repo and its licence file
+- slug: anima
+  name: Anima
+  url: https://www.animaapp.com
+  job: design-to-code
+  kind: app
+  mcp_server: mentioned-on-page
+  runs: cloud
+  price_model: freemium
+  price_note: Free plan (5 chats, 5 imports, 5 code generations); paid plans
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Converts design files into React, HTML and Vue code with an AI coding layer.
+  price_source: https://www.animaapp.com/pricing
+- slug: locofy
+  name: Locofy
+  url: https://www.locofy.ai
+  job: design-to-code
+  kind: app
+  mcp_server: no-evidence
+  runs: cloud
+  price_model: unverified
+  price_note: Pricing page timed out and returned no content
+  price_checked: false
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Turns designs into front-end code for React, Next.js, React Native and more.
+- slug: builder-io-visual-copilot
+  name: Builder.io Visual Copilot
+  url: https://www.builder.io/figma-to-code
+  job: design-to-code
+  kind: app
+  mcp_server: mentioned-on-page
+  runs: cloud
+  price_model: freemium
+  price_note: Free ($0, 60 credits/month); Pro $24/user/month
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Converts design files to code in your framework and maps them to your components.
+  price_source: https://www.builder.io/pricing
+- slug: mcp-for-blender
+  name: MCP for Blender
+  url: https://github.com/ahujasid/mcp-for-blender
+  job: make-3d
+  kind: mcp-server
+  mcp_server: 'yes'
+  runs: local
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: ahujasid/mcp-for-blender
+  stars: 33806
+  last_push: '2026-11-04'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Connects Blender to MCP clients so an agent can create, inspect and edit 3D scenes.
+  price_source: public repo and its licence file
+- slug: design-os-3d-blender
+  name: DESIGN:OS 3D Blender
+  url: https://github.com/jangtrinh/design-os-3d-blender
+  job: make-3d
+  kind: mcp-server
+  mcp_server: 'yes'
+  runs: local
+  price_model: free
+  price_note: FREE · source-available (PolyForm Shield)
+  price_checked: true
+  licence: PolyForm-Shield-1.0.0 (read from LICENSE)
+  licence_class: source-available
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: jangtrinh/design-os-3d-blender
+  stars: 113
+  last_push: '2026-11-02'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: true
+  tested_by_maintainer: unconfirmed
+  description: 'Agent operating system for Blender 5.2: bpy knowledge base, execution contract and a 3D-print production gate.'
+  price_source: public repo and its licence file
+- slug: trellis-2
+  name: TRELLIS.2
+  url: https://github.com/microsoft/TRELLIS.2
+  job: make-3d
+  kind: model
+  mcp_server: no-evidence
+  runs: local (GPU)
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs: []
+  repo: microsoft/TRELLIS.2
+  stars: 12778
+  last_push: '2026-07-10'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Microsoft's image-to-3D model that generates textured meshes.
+  price_source: public repo and its licence file
+- slug: meshy
+  name: Meshy
+  url: https://www.meshy.ai
+  job: make-3d
+  kind: app
+  mcp_server: mentioned-on-page
+  runs: cloud
+  price_model: freemium
+  price_note: Free (100 credits/month, CC BY 4.0 output); paid plans
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Text and image to 3D model generator with texturing and export to common formats.
+  price_source: https://www.meshy.ai/pricing
+- slug: tripo
+  name: Tripo
+  url: https://www.tripo3d.ai
+  job: make-3d
+  kind: app
+  mcp_server: no-evidence
+  runs: cloud
+  price_model: freemium
+  price_note: Free ($0, 200 credits, non-commercial); Pro $20/month
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: AI 3D model generator from text or images, with auto-rigging.
+  price_source: https://www.tripo3d.ai/pricing
+- slug: spline
+  name: Spline
+  url: https://spline.design
+  job: make-3d
+  kind: app
+  mcp_server: mentioned-on-page
+  runs: cloud
+  price_model: freemium
+  price_note: Free ($0, 20 MCP calls/day, no AI generation); Hobby $12-15/seat/month
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Codex
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Browser 3D design tool with AI generation of 3D objects and textures.
+  price_source: https://spline.design/pricing
+- slug: remotion
+  name: Remotion
+  url: https://github.com/remotion-dev/remotion
+  job: make-vectors-and-motion
+  kind: library
+  mcp_server: no-evidence
+  runs: local
+  price_model: free-for-individuals
+  price_note: Source-available (Remotion License; free for individuals and small companies)
+  price_checked: true
+  licence: Remotion License (read from LICENSE.md)
+  licence_class: source-available
+  agents_named_in_docs:
+  - Codex
+  repo: remotion-dev/remotion
+  stars: 72058
+  last_push: '2026-11-09'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Make videos with React; widely used by coding agents for programmatic motion.
+  price_source: public repo and its licence file
+- slug: remotion-agent-skills
+  name: Remotion Agent Skills
+  url: https://github.com/remotion-dev/skills
+  job: make-vectors-and-motion
+  kind: agent-skill
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Free
+  price_checked: true
+  licence: no licence file
+  licence_class: unclear
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: remotion-dev/skills
+  stars: 6740
+  last_push: '2026-11-09'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Official agent skills that teach coding agents to write Remotion videos.
+  price_source: public repo and its licence file
+- slug: design-os-svg-animation
+  name: DESIGN:OS SVG Animation
+  url: https://github.com/jangtrinh/design-os-svg-animation
+  job: make-vectors-and-motion
+  kind: pipeline
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: FREE · source-available (PolyForm Shield)
+  price_checked: true
+  licence: PolyForm-Shield-1.0.0 (read from LICENSE)
+  licence_class: source-available
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: jangtrinh/design-os-svg-animation
+  stars: 8
+  last_push: '2026-11-01'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: true
+  tested_by_maintainer: unconfirmed
+  description: Deterministic vector animation and 1080p 60fps video pipeline for AI agents.
+  price_source: public repo and its licence file
+- slug: vtracer
+  name: VTracer
+  url: https://github.com/visioncortex/vtracer
+  job: make-vectors-and-motion
+  kind: library
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs: []
+  repo: visioncortex/vtracer
+  stars: 7495
+  last_push: '2026-11-10'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Converts raster images, including AI-generated ones, into clean SVG.
+  price_source: public repo and its licence file
+- slug: recraft
+  name: Recraft
+  url: https://www.recraft.ai
+  job: make-vectors-and-motion
+  kind: app
+  mcp_server: no-evidence
+  runs: cloud
+  price_model: freemium
+  price_note: Free plan (images publicly visible, owned by Recraft); Basic, Pro and Teams plans
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Image generator that outputs editable vector graphics, icons and brand-consistent styles.
+  price_source: https://www.recraft.ai/pricing
+- slug: rive
+  name: Rive
+  url: https://rive.app
+  job: make-vectors-and-motion
+  kind: app
+  mcp_server: no-evidence
+  runs: cloud
+  price_model: freemium
+  price_note: Free ($0, exports with splash screen); Cadet $9/seat/month; MIT runtimes
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Interactive animation editor and runtimes for state-machine driven motion.
+  price_source: https://rive.app/pricing
+- slug: jitter
+  name: Jitter
+  url: https://jitter.video
+  job: make-vectors-and-motion
+  kind: app
+  mcp_server: mentioned-on-page
+  runs: cloud
+  price_model: freemium
+  price_note: Free plan (720p, watermark); Pro, Max, Ultra paid
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Motion design tool for UI and product animations, exports to video and Lottie.
+  price_source: https://jitter.video/pricing/
+- slug: playwright-mcp
+  name: Playwright MCP
+  url: https://github.com/microsoft/playwright-mcp
+  job: check-what-agents-built
+  kind: mcp-server
+  mcp_server: 'yes'
+  runs: local
+  price_model: free
+  price_note: Open source (Apache-2.0)
+  price_checked: true
+  licence: Apache-2.0
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: microsoft/playwright-mcp
+  stars: 39392
+  last_push: '2026-11-10'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Lets agents drive a real browser to check generated UI with screenshots and accessibility snapshots.
+  price_source: public repo and its licence file
+- slug: chrome-devtools-mcp
+  name: Chrome DevTools MCP
+  url: https://github.com/ChromeDevTools/chrome-devtools-mcp
+  job: check-what-agents-built
+  kind: mcp-server
+  mcp_server: 'yes'
+  runs: local
+  price_model: free
+  price_note: Open source (Apache-2.0)
+  price_checked: true
+  licence: Apache-2.0
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Cursor
+  repo: ChromeDevTools/chrome-devtools-mcp
+  stars: 55036
+  last_push: '2026-11-09'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Gives agents DevTools access for layout, performance and visual debugging of what they built.
+  price_source: public repo and its licence file
+- slug: axe-core
+  name: axe-core
+  url: https://github.com/dequelabs/axe-core
+  job: check-what-agents-built
+  kind: library
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Open source (MPL-2.0)
+  price_checked: true
+  licence: MPL-2.0
+  licence_class: open-source
+  agents_named_in_docs: []
+  repo: dequelabs/axe-core
+  stars: 7790
+  last_push: '2026-11-05'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Accessibility testing engine that agents can run against generated UI.
+  price_source: public repo and its licence file
+- slug: design-os-code2flow
+  name: DESIGN:OS code2flow
+  url: https://github.com/jangtrinh/design-os-code2flow
+  job: check-what-agents-built
+  kind: cli
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: FREE · source-available (PolyForm Shield)
+  price_checked: true
+  licence: PolyForm-Shield-1.0.0 (read from LICENSE)
+  licence_class: source-available
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: jangtrinh/design-os-code2flow
+  stars: 9
+  last_push: '2026-11-01'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: true
+  tested_by_maintainer: unconfirmed
+  description: Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local.
+  price_source: public repo and its licence file

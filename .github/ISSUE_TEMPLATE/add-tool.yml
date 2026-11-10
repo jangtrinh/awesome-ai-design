@@ -1,0 +1,38 @@
+name: Add a tool
+description: Suggest a tool, MCP server or agent skill for Awesome AI Design.
+title: "Add: <tool name>"
+labels: [candidate]
+body:
+  - type: input
+    id: name
+    attributes: {label: Name}
+    validations: {required: true}
+  - type: input
+    id: url
+    attributes: {label: URL (repo or product page)}
+    validations: {required: true}
+  - type: dropdown
+    id: job
+    attributes:
+      label: Job it does
+      options: [generate-ui, design-with-agents, connect-agents-to-design-files, teach-agents-taste, stay-on-system, design-to-code, make-3d, make-vectors-and-motion, check-what-agents-built]
+    validations: {required: true}
+  - type: dropdown
+    id: price
+    attributes: {label: Price model, options: [free, freemium, paid, paid-for-full-access, free-for-individuals]}
+    validations: {required: true}
+  - type: input
+    id: licence
+    attributes: {label: Licence (SPDX id, or licence name if source-available or proprietary)}
+    validations: {required: true}
+  - type: dropdown
+    id: mcp
+    attributes: {label: Is it or does it ship an MCP server?, options: ["yes", "no", "not sure"]}
+  - type: textarea
+    id: description
+    attributes: {label: One factual sentence on what it does (max 220 characters, no marketing words)}
+    validations: {required: true}
+  - type: dropdown
+    id: affiliation
+    attributes: {label: Are you affiliated with this project?, options: ["no", "yes, I made it or work on it", "yes, I am paid by it"]}
+    validations: {required: true}

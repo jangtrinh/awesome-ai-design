@@ -1,0 +1,4 @@
+- [ ] I edited `data/tools.yaml` only and ran `python scripts/build.py`.
+- [ ] One tool per pull request; title is `Add Name`.
+- [ ] The entry meets every rule in `contributing.md`.
+- [ ] Affiliation: none / I made it / I work on it / I am paid by it (keep one).

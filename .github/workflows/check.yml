@@ -1,0 +1,22 @@
+name: weekly-check
+on:
+  schedule: [{cron: "0 1 * * 1"}]   # Monday 08:00 ICT
+  pull_request:
+  workflow_dispatch:
+permissions: {contents: write, pull-requests: write}
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install pyyaml jsonschema
+      - if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: python scripts/check_links.py
+        env: {GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
+      - run: python scripts/build.py
+      - run: npx awesome-lint
+      - if: github.event_name != 'pull_request'
+        uses: peter-evans/create-pull-request@v7
+        with: {title: "Weekly link and stars refresh", branch: weekly-refresh, commit-message: "Weekly refresh"}

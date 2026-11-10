@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/jangtrinh/awesome-ai-design/data/schema/tool.schema.json",
+  "title": "Awesome AI Design tool entry",
+  "type": "object",
+  "required": [
+    "slug",
+    "name",
+    "url",
+    "job",
+    "kind",
+    "mcp_server",
+    "runs",
+    "price_model",
+    "price_checked",
+    "licence",
+    "licence_class",
+    "link_status",
+    "last_checked",
+    "maintainer_entry",
+    "tested_by_maintainer",
+    "description"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable id. Never changes once published; used as the anchor and JSON key."
+    },
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "job": {
+      "enum": [
+        "generate-ui",
+        "design-with-agents",
+        "connect-agents-to-design-files",
+        "teach-agents-taste",
+        "stay-on-system",
+        "design-to-code",
+        "make-3d",
+        "make-vectors-and-motion",
+        "check-what-agents-built"
+      ]
+    },
+    "kind": {
+      "type": "string"
+    },
+    "mcp_server": {
+      "enum": [
+        "yes",
+        "mentioned-on-page",
+        "no-evidence"
+      ],
+      "description": "yes = the entry is or ships an MCP server; mentioned-on-page = docs mention MCP but not verified"
+    },
+    "runs": {
+      "type": "string"
+    },
+    "price_model": {
+      "enum": [
+        "free",
+        "freemium",
+        "paid",
+        "paid-for-full-access",
+        "free-for-individuals",
+        "unverified"
+      ]
+    },
+    "price_note": {
+      "type": "string"
+    },
+    "price_checked": {
+      "type": "boolean",
+      "description": "true only when a person opened the pricing page or licence on last_checked"
+    },
+    "licence": {
+      "type": "string"
+    },
+    "licence_class": {
+      "enum": [
+        "open-source",
+        "source-available",
+        "proprietary",
+        "mixed",
+        "unclear"
+      ]
+    },
+    "agents_named_in_docs": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "Claude Code",
+          "Codex",
+          "Cursor"
+        ]
+      },
+      "description": "Agents named in the README or product page. A mention, not a compatibility test."
+    },
+    "repo": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "stars": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "last_push": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "archived": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "link_status": {
+      "type": "integer"
+    },
+    "last_checked": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "maintainer_entry": {
+      "type": "boolean"
+    },
+    "tested_by_maintainer": {
+      "enum": [
+        "yes",
+        "no",
+        "unconfirmed"
+      ],
+      "description": "yes only with a public proof link in tested_proof"
+    },
+    "tested_proof": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 220
+    },
+    "price_source": {
+      "type": "string",
+      "description": "Page or file the price was read from"
+    }
+  }
+}
