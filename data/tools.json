@@ -2,7 +2,7 @@
  "name": "Awesome AI Design",
  "source": "https://github.com/jangtrinh/awesome-ai-design",
  "licence": "CC0-1.0",
- "count": 52,
+ "count": 53,
  "jobs": [
   {
    "id": "generate-ui",
@@ -1433,6 +1433,34 @@
    "tested_by_maintainer": "unconfirmed",
    "description": "Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local.",
    "price_source": "public repo and its licence file"
+  },
+  {
+   "slug": "agent-qa",
+   "name": "agent-qa",
+   "url": "https://vostride.com",
+   "job": "check-what-agents-built",
+   "kind": "cli-and-mcp-server",
+   "mcp_server": "yes",
+   "runs": "local (Node.js 24+; model/browser/device setup)",
+   "price_model": "free",
+   "price_note": "Free local software for permitted FSL use; model/device costs separate.",
+   "price_checked": false,
+   "licence": "FSL-1.1-ALv2",
+   "licence_class": "source-available",
+   "agents_named_in_docs": [
+    "Claude Code",
+    "Codex"
+   ],
+   "repo": "vostride/agent-qa",
+   "stars": 852,
+   "last_push": "2026-11-10",
+   "archived": false,
+   "link_status": 200,
+   "last_checked": "2026-11-10",
+   "maintainer_entry": false,
+   "tested_by_maintainer": "unconfirmed",
+   "description": "Tests agent-built web, Android and iOS journeys via CLI/MCP, with persistent memidex memory, validated self-improvement and screenshots; model/device costs separate.",
+   "price_source": "https://github.com/vostride/agent-qa/blob/43618211636159a6fc6086cac90101e448ed8a63/LICENSE.md"
   }
  ]
 }
