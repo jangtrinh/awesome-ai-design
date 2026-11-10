@@ -1,6 +1,6 @@
 # Awesome AI Design: full text
 
-Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 52 entries. Each line stands alone and can be quoted.
+Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 53 entries. Each line stands alone and can be quoted.
 
 ## Generate UI from a prompt
 
@@ -141,3 +141,5 @@ Chrome DevTools MCP (https://github.com/ChromeDevTools/chrome-devtools-mcp): Giv
 axe-core (https://github.com/dequelabs/axe-core): Accessibility testing engine that agents can run against generated UI. It is free and open source under MPL-2.0. Runs: local. Link checked 2026-11-10.
 
 DESIGN:OS code2flow (https://github.com/jangtrinh/design-os-code2flow): Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local. It is free and source-available under PolyForm Shield. Runs: local. Its docs name Claude Code, Codex, Cursor. Made by the maintainer of Awesome AI Design. Link checked 2026-11-10.
+
+agent-qa (https://vostride.com): Tests agent-built web, Android and iOS journeys via CLI/MCP, with persistent memidex memory, validated self-improvement and screenshots; model/device costs separate. It is free and source-available under FSL-1.1-ALv2. Runs: local (Node.js 24+; model/browser/device setup). It is an MCP server or ships one. Its docs name Claude Code, Codex. Link checked 2026-11-10.

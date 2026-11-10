@@ -2,7 +2,7 @@
 
 > Tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design.
 
-52 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
+53 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
 
 ## Contents
 
@@ -128,6 +128,7 @@ Screenshots, accessibility checks and user flows, so an agent can verify its own
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Gives agents DevTools access for layout, performance and visual debugging of what they built. `Free · open source (Apache-2.0) · local · MCP · 55.0k stars · checked 2026-11-10`.
 - [axe-core](https://github.com/dequelabs/axe-core) - Accessibility testing engine that agents can run against generated UI. `Free · open source (MPL-2.0) · local · 7.8k stars · checked 2026-11-10`.
 - [DESIGN:OS code2flow](https://github.com/jangtrinh/design-os-code2flow) - Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local. Disclosure: made by the maintainer of this list. `FREE · source-available (PolyForm Shield) · local · 9 stars · checked 2026-11-10`.
+- [agent-qa](https://vostride.com) - Tests agent-built web, Android and iOS journeys via CLI/MCP, with persistent memidex memory, validated self-improvement and screenshots; model/device costs separate. `Free · source-available (FSL-1.1-ALv2) · local (Node.js 24+; model/browser/device setup) · MCP · 852 stars · checked 2026-11-10`.
 
 ## Compare: agent access to design files
 
