@@ -20,8 +20,12 @@ for t in data["tools"]:
             j = json.load(urllib.request.urlopen(req, timeout=25))
             t["stars"], t["last_push"], t["archived"] = j["stargazers_count"], j["pushed_at"][:10], j["archived"]
         except Exception as e: report.append(f"{t['slug']}: GitHub API error {e}")
-    if status != t["link_status"]: report.append(f"{t['slug']}: link {t['link_status']} -> {status}")
-    t["link_status"] = status if status else t["link_status"]
+    if status in (401, 403, 429):
+        # Bot protection on CI runners, not a dead link. Keep the last good status; a person re-checks by hand.
+        report.append(f"{t['slug']}: HTTP {status} from the runner (bot protection?), kept {t['link_status']}; check by hand")
+    elif status != t["link_status"]:
+        report.append(f"{t['slug']}: link {t['link_status']} -> {status}")
+        t["link_status"] = status if status else t["link_status"]
     if status == 200: t["last_checked"] = today
     if t.get("archived"): report.append(f"{t['slug']}: archived, remove or move")
     if t.get("last_push") and (datetime.date.today() - datetime.date.fromisoformat(t["last_push"])).days > 183: report.append(f"{t['slug']}: no push for 6+ months")
