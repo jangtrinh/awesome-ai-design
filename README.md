@@ -71,7 +71,7 @@ MCP servers and bridges that let Claude Code, Codex, Cursor and other agents rea
 
 Skills, specs and guidelines that change what an agent designs, not only how fast.
 
-- [Anthropic Skills (frontend-design)](https://github.com/anthropics/skills) - Official Agent Skills repo; the frontend-design skill steers agents away from generic-looking UI. `Free · licence varies · local · 191.2k stars · checked 2026-11-10`.
+- [Anthropic Skills (frontend-design)](https://github.com/anthropics/skills) - Official Agent Skills repo; the frontend-design skill steers agents away from generic-looking UI. `Free · licence varies · local · 191.3k stars · checked 2026-11-10`.
 - [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - Agent skill with searchable styles, palettes, font pairings and UX rules for building UI. `Free · open source (MIT) · local · 147.4k stars · checked 2026-11-10`.
 - [DESIGN.md](https://github.com/google-labs-code/design.md) - Format for describing a visual identity to coding agents in a single markdown file. `Free · open source (Apache-2.0) · n/a · 28.8k stars · checked 2026-11-10`.
 - [Awesome DESIGN.md](https://github.com/VoltAgent/awesome-design-md) - Collection of DESIGN.md files that capture popular brand design systems for agents. `Free · open source (MIT) · n/a · 126.4k stars · checked 2026-11-10`.
