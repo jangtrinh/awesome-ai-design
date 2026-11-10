@@ -39,11 +39,12 @@ jobs:
         run: python scripts/build.py
 
       - name: Check generated files match data/tools.yaml
+        shell: bash
         run: |
-          generated="README.md data/tools.json llms.txt llms-full.txt"
-          if ! git diff --quiet --exit-code -- $generated || [ -n "$(git status --porcelain --untracked-files=all -- $generated)" ]; then
-            git --no-pager diff --stat -- $generated
-            git --no-pager diff -- $generated | head -n 80
+          generated=(README.md data/tools.json llms.txt llms-full.txt)
+          if ! git diff --quiet --exit-code -- "${generated[@]}" || [ -n "$(git status --porcelain --untracked-files=all -- "${generated[@]}")" ]; then
+            git --no-pager diff --stat -- "${generated[@]}"
+            git --no-pager diff -- "${generated[@]}" | head -n 80
             echo "::error title=Generated files are out of date::README.md, data/tools.json, llms.txt and llms-full.txt are generated from data/tools.yaml. Do not edit them by hand. Edit data/tools.yaml, run 'python scripts/build.py', and commit the regenerated files."
             exit 1
           fi
