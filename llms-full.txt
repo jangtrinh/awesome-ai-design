@@ -1,6 +1,6 @@
 # Awesome AI Design: full text
 
-Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 52 entries. Each line stands alone and can be quoted.
+Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 57 entries. Each line stands alone and can be quoted.
 
 ## Generate UI from a prompt
 
@@ -33,6 +33,8 @@ Penpot (https://github.com/penpot/penpot): Open-source design and prototyping pl
 Onlook (https://github.com/onlook-dev/onlook): Visual editor for React and Tailwind apps where you design in the browser and an AI agent writes the code. It is free and open source under Apache-2.0. Runs: cloud or local. Link checked 2026-11-10.
 
 Framer (https://www.framer.com): Website builder with AI page generation, AI translation and on-canvas AI tools. It is freemium and proprietary. Runs: cloud. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
+
+Gesso (https://www.gesso.online): Mac design canvas that MCP agents draw on in editable HTML and CSS layers, for websites, decks and posters. It is paid and proprietary. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-12.
 
 ## Connect agents to design files
 
@@ -70,6 +72,10 @@ Web Interface Guidelines (https://github.com/vercel-labs/web-interface-guideline
 
 design:os CLI (https://github.com/jangtrinh/design-os): Design CLI and skills for Claude Code, Codex and Antigravity: describe a UI in plain words and get web, SwiftUI or design-file output checked by deterministic taste gates. It is free and source-available under PolyForm Shield. Runs: local. Its docs name Claude Code, Codex, Cursor. Made by the maintainer of Awesome AI Design. Link checked 2026-11-10.
 
+Inspo by Context.dev (https://inspo.context.dev): Finds real websites as design references and hands the picks to a coding agent as a prompt, via the browser or MCP. It is free and proprietary. Runs: cloud. Its docs name Claude Code, Cursor, Codex. Link checked 2026-11-12.
+
+IconFit (https://iconfit.atech.io.vn): Agent skill that picks SVG icons by meaning, placement and style from local icon sets, checks source terms and exports only the chosen files. It is of unverified price and proprietary. Runs: local. Link checked 2026-11-12.
+
 ## Keep output on your design system
 
 Components, tokens and docs that keep generated UI on-brand.
@@ -83,6 +89,8 @@ Tokens Studio (https://github.com/tokens-studio/figma-plugin): Manage design tok
 Design Tokens Community Group format (https://github.com/design-tokens/community-group): The W3C community group spec for interoperable design token files. It is free and proprietary. Runs: n/a. Link checked 2026-11-10.
 
 Storybook MCP (https://storybook.js.org/docs/ai/mcp/overview): Exposes your Storybook components and docs to agents so generated UI reuses real components. It is free and open source under proprietary (SaaS). Runs: local. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
+
+Dembrandt (https://www.dembrandt.com): CLI that extracts design tokens from any website, tracks token drift over time and hands the data to agents through MCP and skills. It is free and open source under MIT. Runs: local. Its docs name Cursor. Link checked 2026-11-12.
 
 ## Turn designs into code
 
@@ -129,6 +137,8 @@ Recraft (https://www.recraft.ai): Image generator that outputs editable vector g
 Rive (https://rive.app): Interactive animation editor and runtimes for state-machine driven motion. It is freemium and proprietary. Runs: cloud. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
 
 Jitter (https://jitter.video): Motion design tool for UI and product animations, exports to video and Lottie. It is freemium and proprietary. Runs: cloud. Link checked 2026-11-10.
+
+Lottie AI (https://lottie.ai): LottieFiles tool that turns a text prompt into an editable Lottie vector animation you can refine by chat and export as dotLottie, JSON, GIF or video. It is of unverified price and proprietary. Runs: cloud. Link checked 2026-11-12.
 
 ## Check what agents built
 
