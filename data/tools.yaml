@@ -284,6 +284,58 @@ tools:
   tested_by_maintainer: unconfirmed
   description: Website builder with AI page generation, AI translation and on-canvas AI tools.
   price_source: https://www.framer.com/pricing
+- slug: wonder
+  name: Wonder
+  url: https://wonder.design
+  job: design-with-agents
+  kind: app
+  mcp_server: mentioned-on-page
+  runs: local or browser
+  price_model: freemium
+  price_note: Free ($0 forever, one editor, 3,000 AI-generated layers/week); Pro $16/editor/month billed yearly or $20/editor/month billed monthly
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Desktop and browser canvas where you and Claude Code or Codex design on your live app, then apply the changes back to the code.
+  price_source: https://wonder.design/pricing
+- slug: dessn
+  name: Dessn
+  url: https://www.dessn.ai
+  job: design-with-agents
+  kind: app
+  mcp_server: 'yes'
+  runs: cloud
+  price_model: freemium
+  price_note: Free ($0, 20 credits/month, unlimited viewers, MCP included); Pro $30/editor/month
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Design canvas that runs your production app from its codebase, so you and coding agents can prototype, audit design drift and ship changes over MCP.
+  price_source: https://www.dessn.ai/pricing
 - slug: figma-mcp-server-official
   name: Figma MCP server (official)
   url: https://github.com/figma/mcp-server-guide
@@ -630,6 +682,32 @@ tools:
   tested_by_maintainer: unconfirmed
   description: 'Design CLI and skills for Claude Code, Codex and Antigravity: describe a UI in plain words and get web, SwiftUI or design-file output checked by deterministic taste gates.'
   price_source: public repo and its licence file
+- slug: evondevkit
+  name: evondevKit
+  url: https://github.com/evondev/evondevKit
+  job: teach-agents-taste
+  kind: agent-skill
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: evondev/evondevKit
+  stars: 533
+  last_push: '2026-11-09'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Agent skill that walks coding agents through a brief, wireframes and a shared design system before they build UI, then measures layout issues in a real browser.
+  price_source: public repo and its licence file
 - slug: shadcn-ui
   name: shadcn/ui
   url: https://github.com/shadcn-ui/ui
@@ -748,6 +826,31 @@ tools:
   tested_by_maintainer: unconfirmed
   description: Exposes your Storybook components and docs to agents so generated UI reuses real components.
   price_source: licence of storybookjs/storybook
+- slug: knowns-ui
+  name: Knowns UI
+  url: https://ui.knowns.dev
+  job: stay-on-system
+  kind: component-library
+  mcp_server: mentioned-on-page
+  runs: local
+  price_model: freemium
+  price_note: Free ($0 forever, 124 pages, no account); Pro lifetime $49 early access (then $89) or $9.99/month; Team $149 once
+  price_checked: true
+  licence: MIT (third-party logos in the icon set are not MIT)
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Cursor
+  repo: knowns-dev/knowns-ui
+  stars: 6
+  last_push: '2026-11-07'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: React and Tailwind component kit for AI-product interfaces, installed with the shadcn CLI. An MCP server lets coding agents search the docs.
+  price_source: https://ui.knowns.dev/
 - slug: screenshot-to-code
   name: screenshot-to-code
   url: https://github.com/abi/screenshot-to-code
@@ -1161,6 +1264,32 @@ tools:
   tested_by_maintainer: unconfirmed
   description: Motion design tool for UI and product animations, exports to video and Lottie.
   price_source: https://jitter.video/pricing/
+- slug: clayzo
+  name: Clayzo
+  url: https://www.clayzo.com
+  job: make-vectors-and-motion
+  kind: animation-engine
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Described as free; authoring works offline, preview and export require a sign-in; no paid plan listed
+  price_checked: true
+  licence: proprietary (CLI and engine; no licence file for the core product)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-10'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Animation engine for coding agents that write a typed motion document, check the frames, and export video or an interactive web or Swift player.
+  price_source: https://www.clayzo.com/ and https://docs.clayzo.com/
 - slug: playwright-mcp
   name: Playwright MCP
   url: https://github.com/microsoft/playwright-mcp

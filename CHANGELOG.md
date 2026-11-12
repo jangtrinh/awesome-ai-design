@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-10: add 5 tools from the daily collect
+
+- Added Wonder, Dessn, evondevKit, Knowns UI and Clayzo. Sources, prices and link checks are in the pull request.
+- 57 entries across 9 jobs.
+
 ## 2026-11-10: first release
 
 - 52 entries across 9 jobs. Every link returned 200 on 2026-11-10.
