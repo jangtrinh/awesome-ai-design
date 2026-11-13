@@ -2,7 +2,7 @@
  "name": "Awesome AI Design",
  "source": "https://github.com/jangtrinh/awesome-ai-design",
  "licence": "CC0-1.0",
- "count": 52,
+ "count": 54,
  "jobs": [
   {
    "id": "generate-ui",
@@ -1433,6 +1433,60 @@
    "tested_by_maintainer": "unconfirmed",
    "description": "Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local.",
    "price_source": "public repo and its licence file"
+  },
+  {
+   "slug": "paper",
+   "name": "Paper",
+   "url": "https://paper.design",
+   "job": "design-with-agents",
+   "kind": "app",
+   "mcp_server": "mentioned-on-page",
+   "runs": "hybrid",
+   "price_model": "freemium",
+   "price_note": "Free plan ($0); Pro $20 per editor/month, or $16 billed yearly",
+   "price_checked": true,
+   "licence": "proprietary (SaaS)",
+   "licence_class": "proprietary",
+   "agents_named_in_docs": [],
+   "repo": null,
+   "stars": null,
+   "last_push": null,
+   "archived": null,
+   "description": "Web and desktop design canvas built on HTML and CSS that IDE and CLI agents can read and write through the Paper MCP server.",
+   "price_source": "https://paper.design/pricing",
+   "link_status": 200,
+   "last_checked": "2026-11-13",
+   "maintainer_entry": false,
+   "tested_by_maintainer": "unconfirmed"
+  },
+  {
+   "slug": "wensity-ui",
+   "name": "Wensity UI",
+   "url": "https://ui.wensity.com",
+   "job": "connect-agents-to-design-files",
+   "kind": "component-library",
+   "mcp_server": "mentioned-on-page",
+   "runs": "local",
+   "price_model": "freemium",
+   "price_note": "Free components install with no account; Pro Lifetime $199 one-time",
+   "price_checked": true,
+   "licence": "proprietary (SaaS)",
+   "licence_class": "proprietary",
+   "agents_named_in_docs": [
+    "Claude Code",
+    "Cursor",
+    "Codex"
+   ],
+   "repo": null,
+   "stars": null,
+   "last_push": null,
+   "archived": null,
+   "description": "Tailwind CSS component and block library with a CLI and an MCP server that let coding agents search components and write their source into a project.",
+   "price_source": "https://ui.wensity.com/pricing",
+   "link_status": 200,
+   "last_checked": "2026-11-13",
+   "maintainer_entry": false,
+   "tested_by_maintainer": "unconfirmed"
   }
  ]
 }
