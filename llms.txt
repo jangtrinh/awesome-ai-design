@@ -1,6 +1,6 @@
 # Awesome AI Design
 
-> Curated list of 54 tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design, grouped by job, with price, licence, runtime and last-checked date for every entry.
+> Curated list of 57 tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design, grouped by job, with price, licence, runtime and last-checked date for every entry.
 
 - [Full list as JSON](https://github.com/jangtrinh/awesome-ai-design/blob/main/data/tools.json): every entry with all fields
 - [Full text for models](https://github.com/jangtrinh/awesome-ai-design/blob/main/llms-full.txt): one self-contained sentence per tool

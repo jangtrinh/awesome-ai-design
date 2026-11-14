@@ -2,7 +2,7 @@
 
 > Tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design.
 
-54 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
+57 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
 
 ## Contents
 
@@ -44,6 +44,7 @@ Prompt, sketch or screenshot in; screens, prototypes or running apps out.
 - [Relume](https://www.relume.io) - Generates sitemaps and wireframes for marketing sites, then exports to Webflow or design files. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Subframe](https://www.subframe.com) - Visual editor with AI generation that outputs React and Tailwind code. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Bolt.new](https://bolt.new) - StackBlitz's in-browser AI app builder that generates, runs and deploys full-stack web apps from a prompt. `Freemium · proprietary · cloud · checked 2026-11-10`.
+- [Figr AI](https://figr.design) - Design agent for product teams that generates UX flows and screens from product context such as live apps, design files and connected MCPs. `Freemium · proprietary · cloud · checked 2026-11-14`.
 
 ## Design with an agent on the canvas
 
@@ -98,6 +99,7 @@ Convert a finished design into production front-end code.
 - [Anima](https://www.animaapp.com) - Converts design files into React, HTML and Vue code with an AI coding layer. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Locofy](https://www.locofy.ai) - Turns designs into front-end code for React, Next.js, React Native and more. `Price unverified · proprietary · cloud · checked 2026-11-10`.
 - [Builder.io Visual Copilot](https://www.builder.io/figma-to-code) - Converts design files to code in your framework and maps them to your components. `Freemium · proprietary · cloud · checked 2026-11-10`.
+- [Kombai](https://kombai.com) - Frontend design and coding agent for desktop, VS Code and Cursor with an infinite canvas, Figma import, design systems and MCP integrations. `Freemium · proprietary · hybrid · checked 2026-11-14`.
 
 ## Make 3D with agents
 
@@ -130,6 +132,7 @@ Screenshots, accessibility checks and user flows, so an agent can verify its own
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Gives agents DevTools access for layout, performance and visual debugging of what they built. `Free · open source (Apache-2.0) · local · MCP · 55.0k stars · checked 2026-11-10`.
 - [axe-core](https://github.com/dequelabs/axe-core) - Accessibility testing engine that agents can run against generated UI. `Free · open source (MPL-2.0) · local · 7.8k stars · checked 2026-11-10`.
 - [DESIGN:OS code2flow](https://github.com/jangtrinh/design-os-code2flow) - Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local. Disclosure: made by the maintainer of this list. `FREE · source-available (PolyForm Shield) · local · 9 stars · checked 2026-11-10`.
+- [Markagent](https://markagent.avibebuilder.com) - Chrome extension that turns clicks on page elements into a markdown feedback prompt with selectors and source file paths for coding agents. `Free · licence unclear · local · 0 stars · checked 2026-11-14`.
 
 ## Compare: agent access to design files
 

@@ -1,6 +1,6 @@
 # Awesome AI Design: full text
 
-Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 54 entries. Each line stands alone and can be quoted.
+Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 57 entries. Each line stands alone and can be quoted.
 
 ## Generate UI from a prompt
 
@@ -21,6 +21,8 @@ Relume (https://www.relume.io): Generates sitemaps and wireframes for marketing 
 Subframe (https://www.subframe.com): Visual editor with AI generation that outputs React and Tailwind code. It is freemium and proprietary. Runs: cloud. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
 
 Bolt.new (https://bolt.new): StackBlitz's in-browser AI app builder that generates, runs and deploys full-stack web apps from a prompt. It is freemium and proprietary. Runs: cloud. Link checked 2026-11-10.
+
+Figr AI (https://figr.design): Design agent for product teams that generates UX flows and screens from product context such as live apps, design files and connected MCPs. It is freemium and proprietary. Runs: cloud. Link checked 2026-11-14.
 
 ## Design with an agent on the canvas
 
@@ -100,6 +102,8 @@ Locofy (https://www.locofy.ai): Turns designs into front-end code for React, Nex
 
 Builder.io Visual Copilot (https://www.builder.io/figma-to-code): Converts design files to code in your framework and maps them to your components. It is freemium and proprietary. Runs: cloud. Its docs name Cursor. Link checked 2026-11-10.
 
+Kombai (https://kombai.com): Frontend design and coding agent for desktop, VS Code and Cursor with an infinite canvas, Figma import, design systems and MCP integrations. It is freemium and proprietary. Runs: hybrid. Link checked 2026-11-14.
+
 ## Make 3D with agents
 
 Generate, edit and check 3D assets with models and agents.
@@ -145,3 +149,5 @@ Chrome DevTools MCP (https://github.com/ChromeDevTools/chrome-devtools-mcp): Giv
 axe-core (https://github.com/dequelabs/axe-core): Accessibility testing engine that agents can run against generated UI. It is free and open source under MPL-2.0. Runs: local. Link checked 2026-11-10.
 
 DESIGN:OS code2flow (https://github.com/jangtrinh/design-os-code2flow): Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local. It is free and source-available under PolyForm Shield. Runs: local. Its docs name Claude Code, Codex, Cursor. Made by the maintainer of Awesome AI Design. Link checked 2026-11-10.
+
+Markagent (https://markagent.avibebuilder.com): Chrome extension that turns clicks on page elements into a markdown feedback prompt with selectors and source file paths for coding agents. It is free and of unclear licence. Runs: local. Its docs name Claude Code, Cursor, Codex. Link checked 2026-11-14.
