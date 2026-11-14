@@ -1261,3 +1261,124 @@ tools:
   tested_by_maintainer: unconfirmed
   description: Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local.
   price_source: public repo and its licence file
+- slug: paper
+  name: Paper
+  url: https://paper.design
+  job: design-with-agents
+  kind: app
+  mcp_server: mentioned-on-page
+  runs: hybrid
+  price_model: freemium
+  price_note: Free plan ($0); Pro $20 per editor/month, or $16 billed yearly
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  description: Web and desktop design canvas built on HTML and CSS that IDE and CLI agents can read and write through the Paper MCP server.
+  price_source: https://paper.design/pricing
+  link_status: 200
+  last_checked: '2026-11-13'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+- slug: wensity-ui
+  name: Wensity UI
+  url: https://ui.wensity.com
+  job: connect-agents-to-design-files
+  kind: component-library
+  mcp_server: mentioned-on-page
+  runs: local
+  price_model: freemium
+  price_note: Free components install with no account; Pro Lifetime $199 one-time
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Claude Code
+  - Cursor
+  - Codex
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  description: Tailwind CSS component and block library with a CLI and an MCP server that let coding agents search components and write their source into a project.
+  price_source: https://ui.wensity.com/pricing
+  link_status: 200
+  last_checked: '2026-11-13'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+- slug: kombai
+  name: Kombai
+  url: https://kombai.com
+  job: design-to-code
+  kind: app
+  mcp_server: mentioned-on-page
+  runs: hybrid
+  price_model: freemium
+  price_note: Free plan ($0, 300 credits/month); Pro tiers by credits; Team $40/month
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  description: Frontend design and coding agent for desktop, VS Code and Cursor with an infinite canvas, Figma import, design systems and MCP integrations.
+  price_source: https://kombai.com/pricing/
+  link_status: 200
+  last_checked: '2026-11-14'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+- slug: figr-ai
+  name: Figr AI
+  url: https://figr.design
+  job: generate-ui
+  kind: app
+  mcp_server: no-evidence
+  runs: cloud
+  price_model: freemium
+  price_note: Free plan ($0, 10 credits); Starter $32/month and Max $124/month billed yearly ($39 and $149 monthly)
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  description: Design agent for product teams that generates UX flows and screens from product context such as live apps, design files and connected MCPs.
+  price_source: https://figr.design/pricing
+  link_status: 200
+  last_checked: '2026-11-14'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+- slug: markagent
+  name: Markagent
+  url: https://markagent.avibebuilder.com
+  job: check-what-agents-built
+  kind: browser-extension
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Free, no account; optional tips
+  price_checked: true
+  licence: no licence file
+  licence_class: unclear
+  agents_named_in_docs:
+  - Claude Code
+  - Cursor
+  - Codex
+  repo: avibebuilder/markagent
+  stars: 0
+  last_push: '2026-05-27'
+  archived: false
+  description: Chrome extension that turns clicks on page elements into a markdown feedback prompt with selectors and source file paths for coding agents.
+  price_source: https://markagent.avibebuilder.com
+  link_status: 200
+  last_checked: '2026-11-14'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed

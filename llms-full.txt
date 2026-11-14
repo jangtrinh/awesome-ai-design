@@ -1,6 +1,6 @@
 # Awesome AI Design: full text
 
-Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 52 entries. Each line stands alone and can be quoted.
+Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 57 entries. Each line stands alone and can be quoted.
 
 ## Generate UI from a prompt
 
@@ -22,6 +22,8 @@ Subframe (https://www.subframe.com): Visual editor with AI generation that outpu
 
 Bolt.new (https://bolt.new): StackBlitz's in-browser AI app builder that generates, runs and deploys full-stack web apps from a prompt. It is freemium and proprietary. Runs: cloud. Link checked 2026-11-10.
 
+Figr AI (https://figr.design): Design agent for product teams that generates UX flows and screens from product context such as live apps, design files and connected MCPs. It is freemium and proprietary. Runs: cloud. Link checked 2026-11-14.
+
 ## Design with an agent on the canvas
 
 Design editors where a person and an agent work on the same file.
@@ -33,6 +35,8 @@ Penpot (https://github.com/penpot/penpot): Open-source design and prototyping pl
 Onlook (https://github.com/onlook-dev/onlook): Visual editor for React and Tailwind apps where you design in the browser and an AI agent writes the code. It is free and open source under Apache-2.0. Runs: cloud or local. Link checked 2026-11-10.
 
 Framer (https://www.framer.com): Website builder with AI page generation, AI translation and on-canvas AI tools. It is freemium and proprietary. Runs: cloud. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
+
+Paper (https://paper.design): Web and desktop design canvas built on HTML and CSS that IDE and CLI agents can read and write through the Paper MCP server. It is freemium and proprietary. Runs: hybrid. Link checked 2026-11-13.
 
 ## Connect agents to design files
 
@@ -53,6 +57,8 @@ Magic MCP (21st.dev) (https://github.com/21st-dev/magic-mcp): MCP server that ge
 shadcn/ui MCP server (https://ui.shadcn.com/docs/mcp): Lets agents browse, search and install components from shadcn/ui-compatible registries. It is free and proprietary. Runs: local. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
 
 Canva MCP server (https://www.canva.dev/docs/connect/canva-mcp-server-setup/): Official Canva MCP server for creating and editing Canva designs from AI assistants. It is freemium and proprietary. Runs: see docs. It is an MCP server or ships one. Link checked 2026-11-10.
+
+Wensity UI (https://ui.wensity.com): Tailwind CSS component and block library with a CLI and an MCP server that let coding agents search components and write their source into a project. It is freemium and proprietary. Runs: local. Its docs name Claude Code, Cursor, Codex. Link checked 2026-11-13.
 
 ## Teach agents taste
 
@@ -95,6 +101,8 @@ Anima (https://www.animaapp.com): Converts design files into React, HTML and Vue
 Locofy (https://www.locofy.ai): Turns designs into front-end code for React, Next.js, React Native and more. It is of unverified price and proprietary. Runs: cloud. Link checked 2026-11-10.
 
 Builder.io Visual Copilot (https://www.builder.io/figma-to-code): Converts design files to code in your framework and maps them to your components. It is freemium and proprietary. Runs: cloud. Its docs name Cursor. Link checked 2026-11-10.
+
+Kombai (https://kombai.com): Frontend design and coding agent for desktop, VS Code and Cursor with an infinite canvas, Figma import, design systems and MCP integrations. It is freemium and proprietary. Runs: hybrid. Link checked 2026-11-14.
 
 ## Make 3D with agents
 
@@ -141,3 +149,5 @@ Chrome DevTools MCP (https://github.com/ChromeDevTools/chrome-devtools-mcp): Giv
 axe-core (https://github.com/dequelabs/axe-core): Accessibility testing engine that agents can run against generated UI. It is free and open source under MPL-2.0. Runs: local. Link checked 2026-11-10.
 
 DESIGN:OS code2flow (https://github.com/jangtrinh/design-os-code2flow): Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local. It is free and source-available under PolyForm Shield. Runs: local. Its docs name Claude Code, Codex, Cursor. Made by the maintainer of Awesome AI Design. Link checked 2026-11-10.
+
+Markagent (https://markagent.avibebuilder.com): Chrome extension that turns clicks on page elements into a markdown feedback prompt with selectors and source file paths for coding agents. It is free and of unclear licence. Runs: local. Its docs name Claude Code, Cursor, Codex. Link checked 2026-11-14.
