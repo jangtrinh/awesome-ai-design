@@ -2,7 +2,7 @@
 
 > Tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design.
 
-52 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
+53 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
 
 ## Contents
 
@@ -44,6 +44,7 @@ Prompt, sketch or screenshot in; screens, prototypes or running apps out.
 - [Relume](https://www.relume.io) - Generates sitemaps and wireframes for marketing sites, then exports to Webflow or design files. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Subframe](https://www.subframe.com) - Visual editor with AI generation that outputs React and Tailwind code. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Bolt.new](https://bolt.new) - StackBlitz's in-browser AI app builder that generates, runs and deploys full-stack web apps from a prompt. `Freemium · proprietary · cloud · checked 2026-11-10`.
+- [Alloy](https://alloy.app) - Prototyping tool that clones an existing web app so product managers can edit it with prompts and share interactive prototypes. `Freemium · proprietary · cloud · checked 2026-11-15`.
 
 ## Design with an agent on the canvas
 

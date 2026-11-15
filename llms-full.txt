@@ -1,6 +1,6 @@
 # Awesome AI Design: full text
 
-Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 52 entries. Each line stands alone and can be quoted.
+Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 53 entries. Each line stands alone and can be quoted.
 
 ## Generate UI from a prompt
 
@@ -21,6 +21,8 @@ Relume (https://www.relume.io): Generates sitemaps and wireframes for marketing 
 Subframe (https://www.subframe.com): Visual editor with AI generation that outputs React and Tailwind code. It is freemium and proprietary. Runs: cloud. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
 
 Bolt.new (https://bolt.new): StackBlitz's in-browser AI app builder that generates, runs and deploys full-stack web apps from a prompt. It is freemium and proprietary. Runs: cloud. Link checked 2026-11-10.
+
+Alloy (https://alloy.app): Prototyping tool that clones an existing web app so product managers can edit it with prompts and share interactive prototypes. It is freemium and proprietary. Runs: cloud. Link checked 2026-11-15.
 
 ## Design with an agent on the canvas
 
