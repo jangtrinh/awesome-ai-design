@@ -19,7 +19,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Vercel's chat-to-app builder that generates React, Tailwind and shadcn/ui interfaces.
@@ -42,7 +42,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Google Labs experiment that turns prompts or sketches into UI designs and front-end code.
@@ -64,7 +64,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Generates multi-screen app and web mockups from text, screenshots or hand-drawn sketches.
@@ -87,7 +87,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Prompt-to-prototype tool that can build on your own design system components.
@@ -110,7 +110,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Generates wireframes and hi-fi screens and exports them to design files and code.
@@ -132,7 +132,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Generates sitemaps and wireframes for marketing sites, then exports to Webflow or design files.
@@ -158,7 +158,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Visual editor with AI generation that outputs React and Tailwind code.
@@ -181,7 +181,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: StackBlitz's in-browser AI app builder that generates, runs and deploys full-stack web apps from a prompt.
@@ -203,11 +203,11 @@ tools:
   - Codex
   - Cursor
   repo: jangtrinh/design-os-studio
-  stars: 87
-  last_push: '2026-11-10'
+  stars: 96
+  last_push: '2026-11-16'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: true
   tested_by_maintainer: unconfirmed
   description: GPU-accelerated desktop interface design tool built in Rust, with a built-in MCP server so coding agents can read and edit the canvas.
@@ -226,11 +226,11 @@ tools:
   licence_class: open-source
   agents_named_in_docs: []
   repo: penpot/penpot
-  stars: 62229
-  last_push: '2026-11-09'
+  stars: 62405
+  last_push: '2026-11-16'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Open-source design and prototyping platform that also ships an official MCP server.
@@ -249,11 +249,11 @@ tools:
   licence_class: open-source
   agents_named_in_docs: []
   repo: onlook-dev/onlook
-  stars: 27156
+  stars: 27225
   last_push: '2026-10-21'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Visual editor for React and Tailwind apps where you design in the browser and an AI agent writes the code.
@@ -279,7 +279,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Website builder with AI page generation, AI translation and on-canvas AI tools.
@@ -300,11 +300,11 @@ tools:
   - Claude Code
   - Cursor
   repo: figma/mcp-server-guide
-  stars: 2170
-  last_push: '2026-11-09'
+  stars: 2196
+  last_push: '2026-11-13'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: 'Figma''s official MCP server guide: gives coding agents design context, variables and code connect data.'
@@ -324,11 +324,11 @@ tools:
   agents_named_in_docs:
   - Cursor
   repo: GLips/Figma-Context-MCP
-  stars: 16183
-  last_push: '2026-10-27'
+  stars: 16213
+  last_push: '2026-11-15'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Community MCP server that gives coding agents simplified layout and style data from Figma files.
@@ -349,11 +349,11 @@ tools:
   - Claude Code
   - Cursor
   repo: grab/cursor-talk-to-figma-mcp
-  stars: 7096
+  stars: 7110
   last_push: '2026-07-26'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Plugin plus MCP server that lets Cursor and other agents read and modify Figma designs.
@@ -375,11 +375,11 @@ tools:
   - Codex
   - Cursor
   repo: jangtrinh/design-os-figma-plugin
-  stars: 25
-  last_push: '2026-11-06'
+  stars: 26
+  last_push: '2026-11-16'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: true
   tested_by_maintainer: unconfirmed
   description: 'Plugin plus CLI that works with Figma: Claude Code, Codex or any shell agent can read and edit the open file over a local WebSocket, one undo step per change.'
@@ -404,7 +404,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Official MCP server for Penpot so agents can inspect and change Penpot designs.
@@ -426,11 +426,11 @@ tools:
   - Codex
   - Cursor
   repo: 21st-dev/magic-mcp
-  stars: 6440
+  stars: 6566
   last_push: '2026-09-09'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: MCP server that generates UI components from natural-language prompts inside your IDE.
@@ -456,7 +456,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Lets agents browse, search and install components from shadcn/ui-compatible registries.
@@ -499,11 +499,11 @@ tools:
   agents_named_in_docs:
   - Claude Code
   repo: anthropics/skills
-  stars: 191249
-  last_push: '2026-11-06'
+  stars: 195536
+  last_push: '2026-11-14'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Official Agent Skills repo; the frontend-design skill steers agents away from generic-looking UI.
@@ -525,11 +525,11 @@ tools:
   - Codex
   - Cursor
   repo: nextlevelbuilder/ui-ux-pro-max-skill
-  stars: 147448
-  last_push: '2026-11-07'
+  stars: 150098
+  last_push: '2026-11-16'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Agent skill with searchable styles, palettes, font pairings and UX rules for building UI.
@@ -548,11 +548,11 @@ tools:
   licence_class: open-source
   agents_named_in_docs: []
   repo: google-labs-code/design.md
-  stars: 28801
+  stars: 28893
   last_push: '2026-11-06'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Format for describing a visual identity to coding agents in a single markdown file.
@@ -572,11 +572,11 @@ tools:
   agents_named_in_docs:
   - Cursor
   repo: VoltAgent/awesome-design-md
-  stars: 126362
+  stars: 127719
   last_push: '2026-10-28'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Collection of DESIGN.md files that capture popular brand design systems for agents.
@@ -595,11 +595,11 @@ tools:
   licence_class: open-source
   agents_named_in_docs: []
   repo: vercel-labs/web-interface-guidelines
-  stars: 1143
+  stars: 1188
   last_push: '2026-10-05'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Vercel's interface quality rules, packaged so agents can review UI against them.
@@ -622,10 +622,10 @@ tools:
   - Cursor
   repo: jangtrinh/design-os
   stars: 37
-  last_push: '2026-11-05'
+  last_push: '2026-11-16'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: true
   tested_by_maintainer: unconfirmed
   description: 'Design CLI and skills for Claude Code, Codex and Antigravity: describe a UI in plain words and get web, SwiftUI or design-file output checked by deterministic taste gates.'
@@ -644,11 +644,11 @@ tools:
   licence_class: open-source
   agents_named_in_docs: []
   repo: shadcn-ui/ui
-  stars: 127758
-  last_push: '2026-11-09'
+  stars: 128282
+  last_push: '2026-11-13'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Copy-in component system and registry that most AI UI generators target.
@@ -667,11 +667,11 @@ tools:
   licence_class: open-source
   agents_named_in_docs: []
   repo: style-dictionary/style-dictionary
-  stars: 4879
+  stars: 4884
   last_push: '2026-11-03'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Build system that turns design tokens into platform code, a common target for agent token pipelines.
@@ -691,10 +691,10 @@ tools:
   agents_named_in_docs: []
   repo: tokens-studio/figma-plugin
   stars: 1630
-  last_push: '2026-11-09'
+  last_push: '2026-11-12'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Manage design tokens in a design file and sync them with Git for code and agent use.
@@ -713,11 +713,11 @@ tools:
   licence_class: proprietary
   agents_named_in_docs: []
   repo: design-tokens/community-group
-  stars: 2171
+  stars: 2175
   last_push: '2026-11-01'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: The W3C community group spec for interoperable design token files.
@@ -743,7 +743,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Exposes your Storybook components and docs to agents so generated UI reuses real components.
@@ -763,11 +763,11 @@ tools:
   agents_named_in_docs:
   - Claude Code
   repo: abi/screenshot-to-code
-  stars: 81122
-  last_push: '2026-11-05'
+  stars: 81234
+  last_push: '2026-11-15'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Turns screenshots, mockups and design files into HTML, Tailwind, React or Vue code.
@@ -790,7 +790,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Converts design files into React, HTML and Vue code with an AI coding layer.
@@ -813,7 +813,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Turns designs into front-end code for React, Next.js, React Native and more.
@@ -836,7 +836,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Converts design files to code in your framework and maps them to your components.
@@ -858,11 +858,11 @@ tools:
   - Codex
   - Cursor
   repo: ahujasid/mcp-for-blender
-  stars: 33806
-  last_push: '2026-11-04'
+  stars: 34575
+  last_push: '2026-11-15'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Connects Blender to MCP clients so an agent can create, inspect and edit 3D scenes.
@@ -884,11 +884,11 @@ tools:
   - Codex
   - Cursor
   repo: jangtrinh/design-os-3d-blender
-  stars: 113
-  last_push: '2026-11-02'
+  stars: 118
+  last_push: '2026-11-13'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: true
   tested_by_maintainer: unconfirmed
   description: 'Agent operating system for Blender 5.2: bpy knowledge base, execution contract and a 3D-print production gate.'
@@ -907,11 +907,11 @@ tools:
   licence_class: open-source
   agents_named_in_docs: []
   repo: microsoft/TRELLIS.2
-  stars: 12778
+  stars: 12944
   last_push: '2026-07-10'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Microsoft's image-to-3D model that generates textured meshes.
@@ -960,7 +960,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: AI 3D model generator from text or images, with auto-rigging.
@@ -985,7 +985,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Browser 3D design tool with AI generation of 3D objects and textures.
@@ -1005,11 +1005,11 @@ tools:
   agents_named_in_docs:
   - Codex
   repo: remotion-dev/remotion
-  stars: 72058
-  last_push: '2026-11-09'
+  stars: 73510
+  last_push: '2026-11-16'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Make videos with React; widely used by coding agents for programmatic motion.
@@ -1031,11 +1031,11 @@ tools:
   - Codex
   - Cursor
   repo: remotion-dev/skills
-  stars: 6740
-  last_push: '2026-11-09'
+  stars: 7306
+  last_push: '2026-11-11'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Official agent skills that teach coding agents to write Remotion videos.
@@ -1058,10 +1058,10 @@ tools:
   - Cursor
   repo: jangtrinh/design-os-svg-animation
   stars: 8
-  last_push: '2026-11-01'
+  last_push: '2026-11-13'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: true
   tested_by_maintainer: unconfirmed
   description: Deterministic vector animation and 1080p 60fps video pipeline for AI agents.
@@ -1080,11 +1080,11 @@ tools:
   licence_class: open-source
   agents_named_in_docs: []
   repo: visioncortex/vtracer
-  stars: 7495
-  last_push: '2026-11-10'
+  stars: 7539
+  last_push: '2026-11-13'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Converts raster images, including AI-generated ones, into clean SVG.
@@ -1107,7 +1107,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Image generator that outputs editable vector graphics, icons and brand-consistent styles.
@@ -1133,7 +1133,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Interactive animation editor and runtimes for state-machine driven motion.
@@ -1156,7 +1156,7 @@ tools:
   last_push: null
   archived: null
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Motion design tool for UI and product animations, exports to video and Lottie.
@@ -1178,11 +1178,11 @@ tools:
   - Codex
   - Cursor
   repo: microsoft/playwright-mcp
-  stars: 39392
-  last_push: '2026-11-10'
+  stars: 39705
+  last_push: '2026-11-15'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Lets agents drive a real browser to check generated UI with screenshots and accessibility snapshots.
@@ -1203,11 +1203,11 @@ tools:
   - Claude Code
   - Cursor
   repo: ChromeDevTools/chrome-devtools-mcp
-  stars: 55036
-  last_push: '2026-11-09'
+  stars: 57251
+  last_push: '2026-11-16'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Gives agents DevTools access for layout, performance and visual debugging of what they built.
@@ -1226,11 +1226,11 @@ tools:
   licence_class: open-source
   agents_named_in_docs: []
   repo: dequelabs/axe-core
-  stars: 7790
-  last_push: '2026-11-05'
+  stars: 7828
+  last_push: '2026-11-13'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Accessibility testing engine that agents can run against generated UI.
@@ -1253,10 +1253,10 @@ tools:
   - Cursor
   repo: jangtrinh/design-os-code2flow
   stars: 9
-  last_push: '2026-11-01'
+  last_push: '2026-11-13'
   archived: false
   link_status: 200
-  last_checked: '2026-11-10'
+  last_checked: '2026-11-16'
   maintainer_entry: true
   tested_by_maintainer: unconfirmed
   description: Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local.
