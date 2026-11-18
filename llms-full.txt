@@ -1,6 +1,6 @@
 # Awesome AI Design: full text
 
-Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 54 entries. Each line stands alone and can be quoted.
+Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 56 entries. Each line stands alone and can be quoted.
 
 ## Generate UI from a prompt
 
@@ -37,6 +37,8 @@ Onlook (https://github.com/onlook-dev/onlook): Visual editor for React and Tailw
 Framer (https://www.framer.com): Website builder with AI page generation, AI translation and on-canvas AI tools. It is freemium and proprietary. Runs: cloud. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
 
 AgentGrid Agentic Canvas (https://agentgrid.io/canvas): Infinite canvas from the Anima team where an MCP-connected agent drafts HTML/CSS designs that you can then edit by hand, export or publish. It is freemium and proprietary. Runs: cloud. Its docs name Codex, Cursor. Link checked 2026-11-16.
+
+Kite (https://kite.new): Shared design canvas where an agent connected over MCP draws, edits and comments on frames, components and design systems alongside the team. It is freemium and proprietary. Runs: cloud and desktop app. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-18.
 
 ## Connect agents to design files
 
@@ -87,6 +89,8 @@ Tokens Studio (https://github.com/tokens-studio/figma-plugin): Manage design tok
 Design Tokens Community Group format (https://github.com/design-tokens/community-group): The W3C community group spec for interoperable design token files. It is free and proprietary. Runs: n/a. Link checked 2026-11-10.
 
 Storybook MCP (https://storybook.js.org/docs/ai/mcp/overview): Exposes your Storybook components and docs to agents so generated UI reuses real components. It is free and open source under proprietary (SaaS). Runs: local. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
+
+Superhands (https://superhands.ai): Turns brand and design files into guidelines that MCP-connected agents query before making assets, and shows what each agent was given. It is freemium and proprietary. Runs: cloud. Its docs name Cursor. Link checked 2026-11-18.
 
 ## Turn designs into code
 
