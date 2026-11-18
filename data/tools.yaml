@@ -1261,3 +1261,101 @@ tools:
   tested_by_maintainer: unconfirmed
   description: Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local.
   price_source: public repo and its licence file
+- slug: alloy
+  name: Alloy
+  url: https://alloy.app
+  job: generate-ui
+  kind: app
+  mcp_server: mentioned-on-page
+  runs: cloud
+  price_model: freemium
+  price_note: Free plan ($0, $5 credits/user/month); Pro $20/user/month
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-15'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Prototyping tool that clones an existing web app so product managers can edit it with prompts and share interactive prototypes.
+  price_source: https://alloy.app/pricing
+- slug: agentgrid-agentic-canvas
+  name: AgentGrid Agentic Canvas
+  url: https://agentgrid.io/canvas
+  job: design-with-agents
+  kind: app
+  mcp_server: mentioned-on-page
+  runs: cloud
+  price_model: freemium
+  price_note: Free plan (100 artifacts, 5 website or Figma-file imports); paid tier prices unverified
+  price_checked: false
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Codex
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-16'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Infinite canvas from the Anima team where an MCP-connected agent drafts HTML/CSS designs that you can then edit by hand, export or publish.
+  price_source: https://agentgrid.io/pricing
+- slug: kite
+  name: Kite
+  url: https://kite.new
+  job: design-with-agents
+  kind: app
+  mcp_server: 'yes'
+  runs: cloud and desktop app
+  price_model: freemium
+  price_note: Free ($0, 3 files, 200 agent actions a day); Pro $20/editor/month; Team $35/editor/month
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-18'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Shared design canvas where an agent connected over MCP draws, edits and comments on frames, components and design systems alongside the team.
+  price_source: https://kite.new/pricing.md
+- slug: superhands
+  name: Superhands
+  url: https://superhands.ai
+  job: stay-on-system
+  kind: app
+  mcp_server: mentioned-on-page
+  runs: cloud
+  price_model: freemium
+  price_note: Free ($0, 100 credits/month); Pro $29/month (1,000 credits/month)
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-18'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Turns brand and design files into guidelines that MCP-connected agents query before making assets, and shows what each agent was given.
+  price_source: https://superhands.ai (pricing section)

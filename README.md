@@ -2,7 +2,7 @@
 
 > Tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design.
 
-52 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
+56 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
 
 ## Contents
 
@@ -44,6 +44,7 @@ Prompt, sketch or screenshot in; screens, prototypes or running apps out.
 - [Relume](https://www.relume.io) - Generates sitemaps and wireframes for marketing sites, then exports to Webflow or design files. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Subframe](https://www.subframe.com) - Visual editor with AI generation that outputs React and Tailwind code. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Bolt.new](https://bolt.new) - StackBlitz's in-browser AI app builder that generates, runs and deploys full-stack web apps from a prompt. `Freemium · proprietary · cloud · checked 2026-11-10`.
+- [Alloy](https://alloy.app) - Prototyping tool that clones an existing web app so product managers can edit it with prompts and share interactive prototypes. `Freemium · proprietary · cloud · checked 2026-11-15`.
 
 ## Design with an agent on the canvas
 
@@ -53,6 +54,8 @@ Design editors where a person and an agent work on the same file.
 - [Penpot](https://github.com/penpot/penpot) - Open-source design and prototyping platform that also ships an official MCP server. `Free · open source (MPL-2.0) · cloud or self-hosted · 62.2k stars · checked 2026-11-10`.
 - [Onlook](https://github.com/onlook-dev/onlook) - Visual editor for React and Tailwind apps where you design in the browser and an AI agent writes the code. `Free · open source (Apache-2.0) · cloud or local · 27.2k stars · checked 2026-11-10`.
 - [Framer](https://www.framer.com) - Website builder with AI page generation, AI translation and on-canvas AI tools. `Freemium · proprietary · cloud · checked 2026-11-10`.
+- [AgentGrid Agentic Canvas](https://agentgrid.io/canvas) - Infinite canvas from the Anima team where an MCP-connected agent drafts HTML/CSS designs that you can then edit by hand, export or publish. `Freemium · proprietary · cloud · checked 2026-11-16`.
+- [Kite](https://kite.new) - Shared design canvas where an agent connected over MCP draws, edits and comments on frames, components and design systems alongside the team. `Freemium · proprietary · cloud and desktop app · MCP · checked 2026-11-18`.
 
 ## Connect agents to design files
 
@@ -87,6 +90,7 @@ Components, tokens and docs that keep generated UI on-brand.
 - [Tokens Studio](https://github.com/tokens-studio/figma-plugin) - Manage design tokens in a design file and sync them with Git for code and agent use. `Freemium · open source (MIT) · in design app · 1.6k stars · checked 2026-11-10`.
 - [Design Tokens Community Group format](https://github.com/design-tokens/community-group) - The W3C community group spec for interoperable design token files. `Free · proprietary · n/a · 2.2k stars · checked 2026-11-10`.
 - [Storybook MCP](https://storybook.js.org/docs/ai/mcp/overview) - Exposes your Storybook components and docs to agents so generated UI reuses real components. `Free · open source (proprietary (SaaS)) · local · MCP · checked 2026-11-10`.
+- [Superhands](https://superhands.ai) - Turns brand and design files into guidelines that MCP-connected agents query before making assets, and shows what each agent was given. `Freemium · proprietary · cloud · checked 2026-11-18`.
 
 ## Turn designs into code
 
