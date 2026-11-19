@@ -1,6 +1,6 @@
 # Awesome AI Design: full text
 
-Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 52 entries. Each line stands alone and can be quoted.
+Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 55 entries. Each line stands alone and can be quoted.
 
 ## Generate UI from a prompt
 
@@ -61,6 +61,12 @@ Skills, specs and guidelines that change what an agent designs, not only how fas
 Anthropic Skills (frontend-design) (https://github.com/anthropics/skills): Official Agent Skills repo; the frontend-design skill steers agents away from generic-looking UI. It is free and licensed per component. Runs: local. Its docs name Claude Code. Link checked 2026-11-10.
 
 UI UX Pro Max (https://github.com/nextlevelbuilder/ui-ux-pro-max-skill): Agent skill with searchable styles, palettes, font pairings and UX rules for building UI. It is free and open source under MIT. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
+
+Impeccable (https://github.com/pbakaus/impeccable): Agent skill with design commands such as critique, audit and polish for reviewing and refining agent-built UI. It is free and open source under Apache-2.0. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-19.
+
+Emil Kowalski's Skills (https://github.com/emilkowalski/skills): Agent skills for UI design and animation decisions such as easing, timing and interaction details. It is free and open source under MIT. Runs: local. Link checked 2026-11-19.
+
+Taste Skill (https://github.com/Leonxlnx/taste-skill): Agent skills for art direction, reference images and a browser check when coding agents build pages. It is free and open source under MIT. Runs: local. Its docs name Claude Code, Codex. Link checked 2026-11-19.
 
 DESIGN.md (https://github.com/google-labs-code/design.md): Format for describing a visual identity to coding agents in a single markdown file. It is free and open source under Apache-2.0. Runs: n/a. Link checked 2026-11-10.
 

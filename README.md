@@ -2,7 +2,7 @@
 
 > Tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design.
 
-52 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
+55 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
 
 ## Contents
 
@@ -73,6 +73,9 @@ Skills, specs and guidelines that change what an agent designs, not only how fas
 
 - [Anthropic Skills (frontend-design)](https://github.com/anthropics/skills) - Official Agent Skills repo; the frontend-design skill steers agents away from generic-looking UI. `Free · licence varies · local · 191.2k stars · checked 2026-11-10`.
 - [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - Agent skill with searchable styles, palettes, font pairings and UX rules for building UI. `Free · open source (MIT) · local · 147.4k stars · checked 2026-11-10`.
+- [Impeccable](https://github.com/pbakaus/impeccable) - Agent skill with design commands such as critique, audit and polish for reviewing and refining agent-built UI. `Free · open source (Apache-2.0) · local · 113.0k stars · checked 2026-11-19`.
+- [Emil Kowalski's Skills](https://github.com/emilkowalski/skills) - Agent skills for UI design and animation decisions such as easing, timing and interaction details. `Free · open source (MIT) · local · 58.0k stars · checked 2026-11-19`.
+- [Taste Skill](https://github.com/Leonxlnx/taste-skill) - Agent skills for art direction, reference images and a browser check when coding agents build pages. `Free · open source (MIT) · local · 118.5k stars · checked 2026-11-19`.
 - [DESIGN.md](https://github.com/google-labs-code/design.md) - Format for describing a visual identity to coding agents in a single markdown file. `Free · open source (Apache-2.0) · n/a · 28.8k stars · checked 2026-11-10`.
 - [Awesome DESIGN.md](https://github.com/VoltAgent/awesome-design-md) - Collection of DESIGN.md files that capture popular brand design systems for agents. `Free · open source (MIT) · n/a · 126.4k stars · checked 2026-11-10`.
 - [Web Interface Guidelines](https://github.com/vercel-labs/web-interface-guidelines) - Vercel's interface quality rules, packaged so agents can review UI against them. `Free · open source (MIT) · n/a · 1.1k stars · checked 2026-11-10`.
