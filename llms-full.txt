@@ -1,6 +1,6 @@
 # Awesome AI Design: full text
 
-Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 52 entries. Each line stands alone and can be quoted.
+Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 57 entries. Each line stands alone and can be quoted.
 
 ## Generate UI from a prompt
 
@@ -34,6 +34,8 @@ Onlook (https://github.com/onlook-dev/onlook): Visual editor for React and Tailw
 
 Framer (https://www.framer.com): Website builder with AI page generation, AI translation and on-canvas AI tools. It is freemium and proprietary. Runs: cloud. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
 
+OpenDesign (https://open-design.ai): Open-source desktop workspace where a coding agent builds HTML prototypes, decks and graphics from a chosen design system, with direct editing and team comments. It is freemium and open source under Apache-2.0. Runs: local. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-20.
+
 ## Connect agents to design files
 
 MCP servers and bridges that let Claude Code, Codex, Cursor and other agents read and write design files.
@@ -62,6 +64,12 @@ Anthropic Skills (frontend-design) (https://github.com/anthropics/skills): Offic
 
 UI UX Pro Max (https://github.com/nextlevelbuilder/ui-ux-pro-max-skill): Agent skill with searchable styles, palettes, font pairings and UX rules for building UI. It is free and open source under MIT. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
 
+Impeccable (https://github.com/pbakaus/impeccable): Agent skill with design commands such as critique, audit and polish for reviewing and refining agent-built UI. It is free and open source under Apache-2.0. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-19.
+
+Emil Kowalski's Skills (https://github.com/emilkowalski/skills): Agent skills for UI design and animation decisions such as easing, timing and interaction details. It is free and open source under MIT. Runs: local. Link checked 2026-11-19.
+
+Taste Skill (https://github.com/Leonxlnx/taste-skill): Agent skills for art direction, reference images and a browser check when coding agents build pages. It is free and open source under MIT. Runs: local. Its docs name Claude Code, Codex. Link checked 2026-11-19.
+
 DESIGN.md (https://github.com/google-labs-code/design.md): Format for describing a visual identity to coding agents in a single markdown file. It is free and open source under Apache-2.0. Runs: n/a. Link checked 2026-11-10.
 
 Awesome DESIGN.md (https://github.com/VoltAgent/awesome-design-md): Collection of DESIGN.md files that capture popular brand design systems for agents. It is free and open source under MIT. Runs: n/a. Its docs name Cursor. Link checked 2026-11-10.
@@ -69,6 +77,8 @@ Awesome DESIGN.md (https://github.com/VoltAgent/awesome-design-md): Collection o
 Web Interface Guidelines (https://github.com/vercel-labs/web-interface-guidelines): Vercel's interface quality rules, packaged so agents can review UI against them. It is free and open source under MIT. Runs: n/a. Link checked 2026-11-10.
 
 design:os CLI (https://github.com/jangtrinh/design-os): Design CLI and skills for Claude Code, Codex and Antigravity: describe a UI in plain words and get web, SwiftUI or design-file output checked by deterministic taste gates. It is free and source-available under PolyForm Shield. Runs: local. Its docs name Claude Code, Codex, Cursor. Made by the maintainer of Awesome AI Design. Link checked 2026-11-10.
+
+Better Design (https://better-design.com): MCP server that gives coding agents design systems, UI and UX principles and review checks for accessibility, spacing and copy. It is freemium and licensed per component. Runs: cloud. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-20.
 
 ## Keep output on your design system
 

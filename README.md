@@ -2,7 +2,7 @@
 
 > Tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design.
 
-52 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
+57 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
 
 ## Contents
 
@@ -53,6 +53,7 @@ Design editors where a person and an agent work on the same file.
 - [Penpot](https://github.com/penpot/penpot) - Open-source design and prototyping platform that also ships an official MCP server. `Free · open source (MPL-2.0) · cloud or self-hosted · 62.2k stars · checked 2026-11-10`.
 - [Onlook](https://github.com/onlook-dev/onlook) - Visual editor for React and Tailwind apps where you design in the browser and an AI agent writes the code. `Free · open source (Apache-2.0) · cloud or local · 27.2k stars · checked 2026-11-10`.
 - [Framer](https://www.framer.com) - Website builder with AI page generation, AI translation and on-canvas AI tools. `Freemium · proprietary · cloud · checked 2026-11-10`.
+- [OpenDesign](https://open-design.ai) - Open-source desktop workspace where a coding agent builds HTML prototypes, decks and graphics from a chosen design system, with direct editing and team comments. `Freemium · open source (Apache-2.0) · local · MCP · 108.5k stars · checked 2026-11-20`.
 
 ## Connect agents to design files
 
@@ -73,10 +74,14 @@ Skills, specs and guidelines that change what an agent designs, not only how fas
 
 - [Anthropic Skills (frontend-design)](https://github.com/anthropics/skills) - Official Agent Skills repo; the frontend-design skill steers agents away from generic-looking UI. `Free · licence varies · local · 191.2k stars · checked 2026-11-10`.
 - [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - Agent skill with searchable styles, palettes, font pairings and UX rules for building UI. `Free · open source (MIT) · local · 147.4k stars · checked 2026-11-10`.
+- [Impeccable](https://github.com/pbakaus/impeccable) - Agent skill with design commands such as critique, audit and polish for reviewing and refining agent-built UI. `Free · open source (Apache-2.0) · local · 113.0k stars · checked 2026-11-19`.
+- [Emil Kowalski's Skills](https://github.com/emilkowalski/skills) - Agent skills for UI design and animation decisions such as easing, timing and interaction details. `Free · open source (MIT) · local · 58.0k stars · checked 2026-11-19`.
+- [Taste Skill](https://github.com/Leonxlnx/taste-skill) - Agent skills for art direction, reference images and a browser check when coding agents build pages. `Free · open source (MIT) · local · 118.5k stars · checked 2026-11-19`.
 - [DESIGN.md](https://github.com/google-labs-code/design.md) - Format for describing a visual identity to coding agents in a single markdown file. `Free · open source (Apache-2.0) · n/a · 28.8k stars · checked 2026-11-10`.
 - [Awesome DESIGN.md](https://github.com/VoltAgent/awesome-design-md) - Collection of DESIGN.md files that capture popular brand design systems for agents. `Free · open source (MIT) · n/a · 126.4k stars · checked 2026-11-10`.
 - [Web Interface Guidelines](https://github.com/vercel-labs/web-interface-guidelines) - Vercel's interface quality rules, packaged so agents can review UI against them. `Free · open source (MIT) · n/a · 1.1k stars · checked 2026-11-10`.
 - [design:os CLI](https://github.com/jangtrinh/design-os) - Design CLI and skills for Claude Code, Codex and Antigravity: describe a UI in plain words and get web, SwiftUI or design-file output checked by deterministic taste gates. Disclosure: made by the maintainer of this list. `FREE · source-available (PolyForm Shield) · local · 37 stars · checked 2026-11-10`.
+- [Better Design](https://better-design.com) - MCP server that gives coding agents design systems, UI and UX principles and review checks for accessibility, spacing and copy. `Freemium · licence varies · cloud · MCP · checked 2026-11-20`.
 
 ## Keep output on your design system
 

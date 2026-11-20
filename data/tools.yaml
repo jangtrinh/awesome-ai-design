@@ -534,6 +534,80 @@ tools:
   tested_by_maintainer: unconfirmed
   description: Agent skill with searchable styles, palettes, font pairings and UX rules for building UI.
   price_source: public repo and its licence file
+- slug: impeccable
+  name: Impeccable
+  url: https://github.com/pbakaus/impeccable
+  job: teach-agents-taste
+  kind: agent-skill
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Open source (Apache-2.0)
+  price_checked: true
+  licence: Apache-2.0
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: pbakaus/impeccable
+  stars: 112964
+  last_push: '2026-11-18'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-19'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Agent skill with design commands such as critique, audit and polish for reviewing and refining agent-built UI.
+  price_source: public repo and its licence file
+- slug: emil-kowalski-skills
+  name: Emil Kowalski's Skills
+  url: https://github.com/emilkowalski/skills
+  job: teach-agents-taste
+  kind: agent-skill
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs: []
+  repo: emilkowalski/skills
+  stars: 58009
+  last_push: '2026-11-15'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-19'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Agent skills for UI design and animation decisions such as easing, timing and interaction details.
+  price_source: public repo and its licence file
+- slug: taste-skill
+  name: Taste Skill
+  url: https://github.com/Leonxlnx/taste-skill
+  job: teach-agents-taste
+  kind: agent-skill
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  repo: Leonxlnx/taste-skill
+  stars: 118494
+  last_push: '2026-11-08'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-19'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Agent skills for art direction, reference images and a browser check when coding agents build pages.
+  price_source: public repo and its licence file
 - slug: design-md
   name: DESIGN.md
   url: https://github.com/google-labs-code/design.md
@@ -1261,3 +1335,55 @@ tools:
   tested_by_maintainer: unconfirmed
   description: Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local.
   price_source: public repo and its licence file
+- slug: opendesign
+  name: OpenDesign
+  url: https://open-design.ai
+  job: design-with-agents
+  kind: desktop-app
+  mcp_server: 'yes'
+  runs: local
+  price_model: freemium
+  price_note: Free desktop app with a local coding agent or your own API key; hosted plans from $10/month
+  price_checked: true
+  licence: Apache-2.0
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: nexu-io/open-design
+  stars: 108542
+  last_push: '2026-11-20'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-20'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Open-source desktop workspace where a coding agent builds HTML prototypes, decks and graphics from a chosen design system, with direct editing and team comments.
+  price_source: https://open-design.ai/pricing
+- slug: better-design
+  name: Better Design
+  url: https://better-design.com
+  job: teach-agents-taste
+  kind: mcp-server
+  mcp_server: 'yes'
+  runs: cloud
+  price_model: freemium
+  price_note: Free plan ($0, 300 tool calls a month); Pro $24/month
+  price_checked: true
+  licence: MIT (npm package); hosted service proprietary
+  licence_class: mixed
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-20'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: MCP server that gives coding agents design systems, UI and UX principles and review checks for accessibility, spacing and copy.
+  price_source: https://better-design.com/pricing
