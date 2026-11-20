@@ -1335,3 +1335,55 @@ tools:
   tested_by_maintainer: unconfirmed
   description: Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local.
   price_source: public repo and its licence file
+- slug: opendesign
+  name: OpenDesign
+  url: https://open-design.ai
+  job: design-with-agents
+  kind: desktop-app
+  mcp_server: 'yes'
+  runs: local
+  price_model: freemium
+  price_note: Free desktop app with a local coding agent or your own API key; hosted plans from $10/month
+  price_checked: true
+  licence: Apache-2.0
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: nexu-io/open-design
+  stars: 108542
+  last_push: '2026-11-20'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-20'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Open-source desktop workspace where a coding agent builds HTML prototypes, decks and graphics from a chosen design system, with direct editing and team comments.
+  price_source: https://open-design.ai/pricing
+- slug: better-design
+  name: Better Design
+  url: https://better-design.com
+  job: teach-agents-taste
+  kind: mcp-server
+  mcp_server: 'yes'
+  runs: cloud
+  price_model: freemium
+  price_note: Free plan ($0, 300 tool calls a month); Pro $24/month
+  price_checked: true
+  licence: MIT (npm package); hosted service proprietary
+  licence_class: mixed
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-20'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: MCP server that gives coding agents design systems, UI and UX principles and review checks for accessibility, spacing and copy.
+  price_source: https://better-design.com/pricing
