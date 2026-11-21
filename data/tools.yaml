@@ -1261,3 +1261,75 @@ tools:
   tested_by_maintainer: unconfirmed
   description: Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local.
   price_source: public repo and its licence file
+- slug: stitch-skills
+  name: Stitch Skills
+  url: https://github.com/google-labs-code/stitch-skills
+  job: generate-ui
+  kind: agent-skill
+  mcp_server: 'yes'
+  runs: local
+  price_model: free
+  price_note: Free (Apache-2.0); uses Google Stitch through its MCP server
+  price_checked: true
+  licence: Apache-2.0
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Cursor
+  - Codex
+  repo: google-labs-code/stitch-skills
+  stars: 11078
+  last_push: '2026-11-20'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-21'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Google Labs agent skills and plugins that let coding agents design and build UI screens through the Stitch MCP server.
+- slug: langchain-design-agent
+  name: Content Studio (LangChain design-agent)
+  url: https://github.com/langchain-ai/design-agent
+  job: make-vectors-and-motion
+  kind: pipeline
+  mcp_server: mentioned-on-page
+  runs: local or hosted
+  price_model: free
+  price_note: Code is free (Apache-2.0); you pay your model provider, hosting on Managed Deep Agents is separate
+  price_checked: true
+  licence: Apache-2.0
+  licence_class: open-source
+  agents_named_in_docs: []
+  repo: langchain-ai/design-agent
+  stars: 661
+  last_push: '2026-11-18'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-21'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: LangChain's open-source Deep Agents design agent that turns a Slack brief into on-brand stills, decks, diagrams, charts and motion graphics.
+- slug: impractical
+  name: Impractical
+  url: https://impractical.ai
+  job: make-vectors-and-motion
+  kind: mcp-server
+  mcp_server: 'yes'
+  runs: cloud
+  price_model: unverified
+  price_note: Price unverified (pricing page shows setup steps, no prices)
+  price_checked: false
+  licence: proprietary (npm package UNLICENSED)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-21'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: MCP service that gives a coding agent an editable product-video draft, frame review and MP4 export.

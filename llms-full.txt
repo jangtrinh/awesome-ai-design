@@ -1,6 +1,6 @@
 # Awesome AI Design: full text
 
-Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 52 entries. Each line stands alone and can be quoted.
+Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 55 entries. Each line stands alone and can be quoted.
 
 ## Generate UI from a prompt
 
@@ -21,6 +21,8 @@ Relume (https://www.relume.io): Generates sitemaps and wireframes for marketing 
 Subframe (https://www.subframe.com): Visual editor with AI generation that outputs React and Tailwind code. It is freemium and proprietary. Runs: cloud. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
 
 Bolt.new (https://bolt.new): StackBlitz's in-browser AI app builder that generates, runs and deploys full-stack web apps from a prompt. It is freemium and proprietary. Runs: cloud. Link checked 2026-11-10.
+
+Stitch Skills (https://github.com/google-labs-code/stitch-skills): Google Labs agent skills and plugins that let coding agents design and build UI screens through the Stitch MCP server. It is free and open source under Apache-2.0. Runs: local. It is an MCP server or ships one. Its docs name Claude Code, Cursor, Codex. Link checked 2026-11-21.
 
 ## Design with an agent on the canvas
 
@@ -129,6 +131,10 @@ Recraft (https://www.recraft.ai): Image generator that outputs editable vector g
 Rive (https://rive.app): Interactive animation editor and runtimes for state-machine driven motion. It is freemium and proprietary. Runs: cloud. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
 
 Jitter (https://jitter.video): Motion design tool for UI and product animations, exports to video and Lottie. It is freemium and proprietary. Runs: cloud. Link checked 2026-11-10.
+
+Content Studio (LangChain design-agent) (https://github.com/langchain-ai/design-agent): LangChain's open-source Deep Agents design agent that turns a Slack brief into on-brand stills, decks, diagrams, charts and motion graphics. It is free and open source under Apache-2.0. Runs: local or hosted. Link checked 2026-11-21.
+
+Impractical (https://impractical.ai): MCP service that gives a coding agent an editable product-video draft, frame review and MP4 export. It is of unverified price and proprietary. Runs: cloud. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-21.
 
 ## Check what agents built
 
