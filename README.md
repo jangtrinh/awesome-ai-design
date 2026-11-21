@@ -2,7 +2,7 @@
 
 > Tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design.
 
-52 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
+55 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
 
 ## Contents
 
@@ -44,6 +44,7 @@ Prompt, sketch or screenshot in; screens, prototypes or running apps out.
 - [Relume](https://www.relume.io) - Generates sitemaps and wireframes for marketing sites, then exports to Webflow or design files. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Subframe](https://www.subframe.com) - Visual editor with AI generation that outputs React and Tailwind code. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Bolt.new](https://bolt.new) - StackBlitz's in-browser AI app builder that generates, runs and deploys full-stack web apps from a prompt. `Freemium · proprietary · cloud · checked 2026-11-10`.
+- [Stitch Skills](https://github.com/google-labs-code/stitch-skills) - Google Labs agent skills and plugins that let coding agents design and build UI screens through the Stitch MCP server. `Free · open source (Apache-2.0) · local · MCP · 11.1k stars · checked 2026-11-21`.
 
 ## Design with an agent on the canvas
 
@@ -119,6 +120,8 @@ Vector generation, vectorising and agent-driven animation.
 - [Recraft](https://www.recraft.ai) - Image generator that outputs editable vector graphics, icons and brand-consistent styles. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Rive](https://rive.app) - Interactive animation editor and runtimes for state-machine driven motion. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Jitter](https://jitter.video) - Motion design tool for UI and product animations, exports to video and Lottie. `Freemium · proprietary · cloud · checked 2026-11-10`.
+- [Content Studio (LangChain design-agent)](https://github.com/langchain-ai/design-agent) - LangChain's open-source Deep Agents design agent that turns a Slack brief into on-brand stills, decks, diagrams, charts and motion graphics. `Free · open source (Apache-2.0) · local or hosted · 661 stars · checked 2026-11-21`.
+- [Impractical](https://impractical.ai) - MCP service that gives a coding agent an editable product-video draft, frame review and MP4 export. `Price unverified · proprietary · cloud · MCP · checked 2026-11-21`.
 
 ## Check what agents built
 
