@@ -2,7 +2,7 @@
 
 > Tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design.
 
-55 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
+57 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
 
 ## Contents
 
@@ -45,6 +45,7 @@ Prompt, sketch or screenshot in; screens, prototypes or running apps out.
 - [Subframe](https://www.subframe.com) - Visual editor with AI generation that outputs React and Tailwind code. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Bolt.new](https://bolt.new) - StackBlitz's in-browser AI app builder that generates, runs and deploys full-stack web apps from a prompt. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Stitch Skills](https://github.com/google-labs-code/stitch-skills) - Google Labs agent skills and plugins that let coding agents design and build UI screens through the Stitch MCP server. `Free · open source (Apache-2.0) · local · MCP · 11.1k stars · checked 2026-11-21`.
+- [A2UI](https://a2ui.org) - Open-source generative UI protocol and renderers that let agents compose interfaces shown with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose. `Free · open source (Apache-2.0) · local · 17.8k stars · checked 2026-11-22`.
 
 ## Design with an agent on the canvas
 
@@ -88,6 +89,7 @@ Components, tokens and docs that keep generated UI on-brand.
 - [Tokens Studio](https://github.com/tokens-studio/figma-plugin) - Manage design tokens in a design file and sync them with Git for code and agent use. `Freemium · open source (MIT) · in design app · 1.6k stars · checked 2026-11-10`.
 - [Design Tokens Community Group format](https://github.com/design-tokens/community-group) - The W3C community group spec for interoperable design token files. `Free · proprietary · n/a · 2.2k stars · checked 2026-11-10`.
 - [Storybook MCP](https://storybook.js.org/docs/ai/mcp/overview) - Exposes your Storybook components and docs to agents so generated UI reuses real components. `Free · open source (proprietary (SaaS)) · local · MCP · checked 2026-11-10`.
+- [Astryx](https://astryx.atmeta.com) - Meta's open-source React and StyleX design system, in beta, with a CLI that writes its usage guide to AGENTS.md or CLAUDE.md for coding agents. `Free · open source (MIT) · local · 31.8k stars · checked 2026-11-22`.
 
 ## Turn designs into code
 

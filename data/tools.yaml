@@ -1333,3 +1333,47 @@ tools:
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: MCP service that gives a coding agent an editable product-video draft, frame review and MP4 export.
+- slug: a2ui
+  name: A2UI
+  url: https://a2ui.org
+  job: generate-ui
+  kind: library
+  mcp_server: mentioned-on-page
+  runs: local
+  price_model: free
+  price_note: Free (Apache-2.0)
+  price_checked: true
+  licence: Apache-2.0
+  licence_class: open-source
+  agents_named_in_docs: []
+  repo: a2ui-project/a2ui
+  stars: 17805
+  last_push: '2026-11-22'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-22'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Open-source generative UI protocol and renderers that let agents compose interfaces shown with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.
+- slug: astryx
+  name: Astryx
+  url: https://astryx.atmeta.com
+  job: stay-on-system
+  kind: component-library
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Free (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs: []
+  repo: meta/astryx
+  stars: 31849
+  last_push: '2026-11-22'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-22'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  description: Meta's open-source React and StyleX design system, in beta, with a CLI that writes its usage guide to AGENTS.md or CLAUDE.md for coding agents.
