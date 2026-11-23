@@ -2,7 +2,7 @@
 
 > Tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design.
 
-57 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
+60 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
 
 ## Contents
 
@@ -55,6 +55,7 @@ Design editors where a person and an agent work on the same file.
 - [Penpot](https://github.com/penpot/penpot) - Open-source design and prototyping platform that also ships an official MCP server. `Free · open source (MPL-2.0) · cloud or self-hosted · 62.2k stars · checked 2026-11-10`.
 - [Onlook](https://github.com/onlook-dev/onlook) - Visual editor for React and Tailwind apps where you design in the browser and an AI agent writes the code. `Free · open source (Apache-2.0) · cloud or local · 27.2k stars · checked 2026-11-10`.
 - [Framer](https://www.framer.com) - Website builder with AI page generation, AI translation and on-canvas AI tools. `Freemium · proprietary · cloud · checked 2026-11-10`.
+- [Fountible](https://fountible.com) - Desktop design canvas with a built-in agent that designs and edits screens, motion and slides from prompts, with React and Tailwind or video export. `Freemium · proprietary · cloud or local · checked 2026-11-23`.
 
 ## Connect agents to design files
 
@@ -79,6 +80,7 @@ Skills, specs and guidelines that change what an agent designs, not only how fas
 - [Awesome DESIGN.md](https://github.com/VoltAgent/awesome-design-md) - Collection of DESIGN.md files that capture popular brand design systems for agents. `Free · open source (MIT) · n/a · 126.4k stars · checked 2026-11-10`.
 - [Web Interface Guidelines](https://github.com/vercel-labs/web-interface-guidelines) - Vercel's interface quality rules, packaged so agents can review UI against them. `Free · open source (MIT) · n/a · 1.1k stars · checked 2026-11-10`.
 - [design:os CLI](https://github.com/jangtrinh/design-os) - Design CLI and skills for Claude Code, Codex and Antigravity: describe a UI in plain words and get web, SwiftUI or design-file output checked by deterministic taste gates. Disclosure: made by the maintainer of this list. `FREE · source-available (PolyForm Shield) · local · 37 stars · checked 2026-11-10`.
+- [Skiss](https://skiss.co) - Saves full captures of reference websites with their fonts, colours and CSS, generates a Design.md from the real styles, and exposes the library to agents over MCP. `Freemium · proprietary · cloud · checked 2026-11-23`.
 
 ## Keep output on your design system
 
@@ -124,6 +126,7 @@ Vector generation, vectorising and agent-driven animation.
 - [Jitter](https://jitter.video) - Motion design tool for UI and product animations, exports to video and Lottie. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Content Studio (LangChain design-agent)](https://github.com/langchain-ai/design-agent) - LangChain's open-source Deep Agents design agent that turns a Slack brief into on-brand stills, decks, diagrams, charts and motion graphics. `Free · open source (Apache-2.0) · local or hosted · 661 stars · checked 2026-11-21`.
 - [Impractical](https://impractical.ai) - MCP service that gives a coding agent an editable product-video draft, frame review and MP4 export. `Price unverified · proprietary · cloud · MCP · checked 2026-11-21`.
+- [Clayzo](https://www.clayzo.com) - Animation engine and CLI for coding agents that write motion graphics and web animations, check each frame, and export them for the web or native Swift. `Free · proprietary · local · checked 2026-11-23`.
 
 ## Check what agents built
 

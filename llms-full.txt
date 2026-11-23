@@ -1,6 +1,6 @@
 # Awesome AI Design: full text
 
-Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 57 entries. Each line stands alone and can be quoted.
+Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 60 entries. Each line stands alone and can be quoted.
 
 ## Generate UI from a prompt
 
@@ -38,6 +38,8 @@ Onlook (https://github.com/onlook-dev/onlook): Visual editor for React and Tailw
 
 Framer (https://www.framer.com): Website builder with AI page generation, AI translation and on-canvas AI tools. It is freemium and proprietary. Runs: cloud. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
 
+Fountible (https://fountible.com): Desktop design canvas with a built-in agent that designs and edits screens, motion and slides from prompts, with React and Tailwind or video export. It is freemium and proprietary. Runs: cloud or local. Link checked 2026-11-23.
+
 ## Connect agents to design files
 
 MCP servers and bridges that let Claude Code, Codex, Cursor and other agents read and write design files.
@@ -73,6 +75,8 @@ Awesome DESIGN.md (https://github.com/VoltAgent/awesome-design-md): Collection o
 Web Interface Guidelines (https://github.com/vercel-labs/web-interface-guidelines): Vercel's interface quality rules, packaged so agents can review UI against them. It is free and open source under MIT. Runs: n/a. Link checked 2026-11-10.
 
 design:os CLI (https://github.com/jangtrinh/design-os): Design CLI and skills for Claude Code, Codex and Antigravity: describe a UI in plain words and get web, SwiftUI or design-file output checked by deterministic taste gates. It is free and source-available under PolyForm Shield. Runs: local. Its docs name Claude Code, Codex, Cursor. Made by the maintainer of Awesome AI Design. Link checked 2026-11-10.
+
+Skiss (https://skiss.co): Saves full captures of reference websites with their fonts, colours and CSS, generates a Design.md from the real styles, and exposes the library to agents over MCP. It is freemium and proprietary. Runs: cloud. Its docs name Claude Code, Cursor. Link checked 2026-11-23.
 
 ## Keep output on your design system
 
@@ -139,6 +143,8 @@ Jitter (https://jitter.video): Motion design tool for UI and product animations,
 Content Studio (LangChain design-agent) (https://github.com/langchain-ai/design-agent): LangChain's open-source Deep Agents design agent that turns a Slack brief into on-brand stills, decks, diagrams, charts and motion graphics. It is free and open source under Apache-2.0. Runs: local or hosted. Link checked 2026-11-21.
 
 Impractical (https://impractical.ai): MCP service that gives a coding agent an editable product-video draft, frame review and MP4 export. It is of unverified price and proprietary. Runs: cloud. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-21.
+
+Clayzo (https://www.clayzo.com): Animation engine and CLI for coding agents that write motion graphics and web animations, check each frame, and export them for the web or native Swift. It is free and proprietary. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-23.
 
 ## Check what agents built
 

@@ -1377,3 +1377,77 @@ tools:
   maintainer_entry: false
   tested_by_maintainer: unconfirmed
   description: Meta's open-source React and StyleX design system, in beta, with a CLI that writes its usage guide to AGENTS.md or CLAUDE.md for coding agents.
+- slug: fountible
+  name: Fountible
+  url: https://fountible.com
+  job: design-with-agents
+  kind: desktop-app
+  mcp_server: mentioned-on-page
+  runs: cloud or local
+  price_model: freemium
+  price_note: Free plan; Plus $5/mo, Pro $15/mo, Max $39/mo, Ultra $99/mo (pricing page)
+  price_checked: true
+  licence: proprietary
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-23'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  price_source: https://fountible.com/pricing
+  description: Desktop design canvas with a built-in agent that designs and edits screens, motion and slides from prompts, with React and Tailwind or video export.
+- slug: skiss
+  name: Skiss
+  url: https://skiss.co
+  job: teach-agents-taste
+  kind: app
+  mcp_server: mentioned-on-page
+  runs: cloud
+  price_model: freemium
+  price_note: Free for the first 50 sites and 30 agent calls every 30 days; Pro is paid (yearly price stated on the homepage)
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Claude Code
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-23'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  price_source: https://skiss.co (FAQ; no separate pricing page)
+  description: Saves full captures of reference websites with their fonts, colours and CSS, generates a Design.md from the real styles, and exposes the library to agents over MCP.
+- slug: clayzo
+  name: Clayzo
+  url: https://www.clayzo.com
+  job: make-vectors-and-motion
+  kind: cli
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Free (stated on the site)
+  price_checked: true
+  licence: proprietary (see LICENSE.md in the npm package)
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-23'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  price_source: https://www.clayzo.com
+  description: Animation engine and CLI for coding agents that write motion graphics and web animations, check each frame, and export them for the web or native Swift.
