@@ -1,6 +1,6 @@
 # Awesome AI Design: full text
 
-Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 60 entries. Each line stands alone and can be quoted.
+Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 65 entries. Each line stands alone and can be quoted.
 
 ## Generate UI from a prompt
 
@@ -40,6 +40,8 @@ Framer (https://www.framer.com): Website builder with AI page generation, AI tra
 
 Fountible (https://fountible.com): Desktop design canvas with a built-in agent that designs and edits screens, motion and slides from prompts, with React and Tailwind or video export. It is freemium and proprietary. Runs: cloud or local. Link checked 2026-11-23.
 
+ProtoFlow AI (https://alex.xclubai.com): Local-first desktop prototyping canvas, formerly Alex, with shared database tables and a two-way MCP server that lets coding agents edit pages and screenshot them to check layout. It is free and open source under Apache-2.0. Runs: local. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-24.
+
 ## Connect agents to design files
 
 MCP servers and bridges that let Claude Code, Codex, Cursor and other agents read and write design files.
@@ -59,6 +61,8 @@ Magic MCP (21st.dev) (https://github.com/21st-dev/magic-mcp): MCP server that ge
 shadcn/ui MCP server (https://ui.shadcn.com/docs/mcp): Lets agents browse, search and install components from shadcn/ui-compatible registries. It is free and proprietary. Runs: local. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
 
 Canva MCP server (https://www.canva.dev/docs/connect/canva-mcp-server-setup/): Official Canva MCP server for creating and editing Canva designs from AI assistants. It is freemium and proprietary. Runs: see docs. It is an MCP server or ships one. Link checked 2026-11-10.
+
+Crossfade (https://crossfade.company): Figma plugin plus a local MCP bridge so coding agents read the current selection and build real layers in the open file, with no API call limits. It is paid and proprietary. Runs: local. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-24.
 
 ## Teach agents taste
 
@@ -94,6 +98,8 @@ Storybook MCP (https://storybook.js.org/docs/ai/mcp/overview): Exposes your Stor
 
 Astryx (https://astryx.atmeta.com): Meta's open-source React and StyleX design system, in beta, with a CLI that writes its usage guide to AGENTS.md or CLAUDE.md for coding agents. It is free and open source under MIT. Runs: local. Link checked 2026-11-22.
 
+Replica (https://github.com/github/replica): GitHub Design's open-source prototyping tool that builds interactive prototypes from your own components and guidance through the GitHub Copilot app, with an optional hub for comments. It is free and open source under MIT. Runs: local or hosted. Link checked 2026-11-24.
+
 ## Turn designs into code
 
 Convert a finished design into production front-end code.
@@ -121,6 +127,8 @@ Meshy (https://www.meshy.ai): Text and image to 3D model generator with texturin
 Tripo (https://www.tripo3d.ai): AI 3D model generator from text or images, with auto-rigging. It is freemium and proprietary. Runs: cloud. Link checked 2026-11-10.
 
 Spline (https://spline.design): Browser 3D design tool with AI generation of 3D objects and textures. It is freemium and proprietary. Runs: cloud. Its docs name Codex, Cursor. Link checked 2026-11-10.
+
+Hydrilla (https://www.hydrilla.ai): Text and image to 3D model generator with plugins for Blender, Unity, Unreal and Godot, and MCP and REST access for pipelines. It is freemium and proprietary. Runs: cloud. Link checked 2026-11-24.
 
 ## Make vectors and motion
 
@@ -157,3 +165,5 @@ Chrome DevTools MCP (https://github.com/ChromeDevTools/chrome-devtools-mcp): Giv
 axe-core (https://github.com/dequelabs/axe-core): Accessibility testing engine that agents can run against generated UI. It is free and open source under MPL-2.0. Runs: local. Link checked 2026-11-10.
 
 DESIGN:OS code2flow (https://github.com/jangtrinh/design-os-code2flow): Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local. It is free and source-available under PolyForm Shield. Runs: local. Its docs name Claude Code, Codex, Cursor. Made by the maintainer of Awesome AI Design. Link checked 2026-11-10.
+
+Rounds (https://github.com/krispuckett/rounds): Local canvas for macOS that collects the screens and pages from every Claude Code session; notes pinned on a screen go back to the session that made it. It is free and open source under MIT. Runs: local. It is an MCP server or ships one. Its docs name Claude Code. Link checked 2026-11-24.

@@ -1451,3 +1451,125 @@ tools:
   tested_by_maintainer: unconfirmed
   price_source: https://www.clayzo.com
   description: Animation engine and CLI for coding agents that write motion graphics and web animations, check each frame, and export them for the web or native Swift.
+- slug: protoflow-ai
+  name: ProtoFlow AI
+  url: https://alex.xclubai.com
+  job: design-with-agents
+  kind: desktop-app
+  mcp_server: 'yes'
+  runs: local
+  price_model: free
+  price_note: Free (Apache-2.0)
+  price_checked: true
+  licence: Apache-2.0
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: EvanClub-Agent/protoflow-ai
+  stars: 8
+  last_push: '2026-11-24'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-24'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  price_source: licence of EvanClub-Agent/protoflow-ai
+  description: Local-first desktop prototyping canvas, formerly Alex, with shared database tables and a two-way MCP server that lets coding agents edit pages and screenshot them to check layout.
+- slug: crossfade
+  name: Crossfade
+  url: https://crossfade.company
+  job: connect-agents-to-design-files
+  kind: plugin
+  mcp_server: 'yes'
+  runs: local
+  price_model: paid
+  price_note: $19 one-time licence (homepage comparison table)
+  price_checked: true
+  licence: proprietary
+  licence_class: proprietary
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-24'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  price_source: https://crossfade.company
+  description: Figma plugin plus a local MCP bridge so coding agents read the current selection and build real layers in the open file, with no API call limits.
+- slug: github-replica
+  name: Replica
+  url: https://github.com/github/replica
+  job: stay-on-system
+  kind: app
+  mcp_server: no-evidence
+  runs: local or hosted
+  price_model: free
+  price_note: Free (MIT); needs the GitHub Copilot app with a Copilot plan or your own model provider
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs: []
+  repo: github/replica
+  stars: 354
+  last_push: '2026-11-24'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-24'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  price_source: licence of github/replica
+  description: GitHub Design's open-source prototyping tool that builds interactive prototypes from your own components and guidance through the GitHub Copilot app, with an optional hub for comments.
+- slug: hydrilla
+  name: Hydrilla
+  url: https://www.hydrilla.ai
+  job: make-3d
+  kind: app
+  mcp_server: mentioned-on-page
+  runs: cloud
+  price_model: freemium
+  price_note: Free ($0, 100 credits/month); Starter $5/month; Pro $12/month
+  price_checked: true
+  licence: proprietary (SaaS)
+  licence_class: proprietary
+  agents_named_in_docs: []
+  repo: null
+  stars: null
+  last_push: null
+  archived: null
+  link_status: 200
+  last_checked: '2026-11-24'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  price_source: https://www.hydrilla.ai
+  description: Text and image to 3D model generator with plugins for Blender, Unity, Unreal and Godot, and MCP and REST access for pipelines.
+- slug: rounds
+  name: Rounds
+  url: https://github.com/krispuckett/rounds
+  job: check-what-agents-built
+  kind: cli
+  mcp_server: 'yes'
+  runs: local
+  price_model: free
+  price_note: Free (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  repo: krispuckett/rounds
+  stars: 82
+  last_push: '2026-11-22'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-24'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  price_source: licence of krispuckett/rounds
+  description: Local canvas for macOS that collects the screens and pages from every Claude Code session; notes pinned on a screen go back to the session that made it.

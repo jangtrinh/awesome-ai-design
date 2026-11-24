@@ -2,7 +2,7 @@
 
 > Tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design.
 
-60 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
+65 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
 
 ## Contents
 
@@ -56,6 +56,7 @@ Design editors where a person and an agent work on the same file.
 - [Onlook](https://github.com/onlook-dev/onlook) - Visual editor for React and Tailwind apps where you design in the browser and an AI agent writes the code. `Free · open source (Apache-2.0) · cloud or local · 27.2k stars · checked 2026-11-10`.
 - [Framer](https://www.framer.com) - Website builder with AI page generation, AI translation and on-canvas AI tools. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Fountible](https://fountible.com) - Desktop design canvas with a built-in agent that designs and edits screens, motion and slides from prompts, with React and Tailwind or video export. `Freemium · proprietary · cloud or local · checked 2026-11-23`.
+- [ProtoFlow AI](https://alex.xclubai.com) - Local-first desktop prototyping canvas, formerly Alex, with shared database tables and a two-way MCP server that lets coding agents edit pages and screenshot them to check layout. `Free · open source (Apache-2.0) · local · MCP · 8 stars · checked 2026-11-24`.
 
 ## Connect agents to design files
 
@@ -69,6 +70,7 @@ MCP servers and bridges that let Claude Code, Codex, Cursor and other agents rea
 - [Magic MCP (21st.dev)](https://github.com/21st-dev/magic-mcp) - MCP server that generates UI components from natural-language prompts inside your IDE. `Freemium · proprietary · local (API key) · MCP · 6.4k stars · checked 2026-11-10`.
 - [shadcn/ui MCP server](https://ui.shadcn.com/docs/mcp) - Lets agents browse, search and install components from shadcn/ui-compatible registries. `Free · proprietary · local · MCP · checked 2026-11-10`.
 - [Canva MCP server](https://www.canva.dev/docs/connect/canva-mcp-server-setup/) - Official Canva MCP server for creating and editing Canva designs from AI assistants. `Freemium · proprietary · see docs · MCP · checked 2026-11-10`.
+- [Crossfade](https://crossfade.company) - Figma plugin plus a local MCP bridge so coding agents read the current selection and build real layers in the open file, with no API call limits. `Paid · proprietary · local · MCP · checked 2026-11-24`.
 
 ## Teach agents taste
 
@@ -92,6 +94,7 @@ Components, tokens and docs that keep generated UI on-brand.
 - [Design Tokens Community Group format](https://github.com/design-tokens/community-group) - The W3C community group spec for interoperable design token files. `Free · proprietary · n/a · 2.2k stars · checked 2026-11-10`.
 - [Storybook MCP](https://storybook.js.org/docs/ai/mcp/overview) - Exposes your Storybook components and docs to agents so generated UI reuses real components. `Free · open source (proprietary (SaaS)) · local · MCP · checked 2026-11-10`.
 - [Astryx](https://astryx.atmeta.com) - Meta's open-source React and StyleX design system, in beta, with a CLI that writes its usage guide to AGENTS.md or CLAUDE.md for coding agents. `Free · open source (MIT) · local · 31.8k stars · checked 2026-11-22`.
+- [Replica](https://github.com/github/replica) - GitHub Design's open-source prototyping tool that builds interactive prototypes from your own components and guidance through the GitHub Copilot app, with an optional hub for comments. `Free · open source (MIT) · local or hosted · 354 stars · checked 2026-11-24`.
 
 ## Turn designs into code
 
@@ -112,6 +115,7 @@ Generate, edit and check 3D assets with models and agents.
 - [Meshy](https://www.meshy.ai) - Text and image to 3D model generator with texturing and export to common formats. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Tripo](https://www.tripo3d.ai) - AI 3D model generator from text or images, with auto-rigging. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Spline](https://spline.design) - Browser 3D design tool with AI generation of 3D objects and textures. `Freemium · proprietary · cloud · checked 2026-11-10`.
+- [Hydrilla](https://www.hydrilla.ai) - Text and image to 3D model generator with plugins for Blender, Unity, Unreal and Godot, and MCP and REST access for pipelines. `Freemium · proprietary · cloud · checked 2026-11-24`.
 
 ## Make vectors and motion
 
@@ -136,6 +140,7 @@ Screenshots, accessibility checks and user flows, so an agent can verify its own
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Gives agents DevTools access for layout, performance and visual debugging of what they built. `Free · open source (Apache-2.0) · local · MCP · 55.0k stars · checked 2026-11-10`.
 - [axe-core](https://github.com/dequelabs/axe-core) - Accessibility testing engine that agents can run against generated UI. `Free · open source (MPL-2.0) · local · 7.8k stars · checked 2026-11-10`.
 - [DESIGN:OS code2flow](https://github.com/jangtrinh/design-os-code2flow) - Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local. Disclosure: made by the maintainer of this list. `FREE · source-available (PolyForm Shield) · local · 9 stars · checked 2026-11-10`.
+- [Rounds](https://github.com/krispuckett/rounds) - Local canvas for macOS that collects the screens and pages from every Claude Code session; notes pinned on a screen go back to the session that made it. `Free · open source (MIT) · local · MCP · 82 stars · checked 2026-11-24`.
 
 ## Compare: agent access to design files
 
@@ -149,6 +154,7 @@ Screenshots, accessibility checks and user flows, so an agent can verify its own
 | Magic MCP (21st.dev)        | mcp-server     | local (API key)   | Freemium | ISC                                                  |
 | shadcn/ui MCP server        | mcp-server     | local             | Free     | proprietary (SaaS)                                   |
 | Canva MCP server            | mcp-server     | see docs          | Freemium | proprietary (SaaS)                                   |
+| Crossfade                   | plugin         | local             | Paid     | proprietary                                          |
 
 ## Stack recipes
 
