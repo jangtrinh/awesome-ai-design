@@ -2,7 +2,7 @@
 
 > Tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design.
 
-65 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
+68 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
 
 ## Contents
 
@@ -46,6 +46,7 @@ Prompt, sketch or screenshot in; screens, prototypes or running apps out.
 - [Bolt.new](https://bolt.new) - StackBlitz's in-browser AI app builder that generates, runs and deploys full-stack web apps from a prompt. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Stitch Skills](https://github.com/google-labs-code/stitch-skills) - Google Labs agent skills and plugins that let coding agents design and build UI screens through the Stitch MCP server. `Free · open source (Apache-2.0) · local · MCP · 11.1k stars · checked 2026-11-21`.
 - [A2UI](https://a2ui.org) - Open-source generative UI protocol and renderers that let agents compose interfaces shown with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose. `Free · open source (Apache-2.0) · local · 17.8k stars · checked 2026-11-22`.
+- [Linen](https://linen.ai) - UI generator that learns a product's colours, fonts, spacing and components from uploaded screenshots and returns nine design options per prompt. `Paid · proprietary · cloud · checked 2026-11-25`.
 
 ## Design with an agent on the canvas
 
@@ -57,6 +58,7 @@ Design editors where a person and an agent work on the same file.
 - [Framer](https://www.framer.com) - Website builder with AI page generation, AI translation and on-canvas AI tools. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Fountible](https://fountible.com) - Desktop design canvas with a built-in agent that designs and edits screens, motion and slides from prompts, with React and Tailwind or video export. `Freemium · proprietary · cloud or local · checked 2026-11-23`.
 - [ProtoFlow AI](https://alex.xclubai.com) - Local-first desktop prototyping canvas, formerly Alex, with shared database tables and a two-way MCP server that lets coding agents edit pages and screenshot them to check layout. `Free · open source (Apache-2.0) · local · MCP · 8 stars · checked 2026-11-24`.
+- [Dessn](https://www.dessn.com) - Design canvas that syncs pages from your production repo; Claude Code, Codex, Cursor and Copilot open and edit its prototypes through a remote MCP server. `Freemium · proprietary · cloud · MCP · checked 2026-11-25`.
 
 ## Connect agents to design files
 
@@ -131,6 +133,7 @@ Vector generation, vectorising and agent-driven animation.
 - [Content Studio (LangChain design-agent)](https://github.com/langchain-ai/design-agent) - LangChain's open-source Deep Agents design agent that turns a Slack brief into on-brand stills, decks, diagrams, charts and motion graphics. `Free · open source (Apache-2.0) · local or hosted · 661 stars · checked 2026-11-21`.
 - [Impractical](https://impractical.ai) - MCP service that gives a coding agent an editable product-video draft, frame review and MP4 export. `Price unverified · proprietary · cloud · MCP · checked 2026-11-21`.
 - [Clayzo](https://www.clayzo.com) - Animation engine and CLI for coding agents that write motion graphics and web animations, check each frame, and export them for the web or native Swift. `Free · proprietary · local · checked 2026-11-23`.
+- [Remocn](https://github.com/Remocn/remocn) - shadcn registry of Remotion components, transitions and scenes for product videos, with an agent skill, a Claude Code and Codex plugin and a hosted MCP server. `Free · open source (MIT) · local · MCP · 1.9k stars · checked 2026-11-25`.
 
 ## Check what agents built
 

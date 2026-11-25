@@ -1,6 +1,6 @@
 # Awesome AI Design: full text
 
-Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 65 entries. Each line stands alone and can be quoted.
+Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 68 entries. Each line stands alone and can be quoted.
 
 ## Generate UI from a prompt
 
@@ -26,6 +26,8 @@ Stitch Skills (https://github.com/google-labs-code/stitch-skills): Google Labs a
 
 A2UI (https://a2ui.org): Open-source generative UI protocol and renderers that let agents compose interfaces shown with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose. It is free and open source under Apache-2.0. Runs: local. Link checked 2026-11-22.
 
+Linen (https://linen.ai): UI generator that learns a product's colours, fonts, spacing and components from uploaded screenshots and returns nine design options per prompt. It is paid and proprietary. Runs: cloud. Link checked 2026-11-25.
+
 ## Design with an agent on the canvas
 
 Design editors where a person and an agent work on the same file.
@@ -41,6 +43,8 @@ Framer (https://www.framer.com): Website builder with AI page generation, AI tra
 Fountible (https://fountible.com): Desktop design canvas with a built-in agent that designs and edits screens, motion and slides from prompts, with React and Tailwind or video export. It is freemium and proprietary. Runs: cloud or local. Link checked 2026-11-23.
 
 ProtoFlow AI (https://alex.xclubai.com): Local-first desktop prototyping canvas, formerly Alex, with shared database tables and a two-way MCP server that lets coding agents edit pages and screenshot them to check layout. It is free and open source under Apache-2.0. Runs: local. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-24.
+
+Dessn (https://www.dessn.com): Design canvas that syncs pages from your production repo; Claude Code, Codex, Cursor and Copilot open and edit its prototypes through a remote MCP server. It is freemium and proprietary. Runs: cloud. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-25.
 
 ## Connect agents to design files
 
@@ -153,6 +157,8 @@ Content Studio (LangChain design-agent) (https://github.com/langchain-ai/design-
 Impractical (https://impractical.ai): MCP service that gives a coding agent an editable product-video draft, frame review and MP4 export. It is of unverified price and proprietary. Runs: cloud. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-21.
 
 Clayzo (https://www.clayzo.com): Animation engine and CLI for coding agents that write motion graphics and web animations, check each frame, and export them for the web or native Swift. It is free and proprietary. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-23.
+
+Remocn (https://github.com/Remocn/remocn): shadcn registry of Remotion components, transitions and scenes for product videos, with an agent skill, a Claude Code and Codex plugin and a hosted MCP server. It is free and open source under MIT. Runs: local. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-25.
 
 ## Check what agents built
 
