@@ -2,7 +2,7 @@
 
 > Tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design.
 
-57 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
+58 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
 
 ## Contents
 
@@ -55,6 +55,7 @@ Design editors where a person and an agent work on the same file.
 - [Penpot](https://github.com/penpot/penpot) - Open-source design and prototyping platform that also ships an official MCP server. `Free · open source (MPL-2.0) · cloud or self-hosted · 62.2k stars · checked 2026-11-10`.
 - [Onlook](https://github.com/onlook-dev/onlook) - Visual editor for React and Tailwind apps where you design in the browser and an AI agent writes the code. `Free · open source (Apache-2.0) · cloud or local · 27.2k stars · checked 2026-11-10`.
 - [Framer](https://www.framer.com) - Website builder with AI page generation, AI translation and on-canvas AI tools. `Freemium · proprietary · cloud · checked 2026-11-10`.
+- [Kite](https://kite.new) - Collaborative design canvas where agents connect through a hosted MCP server and draw editable frames, text, components and auto layout in the file the team edits live. `Freemium · proprietary · cloud · MCP · checked 2026-11-26`.
 
 ## Connect agents to design files
 

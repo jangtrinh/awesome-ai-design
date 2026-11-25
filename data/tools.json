@@ -2,7 +2,7 @@
  "name": "Awesome AI Design",
  "source": "https://github.com/jangtrinh/awesome-ai-design",
  "licence": "CC0-1.0",
- "count": 57,
+ "count": 58,
  "jobs": [
   {
    "id": "generate-ui",
@@ -351,6 +351,35 @@
    "tested_by_maintainer": "unconfirmed",
    "description": "Website builder with AI page generation, AI translation and on-canvas AI tools.",
    "price_source": "https://www.framer.com/pricing"
+  },
+  {
+   "slug": "kite",
+   "name": "Kite",
+   "url": "https://kite.new",
+   "job": "design-with-agents",
+   "kind": "app",
+   "mcp_server": "yes",
+   "runs": "cloud",
+   "price_model": "freemium",
+   "price_note": "Free plan ($0, unlimited editors, 3 files, 200 agent actions/day); Pro $16/editor/month billed yearly",
+   "price_checked": true,
+   "licence": "proprietary (SaaS)",
+   "licence_class": "proprietary",
+   "agents_named_in_docs": [
+    "Claude Code",
+    "Codex",
+    "Cursor"
+   ],
+   "repo": null,
+   "stars": null,
+   "last_push": null,
+   "archived": null,
+   "link_status": 200,
+   "last_checked": "2026-11-26",
+   "maintainer_entry": false,
+   "tested_by_maintainer": "unconfirmed",
+   "description": "Collaborative design canvas where agents connect through a hosted MCP server and draw editable frames, text, components and auto layout in the file the team edits live.",
+   "price_source": "https://kite.new/pricing"
   },
   {
    "slug": "figma-mcp-server-official",
