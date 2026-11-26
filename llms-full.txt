@@ -1,6 +1,6 @@
 # Awesome AI Design: full text
 
-Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 68 entries. Each line stands alone and can be quoted.
+Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 72 entries. Each line stands alone and can be quoted.
 
 ## Generate UI from a prompt
 
@@ -46,6 +46,8 @@ ProtoFlow AI (https://alex.xclubai.com): Local-first desktop prototyping canvas,
 
 Dessn (https://www.dessn.com): Design canvas that syncs pages from your production repo; Claude Code, Codex, Cursor and Copilot open and edit its prototypes through a remote MCP server. It is freemium and proprietary. Runs: cloud. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-25.
 
+Doop (https://doop.design): Multiplayer design canvas of HTML frames that people edit in the browser and agents edit live through its built-in MCP server; also has its own Doop Agent and clickable prototypes. It is freemium and open source under AGPL-3.0. Runs: cloud or self-hosted. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-26.
+
 ## Connect agents to design files
 
 MCP servers and bridges that let Claude Code, Codex, Cursor and other agents read and write design files.
@@ -85,6 +87,8 @@ Web Interface Guidelines (https://github.com/vercel-labs/web-interface-guideline
 design:os CLI (https://github.com/jangtrinh/design-os): Design CLI and skills for Claude Code, Codex and Antigravity: describe a UI in plain words and get web, SwiftUI or design-file output checked by deterministic taste gates. It is free and source-available under PolyForm Shield. Runs: local. Its docs name Claude Code, Codex, Cursor. Made by the maintainer of Awesome AI Design. Link checked 2026-11-10.
 
 Skiss (https://skiss.co): Saves full captures of reference websites with their fonts, colours and CSS, generates a Design.md from the real styles, and exposes the library to agents over MCP. It is freemium and proprietary. Runs: cloud. Its docs name Claude Code, Cursor. Link checked 2026-11-23.
+
+Hallmark (https://github.com/Nutlope/hallmark): Design skill by Together AI that picks themes from a catalog of fifty, builds the page around its main action and checks the result in a real browser; also redesigns or audits an existing page. It is free and open source under MIT. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-26.
 
 ## Keep output on your design system
 
@@ -134,6 +138,8 @@ Spline (https://spline.design): Browser 3D design tool with AI generation of 3D 
 
 Hydrilla (https://www.hydrilla.ai): Text and image to 3D model generator with plugins for Blender, Unity, Unreal and Godot, and MCP and REST access for pipelines. It is freemium and proprietary. Runs: cloud. Link checked 2026-11-24.
 
+Open 3D Skills (https://github.com/Moh4696/open-3d-skills): Eight agent skills for 3D and animated websites: three.js scenes built from code, scroll-scrubbed films, transparent video, cursor rigs, exploded views and 60 fps recording. It is free and open source under MIT. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-26.
+
 ## Make vectors and motion
 
 Vector generation, vectorising and agent-driven animation.
@@ -159,6 +165,8 @@ Impractical (https://impractical.ai): MCP service that gives a coding agent an e
 Clayzo (https://www.clayzo.com): Animation engine and CLI for coding agents that write motion graphics and web animations, check each frame, and export them for the web or native Swift. It is free and proprietary. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-23.
 
 Remocn (https://github.com/Remocn/remocn): shadcn registry of Remotion components, transitions and scenes for product videos, with an agent skill, a Claude Code and Codex plugin and a hosted MCP server. It is free and open source under MIT. Runs: local. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-25.
+
+diagram-design (https://github.com/cathrynlavery/diagram-design): Agent skill that draws 52 diagram types as one self-contained HTML and SVG file, and can take its palette and fonts from your site. It is free and open source under MIT. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-26.
 
 ## Check what agents built
 

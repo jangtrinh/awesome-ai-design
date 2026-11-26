@@ -2,7 +2,7 @@
 
 > Tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design.
 
-68 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
+72 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
 
 ## Contents
 
@@ -59,6 +59,7 @@ Design editors where a person and an agent work on the same file.
 - [Fountible](https://fountible.com) - Desktop design canvas with a built-in agent that designs and edits screens, motion and slides from prompts, with React and Tailwind or video export. `Freemium · proprietary · cloud or local · checked 2026-11-23`.
 - [ProtoFlow AI](https://alex.xclubai.com) - Local-first desktop prototyping canvas, formerly Alex, with shared database tables and a two-way MCP server that lets coding agents edit pages and screenshot them to check layout. `Free · open source (Apache-2.0) · local · MCP · 8 stars · checked 2026-11-24`.
 - [Dessn](https://www.dessn.com) - Design canvas that syncs pages from your production repo; Claude Code, Codex, Cursor and Copilot open and edit its prototypes through a remote MCP server. `Freemium · proprietary · cloud · MCP · checked 2026-11-25`.
+- [Doop](https://doop.design) - Multiplayer design canvas of HTML frames that people edit in the browser and agents edit live through its built-in MCP server; also has its own Doop Agent and clickable prototypes. `Freemium · open source (AGPL-3.0) · cloud or self-hosted · MCP · 2.3k stars · checked 2026-11-26`.
 
 ## Connect agents to design files
 
@@ -85,6 +86,7 @@ Skills, specs and guidelines that change what an agent designs, not only how fas
 - [Web Interface Guidelines](https://github.com/vercel-labs/web-interface-guidelines) - Vercel's interface quality rules, packaged so agents can review UI against them. `Free · open source (MIT) · n/a · 1.1k stars · checked 2026-11-10`.
 - [design:os CLI](https://github.com/jangtrinh/design-os) - Design CLI and skills for Claude Code, Codex and Antigravity: describe a UI in plain words and get web, SwiftUI or design-file output checked by deterministic taste gates. Disclosure: made by the maintainer of this list. `FREE · source-available (PolyForm Shield) · local · 37 stars · checked 2026-11-10`.
 - [Skiss](https://skiss.co) - Saves full captures of reference websites with their fonts, colours and CSS, generates a Design.md from the real styles, and exposes the library to agents over MCP. `Freemium · proprietary · cloud · checked 2026-11-23`.
+- [Hallmark](https://github.com/Nutlope/hallmark) - Design skill by Together AI that picks themes from a catalog of fifty, builds the page around its main action and checks the result in a real browser; also redesigns or audits an existing page. `Free · open source (MIT) · local · 61.2k stars · checked 2026-11-26`.
 
 ## Keep output on your design system
 
@@ -118,6 +120,7 @@ Generate, edit and check 3D assets with models and agents.
 - [Tripo](https://www.tripo3d.ai) - AI 3D model generator from text or images, with auto-rigging. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Spline](https://spline.design) - Browser 3D design tool with AI generation of 3D objects and textures. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Hydrilla](https://www.hydrilla.ai) - Text and image to 3D model generator with plugins for Blender, Unity, Unreal and Godot, and MCP and REST access for pipelines. `Freemium · proprietary · cloud · checked 2026-11-24`.
+- [Open 3D Skills](https://github.com/Moh4696/open-3d-skills) - Eight agent skills for 3D and animated websites: three.js scenes built from code, scroll-scrubbed films, transparent video, cursor rigs, exploded views and 60 fps recording. `Free · open source (MIT) · local · 503 stars · checked 2026-11-26`.
 
 ## Make vectors and motion
 
@@ -134,6 +137,7 @@ Vector generation, vectorising and agent-driven animation.
 - [Impractical](https://impractical.ai) - MCP service that gives a coding agent an editable product-video draft, frame review and MP4 export. `Price unverified · proprietary · cloud · MCP · checked 2026-11-21`.
 - [Clayzo](https://www.clayzo.com) - Animation engine and CLI for coding agents that write motion graphics and web animations, check each frame, and export them for the web or native Swift. `Free · proprietary · local · checked 2026-11-23`.
 - [Remocn](https://github.com/Remocn/remocn) - shadcn registry of Remotion components, transitions and scenes for product videos, with an agent skill, a Claude Code and Codex plugin and a hosted MCP server. `Free · open source (MIT) · local · MCP · 1.9k stars · checked 2026-11-25`.
+- [diagram-design](https://github.com/cathrynlavery/diagram-design) - Agent skill that draws 52 diagram types as one self-contained HTML and SVG file, and can take its palette and fonts from your site. `Free · open source (MIT) · local · 73.1k stars · checked 2026-11-26`.
 
 ## Check what agents built
 

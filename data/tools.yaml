@@ -1425,6 +1425,33 @@ tools:
   tested_by_maintainer: unconfirmed
   price_source: https://skiss.co (FAQ; no separate pricing page)
   description: Saves full captures of reference websites with their fonts, colours and CSS, generates a Design.md from the real styles, and exposes the library to agents over MCP.
+- slug: hallmark
+  name: Hallmark
+  url: https://github.com/Nutlope/hallmark
+  job: teach-agents-taste
+  kind: agent-skill
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: Nutlope/hallmark
+  stars: 61166
+  last_push: '2026-11-11'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-26'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  price_source: public repo and its licence file
+  description: Design skill by Together AI that picks themes from a catalog of fifty, builds the page around its main action and checks the result in a real browser; also redesigns or audits an existing
+    page.
 - slug: clayzo
   name: Clayzo
   url: https://www.clayzo.com
@@ -1549,6 +1576,32 @@ tools:
   tested_by_maintainer: unconfirmed
   price_source: https://www.hydrilla.ai
   description: Text and image to 3D model generator with plugins for Blender, Unity, Unreal and Godot, and MCP and REST access for pipelines.
+- slug: open-3d-skills
+  name: Open 3D Skills
+  url: https://github.com/Moh4696/open-3d-skills
+  job: make-3d
+  kind: agent-skill
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: Moh4696/open-3d-skills
+  stars: 503
+  last_push: '2026-11-09'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-26'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  price_source: public repo and its licence file
+  description: 'Eight agent skills for 3D and animated websites: three.js scenes built from code, scroll-scrubbed films, transparent video, cursor rigs, exploded views and 60 fps recording.'
 - slug: rounds
   name: Rounds
   url: https://github.com/krispuckett/rounds
@@ -1599,6 +1652,32 @@ tools:
   tested_by_maintainer: unconfirmed
   price_source: https://www.dessn.com/pricing
   description: Design canvas that syncs pages from your production repo; Claude Code, Codex, Cursor and Copilot open and edit its prototypes through a remote MCP server.
+- slug: doop
+  name: Doop
+  url: https://doop.design
+  job: design-with-agents
+  kind: app
+  mcp_server: 'yes'
+  runs: cloud or self-hosted
+  price_model: freemium
+  price_note: Doop Cloud Free $0 (all features); Organization $20/editor/month; self-host Community $0 (AGPL-3.0); Enterprise custom
+  price_checked: true
+  licence: AGPL-3.0
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: doop-design/doop
+  stars: 2325
+  last_push: '2026-11-26'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-26'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  price_source: https://doop.design/pricing
+  description: Multiplayer design canvas of HTML frames that people edit in the browser and agents edit live through its built-in MCP server; also has its own Doop Agent and clickable prototypes.
 - slug: linen
   name: Linen
   url: https://linen.ai
@@ -1648,3 +1727,29 @@ tools:
   tested_by_maintainer: unconfirmed
   price_source: licence of Remocn/remocn and https://remocn.dev
   description: shadcn registry of Remotion components, transitions and scenes for product videos, with an agent skill, a Claude Code and Codex plugin and a hosted MCP server.
+- slug: diagram-design
+  name: diagram-design
+  url: https://github.com/cathrynlavery/diagram-design
+  job: make-vectors-and-motion
+  kind: agent-skill
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: cathrynlavery/diagram-design
+  stars: 73143
+  last_push: '2026-11-25'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-26'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  price_source: public repo and its licence file
+  description: Agent skill that draws 52 diagram types as one self-contained HTML and SVG file, and can take its palette and fonts from your site.
