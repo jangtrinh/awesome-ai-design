@@ -1,6 +1,6 @@
 # Awesome AI Design: full text
 
-Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 72 entries. Each line stands alone and can be quoted.
+Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 75 entries. Each line stands alone and can be quoted.
 
 ## Generate UI from a prompt
 
@@ -47,6 +47,8 @@ ProtoFlow AI (https://alex.xclubai.com): Local-first desktop prototyping canvas,
 Dessn (https://www.dessn.com): Design canvas that syncs pages from your production repo; Claude Code, Codex, Cursor and Copilot open and edit its prototypes through a remote MCP server. It is freemium and proprietary. Runs: cloud. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-25.
 
 Doop (https://doop.design): Multiplayer design canvas of HTML frames that people edit in the browser and agents edit live through its built-in MCP server; also has its own Doop Agent and clickable prototypes. It is freemium and open source under AGPL-3.0. Runs: cloud or self-hosted. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-26.
+
+Canvix (https://canvix.app): Open-source drag-and-drop graphic design editor with templates and real-time collaboration; its MCP server lets Claude Desktop, Cursor or ChatGPT create and edit designs that update live in the editor. It is free and open source under MIT. Runs: cloud or self-hosted. It is an MCP server or ships one. Its docs name Cursor. Link checked 2026-11-27.
 
 ## Connect agents to design files
 
@@ -140,6 +142,8 @@ Hydrilla (https://www.hydrilla.ai): Text and image to 3D model generator with pl
 
 Open 3D Skills (https://github.com/Moh4696/open-3d-skills): Eight agent skills for 3D and animated websites: three.js scenes built from code, scroll-scrubbed films, transparent video, cursor rigs, exploded views and 60 fps recording. It is free and open source under MIT. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-26.
 
+Blender MCP Bridge (https://github.com/seehiong/blender-mcp-bridge): MCP server and Blender addon with 98 tools for modeling, materials, rendering and 3D-print checks, driven from Claude Desktop, Claude Code, n8n or any MCP client. It is free and open source under MIT. Runs: local. It is an MCP server or ships one. Its docs name Claude Code. Link checked 2026-11-27.
+
 ## Make vectors and motion
 
 Vector generation, vectorising and agent-driven animation.
@@ -167,6 +171,8 @@ Clayzo (https://www.clayzo.com): Animation engine and CLI for coding agents that
 Remocn (https://github.com/Remocn/remocn): shadcn registry of Remotion components, transitions and scenes for product videos, with an agent skill, a Claude Code and Codex plugin and a hosted MCP server. It is free and open source under MIT. Runs: local. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-25.
 
 diagram-design (https://github.com/cathrynlavery/diagram-design): Agent skill that draws 52 diagram types as one self-contained HTML and SVG file, and can take its palette and fonts from your site. It is free and open source under MIT. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-26.
+
+HyperFrames (https://hyperframes.heygen.com): Open-source framework by HeyGen that renders HTML, CSS and seekable animations into MP4; ships an agent skill for Claude Code, Codex and Cursor, an MCP connector and a Studio app. It is freemium and open source under Apache-2.0. Runs: local or hosted. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-27.
 
 ## Check what agents built
 
