@@ -1,6 +1,6 @@
 # Awesome AI Design: full text
 
-Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 57 entries. Each line stands alone and can be quoted.
+Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 78 entries. Each line stands alone and can be quoted.
 
 ## Generate UI from a prompt
 
@@ -26,6 +26,8 @@ Stitch Skills (https://github.com/google-labs-code/stitch-skills): Google Labs a
 
 A2UI (https://a2ui.org): Open-source generative UI protocol and renderers that let agents compose interfaces shown with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose. It is free and open source under Apache-2.0. Runs: local. Link checked 2026-11-22.
 
+Linen (https://linen.ai): UI generator that learns a product's colours, fonts, spacing and components from uploaded screenshots and returns nine design options per prompt. It is paid and proprietary. Runs: cloud. Link checked 2026-11-25.
+
 ## Design with an agent on the canvas
 
 Design editors where a person and an agent work on the same file.
@@ -37,6 +39,16 @@ Penpot (https://github.com/penpot/penpot): Open-source design and prototyping pl
 Onlook (https://github.com/onlook-dev/onlook): Visual editor for React and Tailwind apps where you design in the browser and an AI agent writes the code. It is free and open source under Apache-2.0. Runs: cloud or local. Link checked 2026-11-10.
 
 Framer (https://www.framer.com): Website builder with AI page generation, AI translation and on-canvas AI tools. It is freemium and proprietary. Runs: cloud. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
+
+Fountible (https://fountible.com): Desktop design canvas with a built-in agent that designs and edits screens, motion and slides from prompts, with React and Tailwind or video export. It is freemium and proprietary. Runs: cloud or local. Link checked 2026-11-23.
+
+ProtoFlow AI (https://alex.xclubai.com): Local-first desktop prototyping canvas, formerly Alex, with shared database tables and a two-way MCP server that lets coding agents edit pages and screenshot them to check layout. It is free and open source under Apache-2.0. Runs: local. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-24.
+
+Dessn (https://www.dessn.com): Design canvas that syncs pages from your production repo; Claude Code, Codex, Cursor and Copilot open and edit its prototypes through a remote MCP server. It is freemium and proprietary. Runs: cloud. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-25.
+
+Doop (https://doop.design): Multiplayer design canvas of HTML frames that people edit in the browser and agents edit live through its built-in MCP server; also has its own Doop Agent and clickable prototypes. It is freemium and open source under AGPL-3.0. Runs: cloud or self-hosted. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-26.
+
+Canvix (https://canvix.app): Open-source drag-and-drop graphic design editor with templates and real-time collaboration; its MCP server lets Claude Desktop, Cursor or ChatGPT create and edit designs that update live in the editor. It is free and open source under MIT. Runs: cloud or self-hosted. It is an MCP server or ships one. Its docs name Cursor. Link checked 2026-11-27.
 
 ## Connect agents to design files
 
@@ -58,6 +70,8 @@ shadcn/ui MCP server (https://ui.shadcn.com/docs/mcp): Lets agents browse, searc
 
 Canva MCP server (https://www.canva.dev/docs/connect/canva-mcp-server-setup/): Official Canva MCP server for creating and editing Canva designs from AI assistants. It is freemium and proprietary. Runs: see docs. It is an MCP server or ships one. Link checked 2026-11-10.
 
+Crossfade (https://crossfade.company): Figma plugin plus a local MCP bridge so coding agents read the current selection and build real layers in the open file, with no API call limits. It is paid and proprietary. Runs: local. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-24.
+
 ## Teach agents taste
 
 Skills, specs and guidelines that change what an agent designs, not only how fast.
@@ -74,6 +88,12 @@ Web Interface Guidelines (https://github.com/vercel-labs/web-interface-guideline
 
 design:os CLI (https://github.com/jangtrinh/design-os): Design CLI and skills for Claude Code, Codex and Antigravity: describe a UI in plain words and get web, SwiftUI or design-file output checked by deterministic taste gates. It is free and source-available under PolyForm Shield. Runs: local. Its docs name Claude Code, Codex, Cursor. Made by the maintainer of Awesome AI Design. Link checked 2026-11-10.
 
+Skiss (https://skiss.co): Saves full captures of reference websites with their fonts, colours and CSS, generates a Design.md from the real styles, and exposes the library to agents over MCP. It is freemium and proprietary. Runs: cloud. Its docs name Claude Code, Cursor. Link checked 2026-11-23.
+
+Hallmark (https://github.com/Nutlope/hallmark): Design skill by Together AI that picks themes from a catalog of fifty, builds the page around its main action and checks the result in a real browser; also redesigns or audits an existing page. It is free and open source under MIT. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-26.
+
+posts.design MCP (https://posts.design/mcp): Hosted MCP server and 11 skills that give an agent credited references from a gallery of real brand social posts, OG images and launch videos, plus direction breakdowns and shot-by-shot video remakes. It is freemium and licensed per component. Runs: hosted. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-28.
+
 ## Keep output on your design system
 
 Components, tokens and docs that keep generated UI on-brand.
@@ -89,6 +109,8 @@ Design Tokens Community Group format (https://github.com/design-tokens/community
 Storybook MCP (https://storybook.js.org/docs/ai/mcp/overview): Exposes your Storybook components and docs to agents so generated UI reuses real components. It is free and open source under proprietary (SaaS). Runs: local. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-10.
 
 Astryx (https://astryx.atmeta.com): Meta's open-source React and StyleX design system, in beta, with a CLI that writes its usage guide to AGENTS.md or CLAUDE.md for coding agents. It is free and open source under MIT. Runs: local. Link checked 2026-11-22.
+
+Replica (https://github.com/github/replica): GitHub Design's open-source prototyping tool that builds interactive prototypes from your own components and guidance through the GitHub Copilot app, with an optional hub for comments. It is free and open source under MIT. Runs: local or hosted. Link checked 2026-11-24.
 
 ## Turn designs into code
 
@@ -118,6 +140,12 @@ Tripo (https://www.tripo3d.ai): AI 3D model generator from text or images, with 
 
 Spline (https://spline.design): Browser 3D design tool with AI generation of 3D objects and textures. It is freemium and proprietary. Runs: cloud. Its docs name Codex, Cursor. Link checked 2026-11-10.
 
+Hydrilla (https://www.hydrilla.ai): Text and image to 3D model generator with plugins for Blender, Unity, Unreal and Godot, and MCP and REST access for pipelines. It is freemium and proprietary. Runs: cloud. Link checked 2026-11-24.
+
+Open 3D Skills (https://github.com/Moh4696/open-3d-skills): Eight agent skills for 3D and animated websites: three.js scenes built from code, scroll-scrubbed films, transparent video, cursor rigs, exploded views and 60 fps recording. It is free and open source under MIT. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-26.
+
+Blender MCP Bridge (https://github.com/seehiong/blender-mcp-bridge): MCP server and Blender addon with 98 tools for modeling, materials, rendering and 3D-print checks, driven from Claude Desktop, Claude Code, n8n or any MCP client. It is free and open source under MIT. Runs: local. It is an MCP server or ships one. Its docs name Claude Code. Link checked 2026-11-27.
+
 ## Make vectors and motion
 
 Vector generation, vectorising and agent-driven animation.
@@ -140,6 +168,18 @@ Content Studio (LangChain design-agent) (https://github.com/langchain-ai/design-
 
 Impractical (https://impractical.ai): MCP service that gives a coding agent an editable product-video draft, frame review and MP4 export. It is of unverified price and proprietary. Runs: cloud. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-21.
 
+Clayzo (https://www.clayzo.com): Animation engine and CLI for coding agents that write motion graphics and web animations, check each frame, and export them for the web or native Swift. It is free and proprietary. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-23.
+
+Remocn (https://github.com/Remocn/remocn): shadcn registry of Remotion components, transitions and scenes for product videos, with an agent skill, a Claude Code and Codex plugin and a hosted MCP server. It is free and open source under MIT. Runs: local. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-25.
+
+diagram-design (https://github.com/cathrynlavery/diagram-design): Agent skill that draws 52 diagram types as one self-contained HTML and SVG file, and can take its palette and fonts from your site. It is free and open source under MIT. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-26.
+
+HyperFrames (https://hyperframes.heygen.com): Open-source framework by HeyGen that renders HTML, CSS and seekable animations into MP4; ships an agent skill for Claude Code, Codex and Cursor, an MCP connector and a Studio app. It is freemium and open source under Apache-2.0. Runs: local or hosted. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-27.
+
+generate-icons (https://github.com/sergiobanhos/generate-icons): Agent skill that reads your design tokens and current icons, shows a 6 to 8 icon sample inside a mock of your UI for approval, then draws an original SVG icon library with React, Vue, Svelte or React Native components. It is free and open source under MIT. Runs: local. Its docs name Claude Code. Link checked 2026-11-28.
+
+huashu-motion (https://github.com/alchaincyf/huashu-motion): Agent skill that writes a product launch film with motion graphics and a locally generated score, then opens a browser editor where you click a frame and type a change for the agent to make. It is free and open source under MIT. Runs: local. Its docs name Claude Code, Codex. Link checked 2026-11-28.
+
 ## Check what agents built
 
 Screenshots, accessibility checks and user flows, so an agent can verify its own output.
@@ -151,3 +191,5 @@ Chrome DevTools MCP (https://github.com/ChromeDevTools/chrome-devtools-mcp): Giv
 axe-core (https://github.com/dequelabs/axe-core): Accessibility testing engine that agents can run against generated UI. It is free and open source under MPL-2.0. Runs: local. Link checked 2026-11-10.
 
 DESIGN:OS code2flow (https://github.com/jangtrinh/design-os-code2flow): Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local. It is free and source-available under PolyForm Shield. Runs: local. Its docs name Claude Code, Codex, Cursor. Made by the maintainer of Awesome AI Design. Link checked 2026-11-10.
+
+Rounds (https://github.com/krispuckett/rounds): Local canvas for macOS that collects the screens and pages from every Claude Code session; notes pinned on a screen go back to the session that made it. It is free and open source under MIT. Runs: local. It is an MCP server or ships one. Its docs name Claude Code. Link checked 2026-11-24.

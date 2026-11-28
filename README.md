@@ -2,7 +2,7 @@
 
 > Tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design.
 
-57 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
+78 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
 
 ## Contents
 
@@ -46,6 +46,7 @@ Prompt, sketch or screenshot in; screens, prototypes or running apps out.
 - [Bolt.new](https://bolt.new) - StackBlitz's in-browser AI app builder that generates, runs and deploys full-stack web apps from a prompt. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Stitch Skills](https://github.com/google-labs-code/stitch-skills) - Google Labs agent skills and plugins that let coding agents design and build UI screens through the Stitch MCP server. `Free · open source (Apache-2.0) · local · MCP · 11.1k stars · checked 2026-11-21`.
 - [A2UI](https://a2ui.org) - Open-source generative UI protocol and renderers that let agents compose interfaces shown with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose. `Free · open source (Apache-2.0) · local · 17.8k stars · checked 2026-11-22`.
+- [Linen](https://linen.ai) - UI generator that learns a product's colours, fonts, spacing and components from uploaded screenshots and returns nine design options per prompt. `Paid · proprietary · cloud · checked 2026-11-25`.
 
 ## Design with an agent on the canvas
 
@@ -55,6 +56,11 @@ Design editors where a person and an agent work on the same file.
 - [Penpot](https://github.com/penpot/penpot) - Open-source design and prototyping platform that also ships an official MCP server. `Free · open source (MPL-2.0) · cloud or self-hosted · 62.2k stars · checked 2026-11-10`.
 - [Onlook](https://github.com/onlook-dev/onlook) - Visual editor for React and Tailwind apps where you design in the browser and an AI agent writes the code. `Free · open source (Apache-2.0) · cloud or local · 27.2k stars · checked 2026-11-10`.
 - [Framer](https://www.framer.com) - Website builder with AI page generation, AI translation and on-canvas AI tools. `Freemium · proprietary · cloud · checked 2026-11-10`.
+- [Fountible](https://fountible.com) - Desktop design canvas with a built-in agent that designs and edits screens, motion and slides from prompts, with React and Tailwind or video export. `Freemium · proprietary · cloud or local · checked 2026-11-23`.
+- [ProtoFlow AI](https://alex.xclubai.com) - Local-first desktop prototyping canvas, formerly Alex, with shared database tables and a two-way MCP server that lets coding agents edit pages and screenshot them to check layout. `Free · open source (Apache-2.0) · local · MCP · 8 stars · checked 2026-11-24`.
+- [Dessn](https://www.dessn.com) - Design canvas that syncs pages from your production repo; Claude Code, Codex, Cursor and Copilot open and edit its prototypes through a remote MCP server. `Freemium · proprietary · cloud · MCP · checked 2026-11-25`.
+- [Doop](https://doop.design) - Multiplayer design canvas of HTML frames that people edit in the browser and agents edit live through its built-in MCP server; also has its own Doop Agent and clickable prototypes. `Freemium · open source (AGPL-3.0) · cloud or self-hosted · MCP · 2.3k stars · checked 2026-11-26`.
+- [Canvix](https://canvix.app) - Open-source drag-and-drop graphic design editor with templates and real-time collaboration; its MCP server lets Claude Desktop, Cursor or ChatGPT create and edit designs that update live in the editor. `Free · open source (MIT) · cloud or self-hosted · MCP · 408 stars · checked 2026-11-27`.
 
 ## Connect agents to design files
 
@@ -68,6 +74,7 @@ MCP servers and bridges that let Claude Code, Codex, Cursor and other agents rea
 - [Magic MCP (21st.dev)](https://github.com/21st-dev/magic-mcp) - MCP server that generates UI components from natural-language prompts inside your IDE. `Freemium · proprietary · local (API key) · MCP · 6.4k stars · checked 2026-11-10`.
 - [shadcn/ui MCP server](https://ui.shadcn.com/docs/mcp) - Lets agents browse, search and install components from shadcn/ui-compatible registries. `Free · proprietary · local · MCP · checked 2026-11-10`.
 - [Canva MCP server](https://www.canva.dev/docs/connect/canva-mcp-server-setup/) - Official Canva MCP server for creating and editing Canva designs from AI assistants. `Freemium · proprietary · see docs · MCP · checked 2026-11-10`.
+- [Crossfade](https://crossfade.company) - Figma plugin plus a local MCP bridge so coding agents read the current selection and build real layers in the open file, with no API call limits. `Paid · proprietary · local · MCP · checked 2026-11-24`.
 
 ## Teach agents taste
 
@@ -79,6 +86,9 @@ Skills, specs and guidelines that change what an agent designs, not only how fas
 - [Awesome DESIGN.md](https://github.com/VoltAgent/awesome-design-md) - Collection of DESIGN.md files that capture popular brand design systems for agents. `Free · open source (MIT) · n/a · 126.4k stars · checked 2026-11-10`.
 - [Web Interface Guidelines](https://github.com/vercel-labs/web-interface-guidelines) - Vercel's interface quality rules, packaged so agents can review UI against them. `Free · open source (MIT) · n/a · 1.1k stars · checked 2026-11-10`.
 - [design:os CLI](https://github.com/jangtrinh/design-os) - Design CLI and skills for Claude Code, Codex and Antigravity: describe a UI in plain words and get web, SwiftUI or design-file output checked by deterministic taste gates. Disclosure: made by the maintainer of this list. `FREE · source-available (PolyForm Shield) · local · 37 stars · checked 2026-11-10`.
+- [Skiss](https://skiss.co) - Saves full captures of reference websites with their fonts, colours and CSS, generates a Design.md from the real styles, and exposes the library to agents over MCP. `Freemium · proprietary · cloud · checked 2026-11-23`.
+- [Hallmark](https://github.com/Nutlope/hallmark) - Design skill by Together AI that picks themes from a catalog of fifty, builds the page around its main action and checks the result in a real browser; also redesigns or audits an existing page. `Free · open source (MIT) · local · 61.2k stars · checked 2026-11-26`.
+- [posts.design MCP](https://posts.design/mcp) - Hosted MCP server and 11 skills that give an agent credited references from a gallery of real brand social posts, OG images and launch videos, plus direction breakdowns and shot-by-shot video remakes. `Freemium · licence varies · hosted · MCP · 73 stars · checked 2026-11-28`.
 
 ## Keep output on your design system
 
@@ -90,6 +100,7 @@ Components, tokens and docs that keep generated UI on-brand.
 - [Design Tokens Community Group format](https://github.com/design-tokens/community-group) - The W3C community group spec for interoperable design token files. `Free · proprietary · n/a · 2.2k stars · checked 2026-11-10`.
 - [Storybook MCP](https://storybook.js.org/docs/ai/mcp/overview) - Exposes your Storybook components and docs to agents so generated UI reuses real components. `Free · open source (proprietary (SaaS)) · local · MCP · checked 2026-11-10`.
 - [Astryx](https://astryx.atmeta.com) - Meta's open-source React and StyleX design system, in beta, with a CLI that writes its usage guide to AGENTS.md or CLAUDE.md for coding agents. `Free · open source (MIT) · local · 31.8k stars · checked 2026-11-22`.
+- [Replica](https://github.com/github/replica) - GitHub Design's open-source prototyping tool that builds interactive prototypes from your own components and guidance through the GitHub Copilot app, with an optional hub for comments. `Free · open source (MIT) · local or hosted · 354 stars · checked 2026-11-24`.
 
 ## Turn designs into code
 
@@ -110,6 +121,9 @@ Generate, edit and check 3D assets with models and agents.
 - [Meshy](https://www.meshy.ai) - Text and image to 3D model generator with texturing and export to common formats. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Tripo](https://www.tripo3d.ai) - AI 3D model generator from text or images, with auto-rigging. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Spline](https://spline.design) - Browser 3D design tool with AI generation of 3D objects and textures. `Freemium · proprietary · cloud · checked 2026-11-10`.
+- [Hydrilla](https://www.hydrilla.ai) - Text and image to 3D model generator with plugins for Blender, Unity, Unreal and Godot, and MCP and REST access for pipelines. `Freemium · proprietary · cloud · checked 2026-11-24`.
+- [Open 3D Skills](https://github.com/Moh4696/open-3d-skills) - Eight agent skills for 3D and animated websites: three.js scenes built from code, scroll-scrubbed films, transparent video, cursor rigs, exploded views and 60 fps recording. `Free · open source (MIT) · local · 503 stars · checked 2026-11-26`.
+- [Blender MCP Bridge](https://github.com/seehiong/blender-mcp-bridge) - MCP server and Blender addon with 98 tools for modeling, materials, rendering and 3D-print checks, driven from Claude Desktop, Claude Code, n8n or any MCP client. `Free · open source (MIT) · local · MCP · 99 stars · checked 2026-11-27`.
 
 ## Make vectors and motion
 
@@ -124,6 +138,12 @@ Vector generation, vectorising and agent-driven animation.
 - [Jitter](https://jitter.video) - Motion design tool for UI and product animations, exports to video and Lottie. `Freemium · proprietary · cloud · checked 2026-11-10`.
 - [Content Studio (LangChain design-agent)](https://github.com/langchain-ai/design-agent) - LangChain's open-source Deep Agents design agent that turns a Slack brief into on-brand stills, decks, diagrams, charts and motion graphics. `Free · open source (Apache-2.0) · local or hosted · 661 stars · checked 2026-11-21`.
 - [Impractical](https://impractical.ai) - MCP service that gives a coding agent an editable product-video draft, frame review and MP4 export. `Price unverified · proprietary · cloud · MCP · checked 2026-11-21`.
+- [Clayzo](https://www.clayzo.com) - Animation engine and CLI for coding agents that write motion graphics and web animations, check each frame, and export them for the web or native Swift. `Free · proprietary · local · checked 2026-11-23`.
+- [Remocn](https://github.com/Remocn/remocn) - shadcn registry of Remotion components, transitions and scenes for product videos, with an agent skill, a Claude Code and Codex plugin and a hosted MCP server. `Free · open source (MIT) · local · MCP · 1.9k stars · checked 2026-11-25`.
+- [diagram-design](https://github.com/cathrynlavery/diagram-design) - Agent skill that draws 52 diagram types as one self-contained HTML and SVG file, and can take its palette and fonts from your site. `Free · open source (MIT) · local · 73.1k stars · checked 2026-11-26`.
+- [HyperFrames](https://hyperframes.heygen.com) - Open-source framework by HeyGen that renders HTML, CSS and seekable animations into MP4; ships an agent skill for Claude Code, Codex and Cursor, an MCP connector and a Studio app. `Freemium · open source (Apache-2.0) · local or hosted · MCP · 90.9k stars · checked 2026-11-27`.
+- [generate-icons](https://github.com/sergiobanhos/generate-icons) - Agent skill that reads your design tokens and current icons, shows a 6 to 8 icon sample inside a mock of your UI for approval, then draws an original SVG icon library with React, Vue, Svelte or React Native components. `Free · open source (MIT) · local · 173 stars · checked 2026-11-28`.
+- [huashu-motion](https://github.com/alchaincyf/huashu-motion) - Agent skill that writes a product launch film with motion graphics and a locally generated score, then opens a browser editor where you click a frame and type a change for the agent to make. `Free · open source (MIT) · local · 3.3k stars · checked 2026-11-28`.
 
 ## Check what agents built
 
@@ -133,6 +153,7 @@ Screenshots, accessibility checks and user flows, so an agent can verify its own
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Gives agents DevTools access for layout, performance and visual debugging of what they built. `Free · open source (Apache-2.0) · local · MCP · 55.0k stars · checked 2026-11-10`.
 - [axe-core](https://github.com/dequelabs/axe-core) - Accessibility testing engine that agents can run against generated UI. `Free · open source (MPL-2.0) · local · 7.8k stars · checked 2026-11-10`.
 - [DESIGN:OS code2flow](https://github.com/jangtrinh/design-os-code2flow) - Turns a Next.js codebase into a user-flow canvas with real screenshots per screen and code-evidenced transitions, 100% local. Disclosure: made by the maintainer of this list. `FREE · source-available (PolyForm Shield) · local · 9 stars · checked 2026-11-10`.
+- [Rounds](https://github.com/krispuckett/rounds) - Local canvas for macOS that collects the screens and pages from every Claude Code session; notes pinned on a screen go back to the session that made it. `Free · open source (MIT) · local · MCP · 82 stars · checked 2026-11-24`.
 
 ## Compare: agent access to design files
 
@@ -146,6 +167,7 @@ Screenshots, accessibility checks and user flows, so an agent can verify its own
 | Magic MCP (21st.dev)        | mcp-server     | local (API key)   | Freemium | ISC                                                  |
 | shadcn/ui MCP server        | mcp-server     | local             | Free     | proprietary (SaaS)                                   |
 | Canva MCP server            | mcp-server     | see docs          | Freemium | proprietary (SaaS)                                   |
+| Crossfade                   | plugin         | local             | Paid     | proprietary                                          |
 
 ## Stack recipes
 
