@@ -1828,3 +1828,80 @@ tools:
   tested_by_maintainer: unconfirmed
   price_source: hyperframes.studio/pricing
   description: Open-source framework by HeyGen that renders HTML, CSS and seekable animations into MP4; ships an agent skill for Claude Code, Codex and Cursor, an MCP connector and a Studio app.
+- slug: generate-icons
+  name: generate-icons
+  url: https://github.com/sergiobanhos/generate-icons
+  job: make-vectors-and-motion
+  kind: agent-skill
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  repo: sergiobanhos/generate-icons
+  stars: 173
+  last_push: '2026-11-26'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-28'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  price_source: public repo and its licence file
+  description: Agent skill that reads your design tokens and current icons, shows a 6 to 8 icon sample inside a mock of your UI for approval, then draws an original SVG icon library with React, Vue, Svelte
+    or React Native components.
+- slug: huashu-motion
+  name: huashu-motion
+  url: https://github.com/alchaincyf/huashu-motion
+  job: make-vectors-and-motion
+  kind: agent-skill
+  mcp_server: no-evidence
+  runs: local
+  price_model: free
+  price_note: Open source (MIT)
+  price_checked: true
+  licence: MIT
+  licence_class: open-source
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  repo: alchaincyf/huashu-motion
+  stars: 3274
+  last_push: '2026-11-23'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-28'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  price_source: public repo and its licence file
+  description: Agent skill that writes a product launch film with motion graphics and a locally generated score, then opens a browser editor where you click a frame and type a change for the agent to make.
+- slug: posts-design-mcp
+  name: posts.design MCP
+  url: https://posts.design/mcp
+  job: teach-agents-taste
+  kind: mcp-server
+  mcp_server: 'yes'
+  runs: hosted
+  price_model: freemium
+  price_note: Free 100 credits/month; Pro $12/month billed quarterly or $8.25/month billed yearly; Team $15/seat/month billed quarterly
+  price_checked: true
+  licence: MIT (skills and docs repo); hosted service proprietary
+  licence_class: mixed
+  agents_named_in_docs:
+  - Claude Code
+  - Codex
+  - Cursor
+  repo: posts-design/mcp
+  stars: 73
+  last_push: '2026-11-24'
+  archived: false
+  link_status: 200
+  last_checked: '2026-11-28'
+  maintainer_entry: false
+  tested_by_maintainer: unconfirmed
+  price_source: posts.design/pricing
+  description: Hosted MCP server and 11 skills that give an agent credited references from a gallery of real brand social posts, OG images and launch videos, plus direction breakdowns and shot-by-shot video
+    remakes.

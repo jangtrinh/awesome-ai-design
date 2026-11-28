@@ -1,6 +1,6 @@
 # Awesome AI Design: full text
 
-Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 75 entries. Each line stands alone and can be quoted.
+Source: https://github.com/jangtrinh/awesome-ai-design (CC0-1.0). 78 entries. Each line stands alone and can be quoted.
 
 ## Generate UI from a prompt
 
@@ -92,6 +92,8 @@ Skiss (https://skiss.co): Saves full captures of reference websites with their f
 
 Hallmark (https://github.com/Nutlope/hallmark): Design skill by Together AI that picks themes from a catalog of fifty, builds the page around its main action and checks the result in a real browser; also redesigns or audits an existing page. It is free and open source under MIT. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-26.
 
+posts.design MCP (https://posts.design/mcp): Hosted MCP server and 11 skills that give an agent credited references from a gallery of real brand social posts, OG images and launch videos, plus direction breakdowns and shot-by-shot video remakes. It is freemium and licensed per component. Runs: hosted. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-28.
+
 ## Keep output on your design system
 
 Components, tokens and docs that keep generated UI on-brand.
@@ -173,6 +175,10 @@ Remocn (https://github.com/Remocn/remocn): shadcn registry of Remotion component
 diagram-design (https://github.com/cathrynlavery/diagram-design): Agent skill that draws 52 diagram types as one self-contained HTML and SVG file, and can take its palette and fonts from your site. It is free and open source under MIT. Runs: local. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-26.
 
 HyperFrames (https://hyperframes.heygen.com): Open-source framework by HeyGen that renders HTML, CSS and seekable animations into MP4; ships an agent skill for Claude Code, Codex and Cursor, an MCP connector and a Studio app. It is freemium and open source under Apache-2.0. Runs: local or hosted. It is an MCP server or ships one. Its docs name Claude Code, Codex, Cursor. Link checked 2026-11-27.
+
+generate-icons (https://github.com/sergiobanhos/generate-icons): Agent skill that reads your design tokens and current icons, shows a 6 to 8 icon sample inside a mock of your UI for approval, then draws an original SVG icon library with React, Vue, Svelte or React Native components. It is free and open source under MIT. Runs: local. Its docs name Claude Code. Link checked 2026-11-28.
+
+huashu-motion (https://github.com/alchaincyf/huashu-motion): Agent skill that writes a product launch film with motion graphics and a locally generated score, then opens a browser editor where you click a frame and type a change for the agent to make. It is free and open source under MIT. Runs: local. Its docs name Claude Code, Codex. Link checked 2026-11-28.
 
 ## Check what agents built
 

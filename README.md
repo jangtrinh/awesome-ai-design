@@ -2,7 +2,7 @@
 
 > Tools, MCP servers and agent skills that let AI take part in interface, 3D and motion design.
 
-75 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
+78 entries, organised by the job you are doing. Each entry carries its price model, licence, where it runs, whether it is an MCP server, and the date its link was last checked. The same data is in [`data/tools.json`](data/tools.json) for scripts and agents, with a summary in [`llms.txt`](llms.txt).
 
 ## Contents
 
@@ -88,6 +88,7 @@ Skills, specs and guidelines that change what an agent designs, not only how fas
 - [design:os CLI](https://github.com/jangtrinh/design-os) - Design CLI and skills for Claude Code, Codex and Antigravity: describe a UI in plain words and get web, SwiftUI or design-file output checked by deterministic taste gates. Disclosure: made by the maintainer of this list. `FREE · source-available (PolyForm Shield) · local · 37 stars · checked 2026-11-10`.
 - [Skiss](https://skiss.co) - Saves full captures of reference websites with their fonts, colours and CSS, generates a Design.md from the real styles, and exposes the library to agents over MCP. `Freemium · proprietary · cloud · checked 2026-11-23`.
 - [Hallmark](https://github.com/Nutlope/hallmark) - Design skill by Together AI that picks themes from a catalog of fifty, builds the page around its main action and checks the result in a real browser; also redesigns or audits an existing page. `Free · open source (MIT) · local · 61.2k stars · checked 2026-11-26`.
+- [posts.design MCP](https://posts.design/mcp) - Hosted MCP server and 11 skills that give an agent credited references from a gallery of real brand social posts, OG images and launch videos, plus direction breakdowns and shot-by-shot video remakes. `Freemium · licence varies · hosted · MCP · 73 stars · checked 2026-11-28`.
 
 ## Keep output on your design system
 
@@ -141,6 +142,8 @@ Vector generation, vectorising and agent-driven animation.
 - [Remocn](https://github.com/Remocn/remocn) - shadcn registry of Remotion components, transitions and scenes for product videos, with an agent skill, a Claude Code and Codex plugin and a hosted MCP server. `Free · open source (MIT) · local · MCP · 1.9k stars · checked 2026-11-25`.
 - [diagram-design](https://github.com/cathrynlavery/diagram-design) - Agent skill that draws 52 diagram types as one self-contained HTML and SVG file, and can take its palette and fonts from your site. `Free · open source (MIT) · local · 73.1k stars · checked 2026-11-26`.
 - [HyperFrames](https://hyperframes.heygen.com) - Open-source framework by HeyGen that renders HTML, CSS and seekable animations into MP4; ships an agent skill for Claude Code, Codex and Cursor, an MCP connector and a Studio app. `Freemium · open source (Apache-2.0) · local or hosted · MCP · 90.9k stars · checked 2026-11-27`.
+- [generate-icons](https://github.com/sergiobanhos/generate-icons) - Agent skill that reads your design tokens and current icons, shows a 6 to 8 icon sample inside a mock of your UI for approval, then draws an original SVG icon library with React, Vue, Svelte or React Native components. `Free · open source (MIT) · local · 173 stars · checked 2026-11-28`.
+- [huashu-motion](https://github.com/alchaincyf/huashu-motion) - Agent skill that writes a product launch film with motion graphics and a locally generated score, then opens a browser editor where you click a frame and type a change for the agent to make. `Free · open source (MIT) · local · 3.3k stars · checked 2026-11-28`.
 
 ## Check what agents built
 
